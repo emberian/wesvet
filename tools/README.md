@@ -58,6 +58,23 @@ Limits: a token proxy. It credits a sha or a path, not the reason it matters; it
 knowledge used without a distinctive token; it counts a token the successor re-read from disk as
 needed even when re-reading was cheap.
 
+## seat_report.py
+
+The evaluation plan's nightly measurement of a swarm's seat lines.
+
+    seat_report.py --root ROOT [--root ROOT ...] [--since DATE] [--seat-re REGEX] [--common FILE ...]
+                   [--cache DIR] [--json OUT]
+
+For the coordinator roots' sub-agents whose description matches `--seat-re` (default fn's "fn Builder
+X<n>"), de-duplicated across forked roots: successions per line, each successor's orientation and the
+carry recall of what it was given (its brief plus what it read from lanedumps, a distill pack or
+persisted tool results in its first 40 calls), messages to seats after their final park notice and
+misroutes (sent while the successor was running), seat lifetimes. Baseline run:
+`evidence/data/seat-report-baseline-20261009-13.json` (164 seats, 156 successions, 20 s).
+
+Limits: a seat is recognized by its description; a successor that read its continuation through an
+unusual path in its first 40 calls is scored on its brief alone.
+
 ## sharpen.py: the sharpened-veteran prune profile
 
     sharpen.py <root-session> --agent <agent-id> --out DIR [--profile 2] [--keep-last 25] [--cut N]

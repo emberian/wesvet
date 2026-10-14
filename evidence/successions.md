@@ -108,7 +108,10 @@ Script: `evidence/scripts/recall_batch.py`; data: `evidence/data/carry-recall-15
 | the predecessor's full transcript | 1.00 | 1.00 | | | ~343k tokens |
 
 Pairs: P7→P8, P8→P9, P9→P10, M21→M22, M22→M23, L14→L15, L15→L16, B17→B18, B18→B19, A18→A19,
-A19→A20, C19→C20, C20→C21, O5→O6, D13→D14. Needed tokens per pair: median 81 (55 to 138), 41% to 54%
+A19→A20, C19→C20, C20→C21, O5→O6, D13→D14. Over all 156 successions, `tools/seat_report.py` (brief
+plus whatever the successor read from lanedumps or persisted tool results in its first 40 calls)
+gives a median of 0.37, weighted 0.48 (`evidence/data/seat-report-baseline-20261009-13.json`); over
+the 51 successions of 10-12 and 10-13 alone, 0.44 and 0.47. Needed tokens per pair: median 81 (55 to 138), 41% to 54%
 of the distinct tokens the successor wrote. A successor got under half of what it went on to use
 from its predecessor's context; it re-acquired the rest from disk, peers or the coordinator. The
 token proxy cannot see knowledge used without a distinctive token, so these are bounds on fact

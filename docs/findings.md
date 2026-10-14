@@ -12,7 +12,7 @@ resumed; every prune result is offline.
 1. **A successor gets under half of what it goes on to use.** Across 15 consecutive fn seat pairs
    the coordinator's brief plus the predecessor's hand-written continuation file contain a median
    43% (range 24% to 67%) of the distinctive facts the successor later wrote that existed in its
-   predecessor's context; the brief alone 6%. `cv distill` of the predecessor carries 73% at about
+   predecessor's context, and 37% over all 156 successions; the brief alone 6%. `cv distill` of the predecessor carries 73% at about
    69K tokens, a context no larger than the 91K a successor reaches before its first act. A
    sharpened transcript carries 95% to 99% at 206K to 238K (S §1d). Orientation cost, the measure
    the fn swarm used to price successions, is about 2 minutes and 1.3M tokens and 2.7% of a seat
