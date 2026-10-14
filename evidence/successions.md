@@ -142,7 +142,7 @@ where the fact lived.
 
 | # | predecessor → successor | briefed by | orientation | got wrong or had to recover (cited) | outcome |
 |---|---|---|---|---|---|
-| 1 | fn P6 a76063db → P7 a28ab660 | continuation + brief | 7.9 min, 4.93M | Re-read STATEMENTS.lsp and landing 1's READY to rebuild the packet (#51 to #162); continuation carried 24% of the needed tokens (§1d) | landing 2 statements drafted; parked 376K |
+| 1 | fn P6 a76063db → P7 a28ab660 | continuation + brief | 7.9 min, 4.93M | Read landing 1's READY (#51), the sim book (#161) and c2's survey (#285) to build landing 2's packet that P6's context had held; the continuation carried 24% of the needed tokens (§1d) | landing 2 statements drafted; parked 376K |
 | 2 | P7 → P8 a480ab59 | continuation + brief | 1.5 min, 0.35M | Found P7's c6 REPL already exited and resumed c6 "in the form P7 used" (#118, #125); re-read the 28.7 kB packet (#54) | R1 found false (RED #779); parked 370K |
 | 3 | P8 → P9 ae621c1b | continuation + brief | 3.6 min, 0.98M | Armed waiters on the two workers handed over running (#43), re-read STATEMENTS.lsp (#58, #61); repointed the continuation's seat ids "so a successor doesn't message a parked seat" (#88); continuation recall 0.32 | A1 found false (#847); parked for abeyance |
 | 4 | P9 → P10 a630e7a8 | brief (abeyance file) + continuation | 1.3 min, 0.80M | First act was to audit c6's uncommitted R8 edits P9 left (#34) | R11, M-HALF legs; parked 417K |
