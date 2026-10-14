@@ -29,7 +29,7 @@ resumed; every prune result is offline.
    prompts and 9 compactions; nine more workers spanned two to five seats (S §3). The Opus seats,
    briefed as "a long-lived seat ... resumed by message for days, never replaced" (C1 ae2f9782#0),
    lived a median 2.6 hours each (p25 1.2, p75 5.0; 218 API requests). The one designed standing-lane experiment (breadstuffs, 08-05)
-   revived 3 of 27 lanes before the parent session changed and the rest were respawned (S row 36).
+   revived 2 of 26 standing lanes by message (3 revivals); the rest were replaced at the parent-session change or after stopping early (S row 36).
 
 ## 1. Resume, don't respawn
 
@@ -133,7 +133,8 @@ and the expertise travelled in continuation files (43% carriage) and in Codex wo
 
 **Why designed expert contexts did not survive.** A sub-agent is resumable only from its parent
 session. Every parent restart, prune-and-fork or abeyance ended every seat at once (8 mass respawns,
-AUDIT-TWO-WEEKS §d), and the breadstuffs standing lanes died the same way. The fix exists (`cv adopt`)
+AUDIT-TWO-WEEKS §d), and the breadstuffs standing lanes were replaced the same way at their
+parent-session change. The fix exists (`cv adopt`)
 and has not entered practice.
 
 **Lifecycle, as practiced**: birth by spawn with a continuation file; a life of a median 2.6 hours

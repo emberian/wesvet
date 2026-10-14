@@ -177,7 +177,7 @@ where the fact lived.
 | 33 | graphplay (3ce72080/a207dc6c) | brief: predecessor "INTERRUPTED mid-edit" | 0.9 min, 0.45M | "The predecessor's interrupted edit was in OperatorSystem.tensor (the operator-system tensor product). The 8 build ..." (#123) | build green |
 | 34 | breadstuffs/metatheory F1b (3b829648/a59e1f6d) | brief: predecessor session-capped, ~60 uncommitted files | 7.9 min, 2.71M | oriented by `git diff` over 60 files (#49 to #84); 977K peak itself | |
 | 35 | loicense HTTP client (5b2df577/ac7be9be) | brief: "A previous agent ... ran out of context" | 5.4 min, 3.26M | found the predecessor's URL-object handling "actually covers the case reasonably well already" (#96) | |
-| 36 | breadstuffs Path of Angels "standing" lanes (042a2645, a39c8058) | "I will revive you across cycles" | | 27 standing-lane agents on 08-05/06; 3 were ever revived by message; crew, descent-emit, emit-authority and judged-play were respawned 2 to 3 times each when the parent session changed | see §3 |
+| 36 | breadstuffs Path of Angels "standing" lanes (042a2645, a39c8058) | "I will revive you across cycles" | | 26 standing-lane agents on 08-05/06; 2 were ever revived by message (3 revivals); crew, descent-emit, emit-authority and judged-play were spawned again 2 to 3 times each: across the parent-session change (042a2645 to a39c8058, 08-05 to 08-06), and again at 07:15 on 08-06 because the 06:51 spawns "stopped before doing work" | see §3 |
 
 ## 3. Counter-cases: veterans resumed instead of replaced
 
@@ -198,7 +198,7 @@ had parked, the case a successor would otherwise have covered.
 | 9 more Codex workers | | | | resumed by 2 to 5 consecutive seats: 01a13031 (post, P7-P12), 01a130de (memory-run-launch, M22-M25), 01a131f1 (b-native-launch, B20-B22), 01a1311e (log-seq, L16-L20), 01a12f86, 01a13104, 01a130f8, 01a12fd8, 01a12fa1 | `evidence/data/codex-workers-fn-20261009-13.json` |
 | fn coordinator, forked 9627d694 → be1e9dcf → 35f3668a → 4a22422c → 905fe751 → 608deb34/d5d27b94 | each fork | 4a22422c: 976K peak, 473K inherited | | the coordinator kept its own context across six sessions by fork and prune, the only Claude veteran that did | ember on the cost: "after compaction we tend to achieve drift" (905fe751#5190) |
 | batch runner BE a502d174 and four fork workers (09-29 10:06) | fork | parent's | 1.2 min each | four forks inherited BE's context and each fixed one red | |
-| breadstuffs hidden-instance lane ae963e7e | 2 revivals by message, 08-05 | | | the one standing lane that was revived as designed | |
+| breadstuffs hidden-instance ae963e7e and signal-wire af5bbf25 lanes | 2 and 1 revivals by message, 08-05 | | | the two standing lanes revived as designed | |
 
 ## 4. Reading the table
 
@@ -214,4 +214,5 @@ had parked, the case a successor would otherwise have covered.
   per-turn cost scales with the context it carries: B1 at 641K to 838K spent about 52M tokens an hour.
 - The fn lanes' real veterans are the Codex workers: one c6 session outlived six Opus seats.
 - The one designed "standing lane" experiment (breadstuffs, 08-05) decayed into respawn within a
-  day, because the agents died with their parent session.
+  day: 2 of 26 standing lanes were ever revived; the rest were replaced at the parent-session change
+  or after stopping early.

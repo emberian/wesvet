@@ -73,7 +73,7 @@ and `docs/findings.md`.
 |---|---|---|
 | S1 | successions per line per day, and the share caused by restarts, abeyances, walls (`evidence/scripts/succession_causes.py`) | 31 per day; restart or prune 15 of 156 |
 | S2 | successor orientation: minutes, tokens and context to first work | 2.0 min, 1.32M, 91K |
-| S3 | misroutes per 100 seat-addressed messages; dead wakes and their tokens | 1.22 per 100; 19 wakes, 22.3M |
+| S3 | misroutes per 100 seat-addressed messages (`tools/seat_report.py`); dead wakes and their tokens (`evidence/scripts/deadwakes.py`) | 1.22 per 100 (24 of 1,968; misroute.py's earlier park time counts 26); 19 wakes, 22.3M |
 | S4 | successors whose first 160 messages report a stale or wrong inherited fact (`evidence/scripts/early_disc.py`, then read) | 5 of 21 sampled rows |
 | S5 | contexts per landing (seats plus resumed sessions that worked on it) and Codex worker sessions per landing | POST landing 2: 7 seats |
 | S6 | per routed work item: tokens and minutes to READY or RED, by practice-3 rule branch | none |
