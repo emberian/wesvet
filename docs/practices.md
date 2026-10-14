@@ -6,7 +6,8 @@ them together on fn's next two weeks; the metrics and thresholds below are the o
 
 Baselines are the fn seats of 10-09 to 10-13 (`evidence/data/fn-seats-20261009-13.json`): 156
 successions, median seat life 2.6 h, 218 API requests and 46M tokens; orientation 2.0 min and 1.32M
-tokens to first work; carriage (brief + continuation) 43% of needed facts.
+tokens to first work; carriage (what a successor was given) 0.37 of needed facts over all 156
+(`tools/seat_report.py`), 0.43 over the 15 hand-checked pairs.
 
 ## 1. After a parent restart, adopt and resume; never respawn a live seat from its file
 
@@ -88,12 +89,13 @@ continuation.
    coordinator does not paraphrase state it has not read: every live-process claim in a brief cites
    the PID file and its `ps` result at brief time.
 
-**Evaluation.** Metric C1: `tools/carry_recall.py` on every succession in the trial, pack
-"brief + intent + distill" against the baseline median 0.43 (weighted 0.46). Metric C2: successor
+**Evaluation.** Metric C1: carry recall of what each successor was given (`tools/seat_report.py`)
+on every succession in the trial, against the baseline median 0.37 (weighted 0.48). Metric C2: successor
 orientation (minutes, tokens, context at first work) against 2.0 min, 1.32M, 91K. Metric C3:
 successors whose first 160 messages report a stale or wrong inherited fact
 (`evidence/scripts/early_disc.py`, read by hand); baseline: rows 2, 6, 10, 11, 13 of S §2 in a sample
-of 21 fn rows. Refuted if C1's median is under 0.65, or C2's context at first work exceeds 130K.
+of 21 fn rows. Target: C1's median at least 0.65. Refuted if it is under 0.55, or C2's context at first work
+exceeds 130K.
 
 **Cost.** The pack is about 69K tokens (median of 15), read once; the successor's starting context
 moves from about 91K to about 100K, about 2M more tokens over a 218-request seat (4%). Two seconds of

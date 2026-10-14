@@ -42,3 +42,13 @@ Three sub-questions:
 - `docs/` findings and practices, present-state, rewritten whole.
 - `tools/` instruments and prunes, each with a README stating what it measures and its known limits.
 - `evidence/` raw measurements, dated, with the command that produced each.
+
+## Where it stands (2026-10-13)
+
+- `evidence/successions.md`: 156 fn seat successions and samples from eight other projects, measured.
+- `evidence/transcript-anatomy.md`: eight long veterans, and the prune tested against one's future.
+- `docs/findings.md`: the answers to the three sub-questions, on that evidence.
+- `docs/practices.md`: six practices, each with its evaluation and cost.
+- `docs/evaluation-plan.md`: the two-week fn trial, metrics fixed in advance.
+- `tools/`: `orientation_cost.py`, `anatomy.py`, `carry_recall.py`, `seat_report.py`, and the
+  `sharpen.py` prune profile; `tools/README.md` says what each measures and its limits.
