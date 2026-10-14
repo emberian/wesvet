@@ -1,0 +1,7172 @@
+[
+ {
+  "successor_distinct_tokens": 325,
+  "needed": 127,
+  "needed_share_of_successor_tokens": 0.391,
+  "packs": [
+   {
+    "pack": "brief",
+    "path": "packs/batch/P7-P8/brief.txt",
+    "bytes": 2758,
+    "recall": 0.039,
+    "recall_weighted": 0.042,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/post",
+      39
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2",
+      36
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c4",
+      25
+     ],
+     [
+      "fn-hl-rtc-config",
+      15
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c6",
+      14
+     ],
+     [
+      "fn-record-p",
+      14
+     ],
+     [
+      "fn-hl-capl",
+      12
+     ],
+     [
+      "fn-ptx-free",
+      12
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c9",
+      11
+     ],
+     [
+      "fn-pctx-max*",
+      11
+     ],
+     [
+      "/post-runs/l2/STATEMENTS.lsp",
+      11
+     ],
+     [
+      "fn-sn-article-record",
+      10
+     ],
+     [
+      "410b2d888d9b",
+      10
+     ],
+     [
+      "fn-pctx-p",
+      9
+     ],
+     [
+      "fn-hl-rtc-config-pool-fields",
+      8
+     ],
+     [
+      "724854ebfeb2",
+      8
+     ],
+     [
+      "fn-pacc-stored-payload-is-one-splice",
+      8
+     ],
+     [
+      "fn-octet-listp",
+      8
+     ],
+     [
+      "fn-pacc-batch-record-is-the-encoded-record",
+      7
+     ],
+     [
+      "fn-pth-reachablep",
+      7
+     ],
+     [
+      "fn-ptx-okp",
+      7
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c4/codex.pid",
+      7
+     ],
+     [
+      "3b10cf148704",
+      6
+     ],
+     [
+      "/post-runs/l2/c9",
+      6
+     ],
+     [
+      "fn-pacc-end-of-a-stale-context-refuses",
+      6
+     ]
+    ]
+   },
+   {
+    "pack": "continuation",
+    "path": "packs/batch/P7-P8/continuation.txt",
+    "bytes": 19751,
+    "recall": 0.236,
+    "recall_weighted": 0.291,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2",
+      36
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c4",
+      25
+     ],
+     [
+      "fn-hl-rtc-config",
+      15
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c6",
+      14
+     ],
+     [
+      "fn-record-p",
+      14
+     ],
+     [
+      "fn-ptx-free",
+      12
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c9",
+      11
+     ],
+     [
+      "/post-runs/l2/STATEMENTS.lsp",
+      11
+     ],
+     [
+      "fn-sn-article-record",
+      10
+     ],
+     [
+      "fn-pctx-p",
+      9
+     ],
+     [
+      "fn-hl-rtc-config-pool-fields",
+      8
+     ],
+     [
+      "fn-pacc-stored-payload-is-one-splice",
+      8
+     ],
+     [
+      "fn-octet-listp",
+      8
+     ],
+     [
+      "fn-pacc-batch-record-is-the-encoded-record",
+      7
+     ],
+     [
+      "fn-ptx-okp",
+      7
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c4/codex.pid",
+      7
+     ],
+     [
+      "/post-runs/l2/c9",
+      6
+     ],
+     [
+      "fn-pacc-end-of-a-stale-context-refuses",
+      6
+     ],
+     [
+      "fn-adm-acc-out-max",
+      6
+     ],
+     [
+      "fn-pacc-injectionp",
+      6
+     ],
+     [
+      "fn-apc-intern-row-at",
+      5
+     ],
+     [
+      "fn-octets-list",
+      5
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/briefs/SEAT-COMMON-20261012.md",
+      4
+     ],
+     [
+      "fn-rcon-store-event-encode",
+      4
+     ],
+     [
+      "65536",
+      4
+     ]
+    ]
+   },
+   {
+    "pack": "brief+continuation",
+    "path": "packs/batch/P7-P8/given.txt",
+    "bytes": 22510,
+    "recall": 0.244,
+    "recall_weighted": 0.299,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2",
+      36
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c4",
+      25
+     ],
+     [
+      "fn-hl-rtc-config",
+      15
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c6",
+      14
+     ],
+     [
+      "fn-record-p",
+      14
+     ],
+     [
+      "fn-ptx-free",
+      12
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c9",
+      11
+     ],
+     [
+      "/post-runs/l2/STATEMENTS.lsp",
+      11
+     ],
+     [
+      "fn-sn-article-record",
+      10
+     ],
+     [
+      "fn-pctx-p",
+      9
+     ],
+     [
+      "fn-hl-rtc-config-pool-fields",
+      8
+     ],
+     [
+      "fn-pacc-stored-payload-is-one-splice",
+      8
+     ],
+     [
+      "fn-octet-listp",
+      8
+     ],
+     [
+      "fn-pacc-batch-record-is-the-encoded-record",
+      7
+     ],
+     [
+      "fn-ptx-okp",
+      7
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c4/codex.pid",
+      7
+     ],
+     [
+      "/post-runs/l2/c9",
+      6
+     ],
+     [
+      "fn-pacc-end-of-a-stale-context-refuses",
+      6
+     ],
+     [
+      "fn-adm-acc-out-max",
+      6
+     ],
+     [
+      "fn-pacc-injectionp",
+      6
+     ],
+     [
+      "fn-apc-intern-row-at",
+      5
+     ],
+     [
+      "fn-octets-list",
+      5
+     ],
+     [
+      "fn-rcon-store-event-encode",
+      4
+     ],
+     [
+      "65536",
+      4
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c8",
+      4
+     ]
+    ]
+   },
+   {
+    "pack": "distill",
+    "path": "packs/batch/P7-P8/distill.md",
+    "bytes": 199205,
+    "recall": 0.74,
+    "recall_weighted": 0.834,
+    "missing_top": [
+     [
+      "fn-pacc-stored-payload-is-one-splice",
+      8
+     ],
+     [
+      "fn-octet-listp",
+      8
+     ],
+     [
+      "fn-pacc-batch-record-is-the-encoded-record",
+      7
+     ],
+     [
+      "fn-ptx-okp",
+      7
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c4/codex.pid",
+      7
+     ],
+     [
+      "fn-pacc-end-of-a-stale-context-refuses",
+      6
+     ],
+     [
+      "65536",
+      4
+     ],
+     [
+      "fn-arena",
+      3
+     ],
+     [
+      "/native/rtc-exercise.lisp",
+      3
+     ],
+     [
+      "fn-record-stamp-of-observation",
+      3
+     ],
+     [
+      "fn-rtc-capl",
+      2
+     ],
+     [
+      "TS-DONE",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/acl2-projects",
+      2
+     ],
+     [
+      "100000",
+      2
+     ],
+     [
+      "/lanes/post",
+      2
+     ],
+     [
+      "fn-record-tail-max-octets*",
+      2
+     ],
+     [
+      "/acl2/runtime-contract-host-lease-tests.lisp",
+      2
+     ],
+     [
+      "fn-rtc-npool",
+      1
+     ],
+     [
+      "/cgen/top.cert",
+      1
+     ],
+     [
+      "FN_ACL2",
+      1
+     ],
+     [
+      "fn-sn-node",
+      1
+     ],
+     [
+      "fn-state-next-txid",
+      1
+     ],
+     [
+      "fn-node-acceptance",
+      1
+     ],
+     [
+      "fn-sn-files",
+      1
+     ],
+     [
+      "fn-bs-profile-preset",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v1",
+    "path": "packs/batch/P7-P8/a28ab66086a4f8c66.v1.sharpened.jsonl",
+    "bytes": 628277,
+    "recall": 0.969,
+    "recall_weighted": 0.992,
+    "missing_top": [
+     [
+      "fn-sn-files",
+      1
+     ],
+     [
+      "fn-bs-profile-preset",
+      1
+     ],
+     [
+      "/coordinator/STATE.md",
+      1
+     ],
+     [
+      "/RED/BLOCKED/DECISION",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v2",
+    "path": "packs/batch/P7-P8/a28ab66086a4f8c66.v2.sharpened.jsonl",
+    "bytes": 778092,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   },
+   {
+    "pack": "full",
+    "path": "packs/batch/P7-P8/full.txt",
+    "bytes": 732400,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   }
+  ],
+  "pair": "P7->P8",
+  "pred_peak": 383281,
+  "sharpened_v1_est_ctx": 239684,
+  "sharpened_v2_est_ctx": 289566,
+  "continuation_bytes": 19751,
+  "distill_est_tokens": 82514
+ },
+ {
+  "successor_distinct_tokens": 319,
+  "needed": 133,
+  "needed_share_of_successor_tokens": 0.417,
+  "packs": [
+   {
+    "pack": "brief",
+    "path": "packs/batch/P8-P9/brief.txt",
+    "bytes": 3370,
+    "recall": 0.06,
+    "recall_weighted": 0.041,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/post",
+      45
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2",
+      27
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c4",
+      23
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post-acc",
+      23
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c6",
+      21
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post-acc/build/post-runs/l2/c9",
+      19
+     ],
+     [
+      "fn-pacc-profile-admitted-postp",
+      17
+     ],
+     [
+      "fn-pacc-splice",
+      15
+     ],
+     [
+      "fn-sn-article-record-refusals*",
+      12
+     ],
+     [
+      "fn-pacc-injectionp",
+      12
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/STATEMENTS.lsp",
+      11
+     ],
+     [
+      "fn-pacc-stored-payload",
+      11
+     ],
+     [
+      "fn-sn-statep",
+      11
+     ],
+     [
+      "fn-post-gated-decision",
+      11
+     ],
+     [
+      "/acl2/post-transaction-host-rely-tests.lisp",
+      11
+     ],
+     [
+      "fn-ptx-trace-relies-p",
+      7
+     ],
+     [
+      "/post-runs/l2/c4",
+      7
+     ],
+     [
+      "724854ebfeb2",
+      7
+     ],
+     [
+      "fn-inj-decide",
+      7
+     ],
+     [
+      "3b10cf148704",
+      7
+     ],
+     [
+      "fn-pctx-max*",
+      7
+     ],
+     [
+      "/proc/loadavg",
+      6
+     ],
+     [
+      "fn-ptx-trace-run",
+      6
+     ],
+     [
+      "fn-pth-cs*",
+      6
+     ],
+     [
+      "/native/owner.lisp",
+      6
+     ]
+    ]
+   },
+   {
+    "pack": "continuation",
+    "path": "packs/batch/P8-P9/continuation.txt",
+    "bytes": 20409,
+    "recall": 0.316,
+    "recall_weighted": 0.408,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2",
+      27
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c4",
+      23
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c6",
+      21
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post-acc/build/post-runs/l2/c9",
+      19
+     ],
+     [
+      "fn-pacc-splice",
+      15
+     ],
+     [
+      "fn-sn-article-record-refusals*",
+      12
+     ],
+     [
+      "fn-pacc-injectionp",
+      12
+     ],
+     [
+      "fn-pacc-stored-payload",
+      11
+     ],
+     [
+      "fn-post-gated-decision",
+      11
+     ],
+     [
+      "fn-ptx-trace-relies-p",
+      7
+     ],
+     [
+      "/post-runs/l2/c4",
+      7
+     ],
+     [
+      "fn-inj-decide",
+      7
+     ],
+     [
+      "/proc/loadavg",
+      6
+     ],
+     [
+      "fn-ptx-trace-run",
+      6
+     ],
+     [
+      "/native/owner.lisp",
+      6
+     ],
+     [
+      "/acl2/post-acceptance-tests.lisp",
+      6
+     ],
+     [
+      "fn-sn-article-record-is-a-record-or-a-named-refusal",
+      5
+     ],
+     [
+      "fn-pacc-prepared-groups-section-is-within-the-profile",
+      5
+     ],
+     [
+      "fn-pacc-lays-out-the-prepared-record",
+      5
+     ],
+     [
+      "fn-ptx-rely",
+      5
+     ],
+     [
+      "fn-inj-configp",
+      5
+     ],
+     [
+      "fn-pctx-get",
+      4
+     ],
+     [
+      "/R1/R2",
+      4
+     ],
+     [
+      "fn-pth-qs*",
+      3
+     ],
+     [
+      "fn-pth-nstatic*",
+      3
+     ]
+    ]
+   },
+   {
+    "pack": "brief+continuation",
+    "path": "packs/batch/P8-P9/given.txt",
+    "bytes": 23780,
+    "recall": 0.316,
+    "recall_weighted": 0.408,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2",
+      27
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c4",
+      23
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c6",
+      21
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post-acc/build/post-runs/l2/c9",
+      19
+     ],
+     [
+      "fn-pacc-splice",
+      15
+     ],
+     [
+      "fn-sn-article-record-refusals*",
+      12
+     ],
+     [
+      "fn-pacc-injectionp",
+      12
+     ],
+     [
+      "fn-pacc-stored-payload",
+      11
+     ],
+     [
+      "fn-post-gated-decision",
+      11
+     ],
+     [
+      "fn-ptx-trace-relies-p",
+      7
+     ],
+     [
+      "/post-runs/l2/c4",
+      7
+     ],
+     [
+      "fn-inj-decide",
+      7
+     ],
+     [
+      "/proc/loadavg",
+      6
+     ],
+     [
+      "fn-ptx-trace-run",
+      6
+     ],
+     [
+      "/native/owner.lisp",
+      6
+     ],
+     [
+      "/acl2/post-acceptance-tests.lisp",
+      6
+     ],
+     [
+      "fn-sn-article-record-is-a-record-or-a-named-refusal",
+      5
+     ],
+     [
+      "fn-pacc-prepared-groups-section-is-within-the-profile",
+      5
+     ],
+     [
+      "fn-pacc-lays-out-the-prepared-record",
+      5
+     ],
+     [
+      "fn-ptx-rely",
+      5
+     ],
+     [
+      "fn-inj-configp",
+      5
+     ],
+     [
+      "fn-pctx-get",
+      4
+     ],
+     [
+      "/R1/R2",
+      4
+     ],
+     [
+      "fn-pth-qs*",
+      3
+     ],
+     [
+      "fn-pth-nstatic*",
+      3
+     ]
+    ]
+   },
+   {
+    "pack": "distill",
+    "path": "packs/batch/P8-P9/distill.md",
+    "bytes": 191392,
+    "recall": 0.609,
+    "recall_weighted": 0.785,
+    "missing_top": [
+     [
+      "fn-post-gated-decision",
+      11
+     ],
+     [
+      "fn-ptx-trace-relies-p",
+      7
+     ],
+     [
+      "fn-inj-decide",
+      7
+     ],
+     [
+      "/proc/loadavg",
+      6
+     ],
+     [
+      "fn-ptx-trace-run",
+      6
+     ],
+     [
+      "/native/owner.lisp",
+      6
+     ],
+     [
+      "fn-pacc-prepared-groups-section-is-within-the-profile",
+      5
+     ],
+     [
+      "fn-ptx-rely",
+      5
+     ],
+     [
+      "fn-inj-configp",
+      5
+     ],
+     [
+      "fn-pctx-get",
+      4
+     ],
+     [
+      "/tank/fn/toolchains/w28/acl2-literal-4g-tls64k",
+      3
+     ],
+     [
+      "fn-rtc-view-state",
+      3
+     ],
+     [
+      "fn-pth-step",
+      3
+     ],
+     [
+      "HOST-LANDS",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c4/DRAFT4c.md",
+      2
+     ],
+     [
+      "fn-owner-prepare-buffer",
+      2
+     ],
+     [
+      "/tank/fn/acl2-8.7/books",
+      2
+     ],
+     [
+      "/cgen/top",
+      2
+     ],
+     [
+      "fn-ipp-injected-octets",
+      2
+     ],
+     [
+      "fn-pth-sys",
+      2
+     ],
+     [
+      "TS-DONE",
+      2
+     ],
+     [
+      "fn-ptx-step1",
+      2
+     ],
+     [
+      "fn-clock-wall",
+      1
+     ],
+     [
+      "fn-sn-article-record-stamps-the-observation",
+      1
+     ],
+     [
+      "ML-DSA",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v1",
+    "path": "packs/batch/P8-P9/a480ab590a327340c.v1.sharpened.jsonl",
+    "bytes": 589710,
+    "recall": 0.902,
+    "recall_weighted": 0.928,
+    "missing_top": [
+     [
+      "fn-post-gated-decision",
+      11
+     ],
+     [
+      "fn-ptx-trace-relies-p",
+      7
+     ],
+     [
+      "fn-ptx-trace-run",
+      6
+     ],
+     [
+      "HOST-LANDS",
+      3
+     ],
+     [
+      "/tank/fn/acl2-8.7/books",
+      2
+     ],
+     [
+      "/cgen/top",
+      2
+     ],
+     [
+      "fn-ipp-injected-octets",
+      2
+     ],
+     [
+      "fn-pth-sys",
+      2
+     ],
+     [
+      "fn-bs-profile-header-limits",
+      1
+     ],
+     [
+      "fn-inj-config-header-limits",
+      1
+     ],
+     [
+      "fn-pvc-carryp",
+      1
+     ],
+     [
+      "fn-pth-x-step*",
+      1
+     ],
+     [
+      "fn-pacc-prepared-gsec",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v2",
+    "path": "packs/batch/P8-P9/a480ab590a327340c.v2.sharpened.jsonl",
+    "bytes": 690433,
+    "recall": 0.97,
+    "recall_weighted": 0.97,
+    "missing_top": [
+     [
+      "fn-ptx-trace-relies-p",
+      7
+     ],
+     [
+      "fn-ptx-trace-run",
+      6
+     ],
+     [
+      "HOST-LANDS",
+      3
+     ],
+     [
+      "fn-pth-x-step*",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "full",
+    "path": "packs/batch/P8-P9/full.txt",
+    "bytes": 685825,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   }
+  ],
+  "pair": "P8->P9",
+  "pred_peak": 373192,
+  "sharpened_v1_est_ctx": 225674,
+  "sharpened_v2_est_ctx": 257726,
+  "continuation_bytes": 20409,
+  "distill_est_tokens": 79315
+ },
+ {
+  "successor_distinct_tokens": 433,
+  "needed": 137,
+  "needed_share_of_successor_tokens": 0.316,
+  "packs": [
+   {
+    "pack": "brief",
+    "path": "packs/batch/P9-P10/brief.txt",
+    "bytes": 1054,
+    "recall": 0.0,
+    "recall_weighted": 0.0,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/post",
+      55
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post-acc",
+      34
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c6",
+      27
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/STATEMENTS.lsp",
+      24
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post-acc/build/post-runs/l2/c9",
+      22
+     ],
+     [
+      "fn-ptx-step1-0",
+      18
+     ],
+     [
+      "a5a3c408a",
+      18
+     ],
+     [
+      "fn-pth-step*",
+      16
+     ],
+     [
+      "af67c55c2",
+      13
+     ],
+     [
+      "fn-mod-forward",
+      12
+     ],
+     [
+      "3b10cf148704",
+      9
+     ],
+     [
+      "fn-pth-owner-delivery",
+      9
+     ],
+     [
+      "fn-rtc-requests",
+      9
+     ],
+     [
+      "fn-pctx-max*",
+      8
+     ],
+     [
+      "/acl2/post-transaction-host-rely-tests.lisp",
+      8
+     ],
+     [
+      "fn-pacc-profile-admitted-postp",
+      8
+     ],
+     [
+      "fn-pth-cs*",
+      7
+     ],
+     [
+      "3d836e231",
+      7
+     ],
+     [
+      "CONFIG-GROUP-NAME-WIDER-THAN-RECORD",
+      7
+     ],
+     [
+      "fn-ptx-max-state",
+      7
+     ],
+     [
+      "fn-ptx-c",
+      7
+     ],
+     [
+      "fa3d4feca",
+      6
+     ],
+     [
+      "fn-adm-acc-out-max",
+      6
+     ],
+     [
+      "fn-rtc-extrap",
+      6
+     ],
+     [
+      "/native/owner.lisp",
+      6
+     ]
+    ]
+   },
+   {
+    "pack": "continuation",
+    "path": "packs/batch/P9-P10/continuation.txt",
+    "bytes": 55416,
+    "recall": 0.248,
+    "recall_weighted": 0.461,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c6",
+      27
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post-acc/build/post-runs/l2/c9",
+      22
+     ],
+     [
+      "fn-pth-step*",
+      16
+     ],
+     [
+      "fn-mod-forward",
+      12
+     ],
+     [
+      "fn-pth-owner-delivery",
+      9
+     ],
+     [
+      "fn-rtc-requests",
+      9
+     ],
+     [
+      "fn-pth-cs*",
+      7
+     ],
+     [
+      "fn-ptx-max-state",
+      7
+     ],
+     [
+      "fn-ptx-c",
+      7
+     ],
+     [
+      "fn-rtc-extrap",
+      6
+     ],
+     [
+      "/native/owner.lisp",
+      6
+     ],
+     [
+      "REPORT-K-LINE",
+      5
+     ],
+     [
+      "fn-pacc-derived-names",
+      5
+     ],
+     [
+      "65663",
+      5
+     ],
+     [
+      "fn-cbor-octet-listp",
+      5
+     ],
+     [
+      "65667",
+      5
+     ],
+     [
+      "fn-pctx-p",
+      4
+     ],
+     [
+      "fn-pfld-post-evidence",
+      4
+     ],
+     [
+      "BYTE-IDENTICAL",
+      4
+     ],
+     [
+      "/post-runs/l2/c4/draft4-defs.lsp",
+      4
+     ],
+     [
+      "fn-nntp-moderated-entryp",
+      4
+     ],
+     [
+      "/acl2/post-acceptance-tests.lisp",
+      4
+     ],
+     [
+      "/R1/R2",
+      4
+     ],
+     [
+      "fn-hld-init",
+      4
+     ],
+     [
+      "fn-article-limit-octets",
+      4
+     ]
+    ]
+   },
+   {
+    "pack": "brief+continuation",
+    "path": "packs/batch/P9-P10/given.txt",
+    "bytes": 56471,
+    "recall": 0.248,
+    "recall_weighted": 0.461,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/post/build/post-runs/l2/c6",
+      27
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post-acc/build/post-runs/l2/c9",
+      22
+     ],
+     [
+      "fn-pth-step*",
+      16
+     ],
+     [
+      "fn-mod-forward",
+      12
+     ],
+     [
+      "fn-pth-owner-delivery",
+      9
+     ],
+     [
+      "fn-rtc-requests",
+      9
+     ],
+     [
+      "fn-pth-cs*",
+      7
+     ],
+     [
+      "fn-ptx-max-state",
+      7
+     ],
+     [
+      "fn-ptx-c",
+      7
+     ],
+     [
+      "fn-rtc-extrap",
+      6
+     ],
+     [
+      "/native/owner.lisp",
+      6
+     ],
+     [
+      "REPORT-K-LINE",
+      5
+     ],
+     [
+      "fn-pacc-derived-names",
+      5
+     ],
+     [
+      "65663",
+      5
+     ],
+     [
+      "fn-cbor-octet-listp",
+      5
+     ],
+     [
+      "65667",
+      5
+     ],
+     [
+      "fn-pctx-p",
+      4
+     ],
+     [
+      "fn-pfld-post-evidence",
+      4
+     ],
+     [
+      "BYTE-IDENTICAL",
+      4
+     ],
+     [
+      "/post-runs/l2/c4/draft4-defs.lsp",
+      4
+     ],
+     [
+      "fn-nntp-moderated-entryp",
+      4
+     ],
+     [
+      "/acl2/post-acceptance-tests.lisp",
+      4
+     ],
+     [
+      "/R1/R2",
+      4
+     ],
+     [
+      "fn-hld-init",
+      4
+     ],
+     [
+      "fn-article-limit-octets",
+      4
+     ]
+    ]
+   },
+   {
+    "pack": "distill",
+    "path": "packs/batch/P9-P10/distill.md",
+    "bytes": 230014,
+    "recall": 0.591,
+    "recall_weighted": 0.756,
+    "missing_top": [
+     [
+      "fn-pth-step*",
+      16
+     ],
+     [
+      "fn-pth-owner-delivery",
+      9
+     ],
+     [
+      "fn-rtc-requests",
+      9
+     ],
+     [
+      "fn-ptx-max-state",
+      7
+     ],
+     [
+      "fn-ptx-c",
+      7
+     ],
+     [
+      "fn-pacc-derived-names",
+      5
+     ],
+     [
+      "fn-cbor-octet-listp",
+      5
+     ],
+     [
+      "fn-pfld-post-evidence",
+      4
+     ],
+     [
+      "/post-runs/l2/c4/draft4-defs.lsp",
+      4
+     ],
+     [
+      "fn-nntp-moderated-entryp",
+      4
+     ],
+     [
+      "fn-hld-init",
+      4
+     ],
+     [
+      "fn-article-limit-octets",
+      4
+     ],
+     [
+      "/repair/items/CONFIG-GROUP-NAME-WIDER-THAN-RECORD.json",
+      3
+     ],
+     [
+      "fn-record-max-group-name*",
+      3
+     ],
+     [
+      "/R1/R2.",
+      3
+     ],
+     [
+      "fn-post-store-refusal-text",
+      3
+     ],
+     [
+      "fn-lg-append-admitsp",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post-acc/build/post-runs/l2/c4-copy",
+      3
+     ],
+     [
+      "fn-bs-profile-max-article-octets",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post-acc/build/post-runs/l2/c4-copy/draft4-defs.lsp",
+      2
+     ],
+     [
+      "fn-pacc-carried",
+      2
+     ],
+     [
+      "fn-auth-moderation-config",
+      2
+     ],
+     [
+      "fn-pctx-encode",
+      2
+     ],
+     [
+      "fn-pacc-end",
+      2
+     ],
+     [
+      "fn-pth-host-run",
+      2
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v1",
+    "path": "packs/batch/P9-P10/ae621c1b1587f2912.v1.sharpened.jsonl",
+    "bytes": 621284,
+    "recall": 0.891,
+    "recall_weighted": 0.942,
+    "missing_top": [
+     [
+      "fn-ptx-c",
+      7
+     ],
+     [
+      "fn-cbor-octet-listp",
+      5
+     ],
+     [
+      "/R1/R2.",
+      3
+     ],
+     [
+      "fn-lg-append-admitsp",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post-acc/build/post-runs/l2/c4-copy/draft4-defs.lsp",
+      2
+     ],
+     [
+      "fn-pacc-carried",
+      2
+     ],
+     [
+      "fn-auth-moderation-config",
+      2
+     ],
+     [
+      "fn-pctx-encode",
+      2
+     ],
+     [
+      "fn-rtc-config",
+      2
+     ],
+     [
+      "/build/post-runs/l2/c4/draft4-defs.lsp",
+      1
+     ],
+     [
+      "fn-pctx-decode",
+      1
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/post-acc/build/post-runs/l2/c4-copy/DRAFT4.md",
+      1
+     ],
+     [
+      "fn-ptx-spans",
+      1
+     ],
+     [
+      "fn-ptx-start",
+      1
+     ],
+     [
+      "fn-ptx-read",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v2",
+    "path": "packs/batch/P9-P10/ae621c1b1587f2912.v2.sharpened.jsonl",
+    "bytes": 720723,
+    "recall": 0.971,
+    "recall_weighted": 0.978,
+    "missing_top": [
+     [
+      "fn-ptx-c",
+      7
+     ],
+     [
+      "fn-lg-append-admitsp",
+      3
+     ],
+     [
+      "fn-pacc-carried",
+      2
+     ],
+     [
+      "fn-ptx-spans",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "full",
+    "path": "packs/batch/P9-P10/full.txt",
+    "bytes": 705886,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   }
+  ],
+  "pair": "P9->P10",
+  "pred_peak": 372924,
+  "sharpened_v1_est_ctx": 226479,
+  "sharpened_v2_est_ctx": 257428,
+  "continuation_bytes": 55416,
+  "distill_est_tokens": 95502
+ },
+ {
+  "successor_distinct_tokens": 266,
+  "needed": 77,
+  "needed_share_of_successor_tokens": 0.289,
+  "packs": [
+   {
+    "pack": "brief",
+    "path": "packs/batch/M21-M22/brief.txt",
+    "bytes": 2929,
+    "recall": 0.078,
+    "recall_weighted": 0.062,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/memory-run-launch",
+      115
+     ],
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl",
+      13
+     ],
+     [
+      "402b65786",
+      13
+     ],
+     [
+      "/proc/loadavg",
+      12
+     ],
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl/TODO.md",
+      8
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/STATE.md",
+      7
+     ],
+     [
+      "fn-record-p",
+      7
+     ],
+     [
+      "/extract/world.py",
+      6
+     ],
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl/affected-args.txt",
+      5
+     ],
+     [
+      "/lane/memory-run-launch",
+      5
+     ],
+     [
+      "PRF-10016",
+      5
+     ],
+     [
+      "/native/mux.lisp",
+      5
+     ],
+     [
+      "fn-heap-figure-octets",
+      5
+     ],
+     [
+      "CODEX-RESUME-",
+      5
+     ],
+     [
+      "30452",
+      4
+     ],
+     [
+      "fn-mo-serve-decide",
+      4
+     ],
+     [
+      "30000",
+      4
+     ],
+     [
+      "/acl2/heap-command-tests.lisp",
+      3
+     ],
+     [
+      "/native/owner.lisp",
+      3
+     ],
+     [
+      "20000",
+      3
+     ],
+     [
+      "f5963543b",
+      3
+     ],
+     [
+      "fn-host",
+      3
+     ],
+     [
+      "a480ab590a327340c",
+      3
+     ],
+     [
+      "fn-hl-capl",
+      3
+     ],
+     [
+      "fn-adm-capacity",
+      3
+     ]
+    ]
+   },
+   {
+    "pack": "continuation",
+    "path": "packs/batch/M21-M22/continuation.txt",
+    "bytes": 17427,
+    "recall": 0.377,
+    "recall_weighted": 0.607,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl",
+      13
+     ],
+     [
+      "/proc/loadavg",
+      12
+     ],
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl/TODO.md",
+      8
+     ],
+     [
+      "fn-record-p",
+      7
+     ],
+     [
+      "/extract/world.py",
+      6
+     ],
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl/affected-args.txt",
+      5
+     ],
+     [
+      "/lane/memory-run-launch",
+      5
+     ],
+     [
+      "/native/mux.lisp",
+      5
+     ],
+     [
+      "fn-heap-figure-octets",
+      5
+     ],
+     [
+      "30000",
+      4
+     ],
+     [
+      "/acl2/heap-command-tests.lisp",
+      3
+     ],
+     [
+      "/native/owner.lisp",
+      3
+     ],
+     [
+      "20000",
+      3
+     ],
+     [
+      "a480ab590a327340c",
+      3
+     ],
+     [
+      "fn-hl-capl",
+      3
+     ],
+     [
+      "fn-adm-capacity",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready",
+      2
+     ],
+     [
+      "fn-mo-serve-launch-holds-its-pools-at-the-decision",
+      2
+     ],
+     [
+      "fn-owner-memory-gate",
+      2
+     ],
+     [
+      "/native/bp-session.lisp",
+      2
+     ],
+     [
+      "/native/heap.lisp",
+      2
+     ],
+     [
+      "e62edce23",
+      2
+     ],
+     [
+      "/remote-check/hbox-cmd.log",
+      1
+     ],
+     [
+      "fn-mo-serve-launch-holds-its-pools",
+      1
+     ],
+     [
+      "fn-mm-least-observation",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "brief+continuation",
+    "path": "packs/batch/M21-M22/given.txt",
+    "bytes": 20357,
+    "recall": 0.39,
+    "recall_weighted": 0.611,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl",
+      13
+     ],
+     [
+      "/proc/loadavg",
+      12
+     ],
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl/TODO.md",
+      8
+     ],
+     [
+      "fn-record-p",
+      7
+     ],
+     [
+      "/extract/world.py",
+      6
+     ],
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl/affected-args.txt",
+      5
+     ],
+     [
+      "/lane/memory-run-launch",
+      5
+     ],
+     [
+      "/native/mux.lisp",
+      5
+     ],
+     [
+      "fn-heap-figure-octets",
+      5
+     ],
+     [
+      "30000",
+      4
+     ],
+     [
+      "/acl2/heap-command-tests.lisp",
+      3
+     ],
+     [
+      "/native/owner.lisp",
+      3
+     ],
+     [
+      "20000",
+      3
+     ],
+     [
+      "a480ab590a327340c",
+      3
+     ],
+     [
+      "fn-hl-capl",
+      3
+     ],
+     [
+      "fn-adm-capacity",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready",
+      2
+     ],
+     [
+      "fn-mo-serve-launch-holds-its-pools-at-the-decision",
+      2
+     ],
+     [
+      "fn-owner-memory-gate",
+      2
+     ],
+     [
+      "/native/bp-session.lisp",
+      2
+     ],
+     [
+      "/native/heap.lisp",
+      2
+     ],
+     [
+      "e62edce23",
+      2
+     ],
+     [
+      "/remote-check/hbox-cmd.log",
+      1
+     ],
+     [
+      "fn-mo-serve-launch-holds-its-pools",
+      1
+     ],
+     [
+      "fn-mm-least-observation",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "distill",
+    "path": "packs/batch/M21-M22/distill.md",
+    "bytes": 170964,
+    "recall": 0.766,
+    "recall_weighted": 0.875,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/coordinator/STATE.md",
+      7
+     ],
+     [
+      "fn-record-p",
+      7
+     ],
+     [
+      "fn-heap-figure-octets",
+      5
+     ],
+     [
+      "30000",
+      4
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready",
+      2
+     ],
+     [
+      "fn-owner-memory-gate",
+      2
+     ],
+     [
+      "/native/bp-session.lisp",
+      2
+     ],
+     [
+      "/remote-check/hbox-cmd.log",
+      1
+     ],
+     [
+      "/tank/fn/scratch",
+      1
+     ],
+     [
+      "/tank/fn/images",
+      1
+     ],
+     [
+      "1048576",
+      1
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/memory-run-launch/books/memory-model.lisp",
+      1
+     ],
+     [
+      "fn-bpsp-node-capacity",
+      1
+     ],
+     [
+      "fn-owner-memory-max-conns",
+      1
+     ],
+     [
+      "fn-mo-serve-*",
+      1
+     ],
+     [
+      "/extract/world.lisp",
+      1
+     ],
+     [
+      "OVER-WINDOW-FIT",
+      1
+     ],
+     [
+      "/ready/d-check-c5.md",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v1",
+    "path": "packs/batch/M21-M22/a5c435de513f20183.v1.sharpened.jsonl",
+    "bytes": 603968,
+    "recall": 0.987,
+    "recall_weighted": 0.997,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/memory-run-launch/books/memory-model.lisp",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v2",
+    "path": "packs/batch/M21-M22/a5c435de513f20183.v2.sharpened.jsonl",
+    "bytes": 753535,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   },
+   {
+    "pack": "full",
+    "path": "packs/batch/M21-M22/full.txt",
+    "bytes": 796026,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   }
+  ],
+  "pair": "M21->M22",
+  "pred_peak": 420684,
+  "sharpened_v1_est_ctx": 233068,
+  "sharpened_v2_est_ctx": 282424,
+  "continuation_bytes": 17427,
+  "distill_est_tokens": 70733
+ },
+ {
+  "successor_distinct_tokens": 120,
+  "needed": 55,
+  "needed_share_of_successor_tokens": 0.458,
+  "packs": [
+   {
+    "pack": "brief",
+    "path": "packs/batch/M22-M23/brief.txt",
+    "bytes": 3563,
+    "recall": 0.145,
+    "recall_weighted": 0.142,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/memory-run-launch",
+      17
+     ],
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl",
+      10
+     ],
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl/TODO.md",
+      10
+     ],
+     [
+      "CODEX-RESUME-",
+      6
+     ],
+     [
+      "fn-hl-capl",
+      4
+     ],
+     [
+      "fn-adm-reader-count",
+      4
+     ],
+     [
+      "475ce9f343c3",
+      4
+     ],
+     [
+      "fn-adm-priced-cfg",
+      3
+     ],
+     [
+      "fn-pacc-profile-admitted-postp",
+      3
+     ],
+     [
+      "fn-pctx-max*",
+      3
+     ],
+     [
+      "fn-pth-post-buffer-octets",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/STATE.md",
+      2
+     ],
+     [
+      "66745",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl/codex-4d.log",
+      2
+     ],
+     [
+      "/m22-fix/STATEMENTS-2.lisp",
+      2
+     ],
+     [
+      "PRF-10016",
+      2
+     ],
+     [
+      "fn-own-conns",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl/codex-4d.pid",
+      1
+     ],
+     [
+      "cdd1fb27e",
+      1
+     ],
+     [
+      "65663",
+      1
+     ],
+     [
+      "fn-pbatch-max*",
+      1
+     ],
+     [
+      "fn-adm-priced-connections",
+      1
+     ],
+     [
+      "/native/web-host.lisp",
+      1
+     ],
+     [
+      "/native/pull-service.lisp",
+      1
+     ],
+     [
+      "/m22-fix/STATEMENTS-4a-approved.lisp",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "continuation",
+    "path": "packs/batch/M22-M23/continuation.txt",
+    "bytes": 54819,
+    "recall": 0.673,
+    "recall_weighted": 0.74,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl/TODO.md",
+      10
+     ],
+     [
+      "fn-adm-priced-cfg",
+      3
+     ],
+     [
+      "fn-pctx-max*",
+      3
+     ],
+     [
+      "66745",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl/codex-4d.log",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl/codex-4d.pid",
+      1
+     ],
+     [
+      "65663",
+      1
+     ],
+     [
+      "fn-pbatch-max*",
+      1
+     ],
+     [
+      "fn-adm-priced-connections",
+      1
+     ],
+     [
+      "/native/web-host.lisp",
+      1
+     ],
+     [
+      "/native/pull-service.lisp",
+      1
+     ],
+     [
+      "/m22-fix/STATEMENTS-4a-approved.lisp",
+      1
+     ],
+     [
+      "fn-adm-priced-gate-bounds-the-held-instant",
+      1
+     ],
+     [
+      "fn-dk-claim-of",
+      1
+     ],
+     [
+      "/acl2/feed-connection-teeth-tests.lisp",
+      1
+     ],
+     [
+      "fn-pvc-post-boundary-carried",
+      1
+     ],
+     [
+      "fn-pacc-prepared-groups-section-is-within-the-profile",
+      1
+     ],
+     [
+      "fn-pacc-lays-out-the-prepared-record",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "brief+continuation",
+    "path": "packs/batch/M22-M23/given.txt",
+    "bytes": 58383,
+    "recall": 0.673,
+    "recall_weighted": 0.74,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl/TODO.md",
+      10
+     ],
+     [
+      "fn-adm-priced-cfg",
+      3
+     ],
+     [
+      "fn-pctx-max*",
+      3
+     ],
+     [
+      "66745",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl/codex-4d.log",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/memory/m21/lrl/codex-4d.pid",
+      1
+     ],
+     [
+      "65663",
+      1
+     ],
+     [
+      "fn-pbatch-max*",
+      1
+     ],
+     [
+      "fn-adm-priced-connections",
+      1
+     ],
+     [
+      "/native/web-host.lisp",
+      1
+     ],
+     [
+      "/native/pull-service.lisp",
+      1
+     ],
+     [
+      "/m22-fix/STATEMENTS-4a-approved.lisp",
+      1
+     ],
+     [
+      "fn-adm-priced-gate-bounds-the-held-instant",
+      1
+     ],
+     [
+      "fn-dk-claim-of",
+      1
+     ],
+     [
+      "/acl2/feed-connection-teeth-tests.lisp",
+      1
+     ],
+     [
+      "fn-pvc-post-boundary-carried",
+      1
+     ],
+     [
+      "fn-pacc-prepared-groups-section-is-within-the-profile",
+      1
+     ],
+     [
+      "fn-pacc-lays-out-the-prepared-record",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "distill",
+    "path": "packs/batch/M22-M23/distill.md",
+    "bytes": 153304,
+    "recall": 0.891,
+    "recall_weighted": 0.921,
+    "missing_top": [
+     [
+      "fn-adm-priced-cfg",
+      3
+     ],
+     [
+      "fn-pctx-max*",
+      3
+     ],
+     [
+      "65663",
+      1
+     ],
+     [
+      "/native/web-host.lisp",
+      1
+     ],
+     [
+      "fn-pvc-post-boundary-carried",
+      1
+     ],
+     [
+      "fn-pacc-lays-out-the-prepared-record",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v1",
+    "path": "packs/batch/M22-M23/a27195fc55b7ffc59.v1.sharpened.jsonl",
+    "bytes": 530936,
+    "recall": 0.964,
+    "recall_weighted": 0.969,
+    "missing_top": [
+     [
+      "fn-adm-priced-cfg",
+      3
+     ],
+     [
+      "fn-pacc-lays-out-the-prepared-record",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v2",
+    "path": "packs/batch/M22-M23/a27195fc55b7ffc59.v2.sharpened.jsonl",
+    "bytes": 650011,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   },
+   {
+    "pack": "full",
+    "path": "packs/batch/M22-M23/full.txt",
+    "bytes": 621604,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   }
+  ],
+  "pair": "M22->M23",
+  "pred_peak": 337522,
+  "sharpened_v1_est_ctx": 195146,
+  "sharpened_v2_est_ctx": 231407,
+  "continuation_bytes": 54819,
+  "distill_est_tokens": 63525
+ },
+ {
+  "successor_distinct_tokens": 329,
+  "needed": 111,
+  "needed_share_of_successor_tokens": 0.337,
+  "packs": [
+   {
+    "pack": "brief",
+    "path": "packs/batch/L14-L15/brief.txt",
+    "bytes": 2590,
+    "recall": 0.045,
+    "recall_weighted": 0.066,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/log-rfc-live",
+      25
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/log-rfc-carried",
+      16
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/log-rfc-live/build/codex/l-rfcl-prove",
+      16
+     ],
+     [
+      "/native/io.lisp",
+      12
+     ],
+     [
+      "fn-own-relation",
+      11
+     ],
+     [
+      "/proc/loadavg",
+      11
+     ],
+     [
+      "fn-lgb-span-within-max",
+      11
+     ],
+     [
+      "fn-sf-crash-choicep",
+      10
+     ],
+     [
+      "EXTRACT-DONE",
+      9
+     ],
+     [
+      "CODEX-DONE",
+      9
+     ],
+     [
+      "fn-sn-crash",
+      9
+     ],
+     [
+      "BOXSTEP-DONE",
+      8
+     ],
+     [
+      "fn-rfcl-okp",
+      8
+     ],
+     [
+      "RFCL-OWNER-RETAIN-LIFT",
+      7
+     ],
+     [
+      "bf81a2991",
+      6
+     ],
+     [
+      "9fe40c34a",
+      6
+     ],
+     [
+      "fn-record-p",
+      6
+     ],
+     [
+      "fn-osr-retainedp",
+      6
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/log-rfc-carried/build/log-runs/rfc2",
+      5
+     ],
+     [
+      "fn-idrp-prepare-retention",
+      5
+     ],
+     [
+      "a2b68aab1",
+      5
+     ],
+     [
+      "fn-arena",
+      4
+     ],
+     [
+      "fn-ocfg-owner",
+      4
+     ],
+     [
+      "/acl2/reclaim-fold-contexts-live-tests.lisp",
+      4
+     ],
+     [
+      "10800",
+      4
+     ]
+    ]
+   },
+   {
+    "pack": "continuation",
+    "path": "packs/batch/L14-L15/continuation.txt",
+    "bytes": 25467,
+    "recall": 0.351,
+    "recall_weighted": 0.427,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/log-rfc-live",
+      25
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/log-rfc-carried",
+      16
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/log-rfc-live/build/codex/l-rfcl-prove",
+      16
+     ],
+     [
+      "fn-own-relation",
+      11
+     ],
+     [
+      "/proc/loadavg",
+      11
+     ],
+     [
+      "fn-sf-crash-choicep",
+      10
+     ],
+     [
+      "fn-record-p",
+      6
+     ],
+     [
+      "fn-osr-retainedp",
+      6
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/log-rfc-carried/build/log-runs/rfc2",
+      5
+     ],
+     [
+      "fn-idrp-prepare-retention",
+      5
+     ],
+     [
+      "fn-ocfg-owner",
+      4
+     ],
+     [
+      "/acl2/reclaim-fold-contexts-live-tests.lisp",
+      4
+     ],
+     [
+      "10800",
+      4
+     ],
+     [
+      "NATIVE-DONE",
+      3
+     ],
+     [
+      "~/.cache/fn-acl2-slots",
+      3
+     ],
+     [
+      "5715d255afc6",
+      3
+     ],
+     [
+      "/codex/l-rfcl-prove",
+      3
+     ],
+     [
+      "/repair/items/RFCL-OWNER-RETAIN-LIFT.json",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/log-rfc-carried/build/remote-check/hbox-cmd.log",
+      3
+     ],
+     [
+      "5dbdd9192",
+      2
+     ],
+     [
+      "fn-ocl-relation",
+      2
+     ],
+     [
+      "/repair/repair.py",
+      2
+     ],
+     [
+      "/acl2/reclaim-fold-contexts-tests",
+      2
+     ],
+     [
+      "fn-pdc-sn-prepare-*",
+      2
+     ],
+     [
+      "fn-cpo-open-observed",
+      2
+     ]
+    ]
+   },
+   {
+    "pack": "brief+continuation",
+    "path": "packs/batch/L14-L15/given.txt",
+    "bytes": 28058,
+    "recall": 0.351,
+    "recall_weighted": 0.427,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/log-rfc-live",
+      25
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/log-rfc-carried",
+      16
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/log-rfc-live/build/codex/l-rfcl-prove",
+      16
+     ],
+     [
+      "fn-own-relation",
+      11
+     ],
+     [
+      "/proc/loadavg",
+      11
+     ],
+     [
+      "fn-sf-crash-choicep",
+      10
+     ],
+     [
+      "fn-record-p",
+      6
+     ],
+     [
+      "fn-osr-retainedp",
+      6
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/log-rfc-carried/build/log-runs/rfc2",
+      5
+     ],
+     [
+      "fn-idrp-prepare-retention",
+      5
+     ],
+     [
+      "fn-ocfg-owner",
+      4
+     ],
+     [
+      "/acl2/reclaim-fold-contexts-live-tests.lisp",
+      4
+     ],
+     [
+      "10800",
+      4
+     ],
+     [
+      "NATIVE-DONE",
+      3
+     ],
+     [
+      "~/.cache/fn-acl2-slots",
+      3
+     ],
+     [
+      "5715d255afc6",
+      3
+     ],
+     [
+      "/codex/l-rfcl-prove",
+      3
+     ],
+     [
+      "/repair/items/RFCL-OWNER-RETAIN-LIFT.json",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/log-rfc-carried/build/remote-check/hbox-cmd.log",
+      3
+     ],
+     [
+      "5dbdd9192",
+      2
+     ],
+     [
+      "fn-ocl-relation",
+      2
+     ],
+     [
+      "/repair/repair.py",
+      2
+     ],
+     [
+      "/acl2/reclaim-fold-contexts-tests",
+      2
+     ],
+     [
+      "fn-pdc-sn-prepare-*",
+      2
+     ],
+     [
+      "fn-cpo-open-observed",
+      2
+     ]
+    ]
+   },
+   {
+    "pack": "distill",
+    "path": "packs/batch/L14-L15/distill.md",
+    "bytes": 135872,
+    "recall": 0.613,
+    "recall_weighted": 0.649,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/log-rfc-live/build/codex/l-rfcl-prove",
+      16
+     ],
+     [
+      "/native/io.lisp",
+      12
+     ],
+     [
+      "fn-own-relation",
+      11
+     ],
+     [
+      "/proc/loadavg",
+      11
+     ],
+     [
+      "fn-lgb-span-within-max",
+      11
+     ],
+     [
+      "fn-record-p",
+      6
+     ],
+     [
+      "fn-idrp-prepare-retention",
+      5
+     ],
+     [
+      "fn-ocfg-owner",
+      4
+     ],
+     [
+      "10800",
+      4
+     ],
+     [
+      "5715d255afc6",
+      3
+     ],
+     [
+      "/codex/l-rfcl-prove",
+      3
+     ],
+     [
+      "/repair/items/RFCL-OWNER-RETAIN-LIFT.json",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/STATE.md",
+      2
+     ],
+     [
+      "5dbdd9192",
+      2
+     ],
+     [
+      "/repair/repair.py",
+      2
+     ],
+     [
+      "fn-pdc-sn-prepare-*",
+      2
+     ],
+     [
+      "/tools/extract/check.sh",
+      2
+     ],
+     [
+      "/build/fn-host-developer",
+      2
+     ],
+     [
+      "/planning/proofs.json",
+      2
+     ],
+     [
+      "/planning/critical-evidence.json",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/log-rfc-carried/build/remote-check/persvati-cmd.log",
+      1
+     ],
+     [
+      "/log-runs/rfc2/extract.log",
+      1
+     ],
+     [
+      "fn-cst-relation",
+      1
+     ],
+     [
+      "fn-snt-relation",
+      1
+     ],
+     [
+      "fn-pout-prepare-article-answers-the-store-change",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v1",
+    "path": "packs/batch/L14-L15/ad757beffeabedff6.v1.sharpened.jsonl",
+    "bytes": 521455,
+    "recall": 0.937,
+    "recall_weighted": 0.937,
+    "missing_top": [
+     [
+      "fn-lgb-span-within-max",
+      11
+     ],
+     [
+      "fn-idrp-prepare-retention",
+      5
+     ],
+     [
+      "fn-pdc-sn-prepare-*",
+      2
+     ],
+     [
+      "14400",
+      2
+     ],
+     [
+      "fn-snt-relation",
+      1
+     ],
+     [
+      "fn-pout-prepare-article-answers-the-store-change",
+      1
+     ],
+     [
+      "fn-sco-identity",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v2",
+    "path": "packs/batch/L14-L15/ad757beffeabedff6.v2.sharpened.jsonl",
+    "bytes": 643121,
+    "recall": 0.982,
+    "recall_weighted": 0.992,
+    "missing_top": [
+     [
+      "14400",
+      2
+     ],
+     [
+      "fn-sco-identity",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "full",
+    "path": "packs/batch/L14-L15/full.txt",
+    "bytes": 634605,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   }
+  ],
+  "pair": "L14->L15",
+  "pred_peak": 342828,
+  "sharpened_v1_est_ctx": 199446,
+  "sharpened_v2_est_ctx": 238128,
+  "continuation_bytes": 25467,
+  "distill_est_tokens": 56218
+ },
+ {
+  "successor_distinct_tokens": 352,
+  "needed": 77,
+  "needed_share_of_successor_tokens": 0.219,
+  "packs": [
+   {
+    "pack": "brief",
+    "path": "packs/batch/L15-L16/brief.txt",
+    "bytes": 2839,
+    "recall": 0.052,
+    "recall_weighted": 0.093,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/log-loop-call",
+      24
+     ],
+     [
+      "f0c2f4d5f",
+      19
+     ],
+     [
+      "/native/io.lisp",
+      15
+     ],
+     [
+      "20000",
+      10
+     ],
+     [
+      "402b65786",
+      9
+     ],
+     [
+      "fn-lgb-next-record",
+      8
+     ],
+     [
+      "fn-record-p",
+      8
+     ],
+     [
+      "fn-sn-identity-next",
+      8
+     ],
+     [
+      "fn-sn-statep",
+      7
+     ],
+     [
+      "/proc/loadavg",
+      6
+     ],
+     [
+      "fn-sn-open-error",
+      6
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/log-loop-call/build/log-runs/lc3",
+      5
+     ],
+     [
+      "52176",
+      5
+     ],
+     [
+      "STO-003",
+      5
+     ],
+     [
+      "078b0cc33",
+      5
+     ],
+     [
+      "PRF-10006",
+      5
+     ],
+     [
+      "fn-lgb-slice",
+      5
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/codex-r-l-lc/build/codex/l-lc-review",
+      4
+     ],
+     [
+      "EXTRACT-DONE",
+      4
+     ],
+     [
+      "CERTIFY-DONE",
+      4
+     ],
+     [
+      "BOXSTEP-DONE",
+      4
+     ],
+     [
+      "/codex/l-lc/statements-v1.lisp",
+      3
+     ],
+     [
+      "NATIVE-DONE",
+      3
+     ],
+     [
+      "/native/owner.lisp",
+      3
+     ],
+     [
+      "fn-rcwacc",
+      3
+     ]
+    ]
+   },
+   {
+    "pack": "continuation",
+    "path": "packs/batch/L15-L16/continuation.txt",
+    "bytes": 48605,
+    "recall": 0.519,
+    "recall_weighted": 0.5,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/log-loop-call",
+      24
+     ],
+     [
+      "f0c2f4d5f",
+      19
+     ],
+     [
+      "fn-record-p",
+      8
+     ],
+     [
+      "fn-sn-identity-next",
+      8
+     ],
+     [
+      "fn-sn-statep",
+      7
+     ],
+     [
+      "/proc/loadavg",
+      6
+     ],
+     [
+      "fn-sn-open-error",
+      6
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/log-loop-call/build/log-runs/lc3",
+      5
+     ],
+     [
+      "fn-lgb-slice",
+      5
+     ],
+     [
+      "SEAT-COMMON",
+      4
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/codex-r-l-lc/build/codex/l-lc-review",
+      4
+     ],
+     [
+      "NATIVE-DONE",
+      3
+     ],
+     [
+      "/repair/items",
+      3
+     ],
+     [
+      "10800",
+      3
+     ],
+     [
+      "fn-arx-attach-trailers-buffer",
+      3
+     ],
+     [
+      "/codex/l-lc",
+      2
+     ],
+     [
+      "848450959",
+      2
+     ],
+     [
+      "fn-lgb-descriptor",
+      2
+     ],
+     [
+      "fn-sn-node",
+      2
+     ],
+     [
+      "/ready/log-rfc-carried.md",
+      1
+     ],
+     [
+      "/acl2/store-log-buffer-tests.lisp",
+      1
+     ],
+     [
+      "57688",
+      1
+     ],
+     [
+      "/lanes/log-loop-call",
+      1
+     ],
+     [
+      "/--read/--world",
+      1
+     ],
+     [
+      "/acl2/store-log-buffer-tests.lisp.",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "brief+continuation",
+    "path": "packs/batch/L15-L16/given.txt",
+    "bytes": 51445,
+    "recall": 0.532,
+    "recall_weighted": 0.515,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/log-loop-call",
+      24
+     ],
+     [
+      "f0c2f4d5f",
+      19
+     ],
+     [
+      "fn-record-p",
+      8
+     ],
+     [
+      "fn-sn-identity-next",
+      8
+     ],
+     [
+      "fn-sn-statep",
+      7
+     ],
+     [
+      "/proc/loadavg",
+      6
+     ],
+     [
+      "fn-sn-open-error",
+      6
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/log-loop-call/build/log-runs/lc3",
+      5
+     ],
+     [
+      "fn-lgb-slice",
+      5
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/codex-r-l-lc/build/codex/l-lc-review",
+      4
+     ],
+     [
+      "NATIVE-DONE",
+      3
+     ],
+     [
+      "/repair/items",
+      3
+     ],
+     [
+      "10800",
+      3
+     ],
+     [
+      "fn-arx-attach-trailers-buffer",
+      3
+     ],
+     [
+      "/codex/l-lc",
+      2
+     ],
+     [
+      "848450959",
+      2
+     ],
+     [
+      "fn-lgb-descriptor",
+      2
+     ],
+     [
+      "fn-sn-node",
+      2
+     ],
+     [
+      "/ready/log-rfc-carried.md",
+      1
+     ],
+     [
+      "/acl2/store-log-buffer-tests.lisp",
+      1
+     ],
+     [
+      "57688",
+      1
+     ],
+     [
+      "/lanes/log-loop-call",
+      1
+     ],
+     [
+      "/--read/--world",
+      1
+     ],
+     [
+      "/acl2/store-log-buffer-tests.lisp.",
+      1
+     ],
+     [
+      "fn-lgb-next-record-yields-the-records",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "distill",
+    "path": "packs/batch/L15-L16/distill.md",
+    "bytes": 133914,
+    "recall": 0.701,
+    "recall_weighted": 0.802,
+    "missing_top": [
+     [
+      "fn-sn-identity-next",
+      8
+     ],
+     [
+      "fn-sn-statep",
+      7
+     ],
+     [
+      "/proc/loadavg",
+      6
+     ],
+     [
+      "fn-sn-open-error",
+      6
+     ],
+     [
+      "/native/owner.lisp",
+      3
+     ],
+     [
+      "/repair/items",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/STATE.md",
+      2
+     ],
+     [
+      "/codex/l-lc",
+      2
+     ],
+     [
+      "fn-sn-node",
+      2
+     ],
+     [
+      "/ready/log-rfc-carried.md",
+      1
+     ],
+     [
+      "fn-lgb-next-record-yields-the-records",
+      1
+     ],
+     [
+      "fn-owner-sco-setup-of",
+      1
+     ],
+     [
+      "PERF-AND-COLLAPSE-PLAN-20261012",
+      1
+     ],
+     [
+      "fn-lgw-step-buf",
+      1
+     ],
+     [
+      "/native/post.lisp",
+      1
+     ],
+     [
+      "fn-owner-retain-statep",
+      1
+     ],
+     [
+      "fn-prc-carryp",
+      1
+     ],
+     [
+      "/remote-check/hbox-cmd.log",
+      1
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes",
+      1
+     ],
+     [
+      "fn-sn-open-kind",
+      1
+     ],
+     [
+      "fn-sn-open-state",
+      1
+     ],
+     [
+      "fn-sco-identity",
+      1
+     ],
+     [
+      "fn-defrecord",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v1",
+    "path": "packs/batch/L15-L16/a8b1c96e66a2996b2.v1.sharpened.jsonl",
+    "bytes": 502926,
+    "recall": 0.896,
+    "recall_weighted": 0.94,
+    "missing_top": [
+     [
+      "fn-sn-identity-next",
+      8
+     ],
+     [
+      "fn-sn-node",
+      2
+     ],
+     [
+      "/ready/log-rfc-carried.md",
+      1
+     ],
+     [
+      "fn-owner-sco-setup-of",
+      1
+     ],
+     [
+      "PERF-AND-COLLAPSE-PLAN-20261012",
+      1
+     ],
+     [
+      "fn-lgw-step-buf",
+      1
+     ],
+     [
+      "/native/post.lisp",
+      1
+     ],
+     [
+      "fn-defrecord",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v2",
+    "path": "packs/batch/L15-L16/a8b1c96e66a2996b2.v2.sharpened.jsonl",
+    "bytes": 616664,
+    "recall": 0.961,
+    "recall_weighted": 0.989,
+    "missing_top": [
+     [
+      "PERF-AND-COLLAPSE-PLAN-20261012",
+      1
+     ],
+     [
+      "/native/post.lisp",
+      1
+     ],
+     [
+      "fn-defrecord",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "full",
+    "path": "packs/batch/L15-L16/full.txt",
+    "bytes": 632346,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   }
+  ],
+  "pair": "L15->L16",
+  "pred_peak": 341820,
+  "sharpened_v1_est_ctx": 193713,
+  "sharpened_v2_est_ctx": 229688,
+  "continuation_bytes": 48605,
+  "distill_est_tokens": 55361
+ },
+ {
+  "successor_distinct_tokens": 323,
+  "needed": 58,
+  "needed_share_of_successor_tokens": 0.18,
+  "packs": [
+   {
+    "pack": "brief",
+    "path": "packs/batch/B17-B18/brief.txt",
+    "bytes": 3150,
+    "recall": 0.086,
+    "recall_weighted": 0.246,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/b-lane-check",
+      19
+     ],
+     [
+      "/proc/loadavg",
+      13
+     ],
+     [
+      "b0993a254",
+      9
+     ],
+     [
+      "TRAIN-DONE",
+      8
+     ],
+     [
+      "1286599dd",
+      7
+     ],
+     [
+      "9fe40c34a",
+      7
+     ],
+     [
+      "19379a69b0ba",
+      7
+     ],
+     [
+      "fn-hld-*",
+      7
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/b-farm-lock",
+      6
+     ],
+     [
+      "9bb002d08",
+      6
+     ],
+     [
+      "402b6578635901a469d297116f15be9db0f7e300",
+      5
+     ],
+     [
+      "deb9c45f6",
+      5
+     ],
+     [
+      "STO-003",
+      4
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready",
+      4
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator",
+      3
+     ],
+     [
+      "PRF-10006",
+      3
+     ],
+     [
+      "GATE_FUNCTIONS",
+      3
+     ],
+     [
+      "a8c79a3f8f414058d",
+      3
+     ],
+     [
+      "c34bd50bd",
+      3
+     ],
+     [
+      "fn-host-developer",
+      3
+     ],
+     [
+      "/var/tmp",
+      3
+     ],
+     [
+      "SEAT-COMMON-20261012",
+      2
+     ],
+     [
+      "UNIT_TESTS",
+      2
+     ],
+     [
+      "/tools/ledger.py",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready/b-farm-lock.md",
+      2
+     ]
+    ]
+   },
+   {
+    "pack": "continuation",
+    "path": "packs/batch/B17-B18/continuation.txt",
+    "bytes": 34022,
+    "recall": 0.517,
+    "recall_weighted": 0.58,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/b-lane-check",
+      19
+     ],
+     [
+      "/proc/loadavg",
+      13
+     ],
+     [
+      "TRAIN-DONE",
+      8
+     ],
+     [
+      "fn-hld-*",
+      7
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/b-farm-lock",
+      6
+     ],
+     [
+      "402b6578635901a469d297116f15be9db0f7e300",
+      5
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready",
+      4
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator",
+      3
+     ],
+     [
+      "GATE_FUNCTIONS",
+      3
+     ],
+     [
+      "UNIT_TESTS",
+      2
+     ],
+     [
+      "/tools/ledger.py",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready/b-farm-lock.md",
+      2
+     ],
+     [
+      "fn-owner-lease-cfg",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/integrate-20261012c",
+      2
+     ],
+     [
+      "e59b89910",
+      2
+     ],
+     [
+      "FETCH_HEAD",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/tools-builder-b/b17/brief-b-farm-lock.md",
+      1
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/tools-builder-b/b17",
+      1
+     ],
+     [
+      "/farm/run-20261012T115544Z-48ce.lock",
+      1
+     ],
+     [
+      "a28dcd67a76252796",
+      1
+     ],
+     [
+      "/native/mux.lisp",
+      1
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/b-lane-check.",
+      1
+     ],
+     [
+      "BOX_CMD",
+      1
+     ],
+     [
+      "fn-lgb-span-within-max",
+      1
+     ],
+     [
+      "/tools/acl2_slots.py",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "brief+continuation",
+    "path": "packs/batch/B17-B18/given.txt",
+    "bytes": 37173,
+    "recall": 0.517,
+    "recall_weighted": 0.58,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/b-lane-check",
+      19
+     ],
+     [
+      "/proc/loadavg",
+      13
+     ],
+     [
+      "TRAIN-DONE",
+      8
+     ],
+     [
+      "fn-hld-*",
+      7
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/b-farm-lock",
+      6
+     ],
+     [
+      "402b6578635901a469d297116f15be9db0f7e300",
+      5
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready",
+      4
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator",
+      3
+     ],
+     [
+      "GATE_FUNCTIONS",
+      3
+     ],
+     [
+      "UNIT_TESTS",
+      2
+     ],
+     [
+      "/tools/ledger.py",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready/b-farm-lock.md",
+      2
+     ],
+     [
+      "fn-owner-lease-cfg",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/integrate-20261012c",
+      2
+     ],
+     [
+      "e59b89910",
+      2
+     ],
+     [
+      "FETCH_HEAD",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/tools-builder-b/b17/brief-b-farm-lock.md",
+      1
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/tools-builder-b/b17",
+      1
+     ],
+     [
+      "/farm/run-20261012T115544Z-48ce.lock",
+      1
+     ],
+     [
+      "a28dcd67a76252796",
+      1
+     ],
+     [
+      "/native/mux.lisp",
+      1
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/b-lane-check.",
+      1
+     ],
+     [
+      "BOX_CMD",
+      1
+     ],
+     [
+      "fn-lgb-span-within-max",
+      1
+     ],
+     [
+      "/tools/acl2_slots.py",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "distill",
+    "path": "packs/batch/B17-B18/distill.md",
+    "bytes": 167439,
+    "recall": 0.776,
+    "recall_weighted": 0.83,
+    "missing_top": [
+     [
+      "/proc/loadavg",
+      13
+     ],
+     [
+      "fn-hld-*",
+      7
+     ],
+     [
+      "402b6578635901a469d297116f15be9db0f7e300",
+      5
+     ],
+     [
+      "UNIT_TESTS",
+      2
+     ],
+     [
+      "/tools/ledger.py",
+      2
+     ],
+     [
+      "fn-owner-lease-cfg",
+      2
+     ],
+     [
+      "/farm/run-20261012T115544Z-48ce.lock",
+      1
+     ],
+     [
+      "a28dcd67a76252796",
+      1
+     ],
+     [
+      "/native/mux.lisp",
+      1
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/b-lane-check.",
+      1
+     ],
+     [
+      "fn-lgb-span-within-max",
+      1
+     ],
+     [
+      "/tools/acl2_slots.py",
+      1
+     ],
+     [
+      "/repair/ACKS.md",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v1",
+    "path": "packs/batch/B17-B18/a7936b160d2902e58.v1.sharpened.jsonl",
+    "bytes": 485963,
+    "recall": 0.845,
+    "recall_weighted": 0.92,
+    "missing_top": [
+     [
+      "fn-hld-*",
+      7
+     ],
+     [
+      "UNIT_TESTS",
+      2
+     ],
+     [
+      "/tools/ledger.py",
+      2
+     ],
+     [
+      "fn-owner-lease-cfg",
+      2
+     ],
+     [
+      "/native/mux.lisp",
+      1
+     ],
+     [
+      "fn-lgb-span-within-max",
+      1
+     ],
+     [
+      "/tools/acl2_slots.py",
+      1
+     ],
+     [
+      "/tools/acl2",
+      1
+     ],
+     [
+      "/repair/ACKS.md",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v2",
+    "path": "packs/batch/B17-B18/a7936b160d2902e58.v2.sharpened.jsonl",
+    "bytes": 596893,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   },
+   {
+    "pack": "full",
+    "path": "packs/batch/B17-B18/full.txt",
+    "bytes": 621888,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   }
+  ],
+  "pair": "B17->B18",
+  "pred_peak": 315277,
+  "sharpened_v1_est_ctx": 188323,
+  "sharpened_v2_est_ctx": 223871,
+  "continuation_bytes": 34022,
+  "distill_est_tokens": 69335
+ },
+ {
+  "successor_distinct_tokens": 272,
+  "needed": 67,
+  "needed_share_of_successor_tokens": 0.246,
+  "packs": [
+   {
+    "pack": "brief",
+    "path": "packs/batch/B18-B19/brief.txt",
+    "bytes": 3167,
+    "recall": 0.104,
+    "recall_weighted": 0.213,
+    "missing_top": [
+     [
+      "/proc/loadavg",
+      20
+     ],
+     [
+      "/Users/ember/dev/fn/build/integrate-20261012e",
+      16
+     ],
+     [
+      "fn-lgb-next-record",
+      13
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/b-cost-gate",
+      13
+     ],
+     [
+      "fn-lgb-slice",
+      13
+     ],
+     [
+      "d27606b3e",
+      8
+     ],
+     [
+      "GATE_FUNCTIONS",
+      7
+     ],
+     [
+      "IMAGE_RULES",
+      7
+     ],
+     [
+      "/tools/train.py",
+      6
+     ],
+     [
+      "BOOK-ROOTS-ORPHANS",
+      5
+     ],
+     [
+      "/repair/repair.py",
+      5
+     ],
+     [
+      "fn-host-developer",
+      4
+     ],
+     [
+      "/var/tmp",
+      4
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/STATE.md",
+      3
+     ],
+     [
+      "199236",
+      3
+     ],
+     [
+      "/tank/fn/scratch/integrate-20261012e/native-f0c2f4d5f942/run.log",
+      3
+     ],
+     [
+      "f0c2f4d5f942",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready",
+      3
+     ],
+     [
+      "fn-lgb-span",
+      3
+     ],
+     [
+      "fn-lgb-descriptor",
+      3
+     ],
+     [
+      "/tank/fn/scratch/integrate-20261012e",
+      3
+     ],
+     [
+      "/tank/fn/scratch/integrate-20261012e/native-f0c2f4d5f942/status",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready/perf-harness.md",
+      2
+     ],
+     [
+      "4d1be87e3",
+      2
+     ],
+     [
+      "569fcc80e",
+      2
+     ]
+    ]
+   },
+   {
+    "pack": "continuation",
+    "path": "packs/batch/B18-B19/continuation.txt",
+    "bytes": 52008,
+    "recall": 0.507,
+    "recall_weighted": 0.461,
+    "missing_top": [
+     [
+      "/proc/loadavg",
+      20
+     ],
+     [
+      "/Users/ember/dev/fn/build/integrate-20261012e",
+      16
+     ],
+     [
+      "fn-lgb-next-record",
+      13
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/b-cost-gate",
+      13
+     ],
+     [
+      "fn-lgb-slice",
+      13
+     ],
+     [
+      "GATE_FUNCTIONS",
+      7
+     ],
+     [
+      "IMAGE_RULES",
+      7
+     ],
+     [
+      "/tools/train.py",
+      6
+     ],
+     [
+      "/tank/fn/scratch/integrate-20261012e/native-f0c2f4d5f942/run.log",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready",
+      3
+     ],
+     [
+      "fn-lgb-span",
+      3
+     ],
+     [
+      "fn-lgb-descriptor",
+      3
+     ],
+     [
+      "/tank/fn/scratch/integrate-20261012e",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready/perf-harness.md",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready/b-lane-check.md",
+      2
+     ],
+     [
+      "/native/io.lisp",
+      2
+     ],
+     [
+      "af994dfcf",
+      2
+     ],
+     [
+      "9fe40c34a",
+      2
+     ],
+     [
+      "/build/train/jobs",
+      2
+     ],
+     [
+      "TRAIN-DONE",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/tools-builder-b",
+      1
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/tools-builder-b/b18/queue.md",
+      1
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/tools-builder-b/b18/C8-READY.md",
+      1
+     ],
+     [
+      "/tests/test_book_roots_check.py",
+      1
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/tools-builder-b/b18",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "brief+continuation",
+    "path": "packs/batch/B18-B19/given.txt",
+    "bytes": 55176,
+    "recall": 0.507,
+    "recall_weighted": 0.461,
+    "missing_top": [
+     [
+      "/proc/loadavg",
+      20
+     ],
+     [
+      "/Users/ember/dev/fn/build/integrate-20261012e",
+      16
+     ],
+     [
+      "fn-lgb-next-record",
+      13
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/b-cost-gate",
+      13
+     ],
+     [
+      "fn-lgb-slice",
+      13
+     ],
+     [
+      "GATE_FUNCTIONS",
+      7
+     ],
+     [
+      "IMAGE_RULES",
+      7
+     ],
+     [
+      "/tools/train.py",
+      6
+     ],
+     [
+      "/tank/fn/scratch/integrate-20261012e/native-f0c2f4d5f942/run.log",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready",
+      3
+     ],
+     [
+      "fn-lgb-span",
+      3
+     ],
+     [
+      "fn-lgb-descriptor",
+      3
+     ],
+     [
+      "/tank/fn/scratch/integrate-20261012e",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready/perf-harness.md",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready/b-lane-check.md",
+      2
+     ],
+     [
+      "/native/io.lisp",
+      2
+     ],
+     [
+      "af994dfcf",
+      2
+     ],
+     [
+      "9fe40c34a",
+      2
+     ],
+     [
+      "/build/train/jobs",
+      2
+     ],
+     [
+      "TRAIN-DONE",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/tools-builder-b",
+      1
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/tools-builder-b/b18/queue.md",
+      1
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/tools-builder-b/b18/C8-READY.md",
+      1
+     ],
+     [
+      "/tests/test_book_roots_check.py",
+      1
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/tools-builder-b/b18",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "distill",
+    "path": "packs/batch/B18-B19/distill.md",
+    "bytes": 189650,
+    "recall": 0.731,
+    "recall_weighted": 0.854,
+    "missing_top": [
+     [
+      "GATE_FUNCTIONS",
+      7
+     ],
+     [
+      "IMAGE_RULES",
+      7
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/STATE.md",
+      3
+     ],
+     [
+      "/tank/fn/scratch/integrate-20261012e/native-f0c2f4d5f942/run.log",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready/perf-harness.md",
+      2
+     ],
+     [
+      "af994dfcf",
+      2
+     ],
+     [
+      "/build/train/jobs",
+      2
+     ],
+     [
+      "/coordinator/tools-builder-b/b18",
+      1
+     ],
+     [
+      "/lanes/fungus-c9/build/fungus-c9/REPORT.md",
+      1
+     ],
+     [
+      "/tests/test_book_roots_check.py",
+      1
+     ],
+     [
+      "/load/op_profile.py",
+      1
+     ],
+     [
+      "/train/integrate__20261012e.json",
+      1
+     ],
+     [
+      "SEAT-COMMON-20261012",
+      1
+     ],
+     [
+      "/train/jobs/certify-CN.log",
+      1
+     ],
+     [
+      "/train/integrate__",
+      1
+     ],
+     [
+      "20261011e",
+      1
+     ],
+     [
+      "/repair/items",
+      1
+     ],
+     [
+      "/tank/fn/scratch/drain/native-drain-c0e35e156",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v1",
+    "path": "packs/batch/B18-B19/a6c4b6a1601fac1f3.v1.sharpened.jsonl",
+    "bytes": 564291,
+    "recall": 0.955,
+    "recall_weighted": 0.965,
+    "missing_top": [
+     [
+      "IMAGE_RULES",
+      7
+     ],
+     [
+      "/train/jobs/certify-CN.log",
+      1
+     ],
+     [
+      "/tank/fn/scratch/drain/native-drain-c0e35e156",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v2",
+    "path": "packs/batch/B18-B19/a6c4b6a1601fac1f3.v2.sharpened.jsonl",
+    "bytes": 657956,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   },
+   {
+    "pack": "full",
+    "path": "packs/batch/B18-B19/full.txt",
+    "bytes": 658254,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   }
+  ],
+  "pair": "B18->B19",
+  "pred_peak": 338813,
+  "sharpened_v1_est_ctx": 205661,
+  "sharpened_v2_est_ctx": 234930,
+  "continuation_bytes": 52008,
+  "distill_est_tokens": 78639
+ },
+ {
+  "successor_distinct_tokens": 274,
+  "needed": 62,
+  "needed_share_of_successor_tokens": 0.226,
+  "packs": [
+   {
+    "pack": "brief",
+    "path": "packs/batch/A18-A19/brief.txt",
+    "bytes": 2617,
+    "recall": 0.048,
+    "recall_weighted": 0.074,
+    "missing_top": [
+     [
+      "/proc/loadavg",
+      14
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/vertical-header-cost",
+      13
+     ],
+     [
+      "fn-cth-status-text",
+      13
+     ],
+     [
+      "14400",
+      9
+     ],
+     [
+      "fn-rfcl-okp",
+      8
+     ],
+     [
+      "fn-cth-header-open",
+      7
+     ],
+     [
+      "fn-owner-retain-statep",
+      7
+     ],
+     [
+      "fn-mm-tot-p",
+      7
+     ],
+     [
+      "fn-scc-octet-listp",
+      6
+     ],
+     [
+      "fn-interfaces",
+      5
+     ],
+     [
+      "/native/build.lisp",
+      5
+     ],
+     [
+      "RFCL-OWNER-RETAIN-LIFT",
+      5
+     ],
+     [
+      "fn-arena",
+      5
+     ],
+     [
+      "fn-cost",
+      4
+     ],
+     [
+      "fn-cth-status-field",
+      4
+     ],
+     [
+      "fn-nls-text",
+      4
+     ],
+     [
+      "fn-hl-capl",
+      4
+     ],
+     [
+      "fn-cost-get",
+      3
+     ],
+     [
+      "fn-lgo-fold",
+      3
+     ],
+     [
+      "fn-hld-sent",
+      3
+     ],
+     [
+      "fn-rtc-outcomep",
+      3
+     ],
+     [
+      "fn-hl-article-capl",
+      3
+     ],
+     [
+      "fn-cth-table-initial-state",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/STATE.md",
+      2
+     ],
+     [
+      "/ready/vertical-dispatch-resolve.md",
+      2
+     ]
+    ]
+   },
+   {
+    "pack": "continuation",
+    "path": "packs/batch/A18-A19/continuation.txt",
+    "bytes": 21292,
+    "recall": 0.339,
+    "recall_weighted": 0.33,
+    "missing_top": [
+     [
+      "/proc/loadavg",
+      14
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/vertical-header-cost",
+      13
+     ],
+     [
+      "fn-cth-status-text",
+      13
+     ],
+     [
+      "14400",
+      9
+     ],
+     [
+      "fn-cth-header-open",
+      7
+     ],
+     [
+      "fn-mm-tot-p",
+      7
+     ],
+     [
+      "fn-interfaces",
+      5
+     ],
+     [
+      "/native/build.lisp",
+      5
+     ],
+     [
+      "fn-arena",
+      5
+     ],
+     [
+      "fn-cost",
+      4
+     ],
+     [
+      "fn-cth-status-field",
+      4
+     ],
+     [
+      "fn-nls-text",
+      4
+     ],
+     [
+      "fn-cost-get",
+      3
+     ],
+     [
+      "fn-lgo-fold",
+      3
+     ],
+     [
+      "fn-hld-sent",
+      3
+     ],
+     [
+      "fn-rtc-outcomep",
+      3
+     ],
+     [
+      "fn-cth-table-initial-state",
+      3
+     ],
+     [
+      "fn-cost-unaccounted",
+      2
+     ],
+     [
+      "fn-mm-tot-records",
+      2
+     ],
+     [
+      "fn-mm-tot-paged-p",
+      2
+     ],
+     [
+      "fn-cost-unaccounted-terms",
+      2
+     ],
+     [
+      "fn-id-hex-octets",
+      2
+     ],
+     [
+      "/native/owner.lisp",
+      2
+     ],
+     [
+      "fn-orcr-fold-contexts-okp",
+      2
+     ],
+     [
+      "/extract/world.py",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "brief+continuation",
+    "path": "packs/batch/A18-A19/given.txt",
+    "bytes": 23910,
+    "recall": 0.339,
+    "recall_weighted": 0.33,
+    "missing_top": [
+     [
+      "/proc/loadavg",
+      14
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/vertical-header-cost",
+      13
+     ],
+     [
+      "fn-cth-status-text",
+      13
+     ],
+     [
+      "14400",
+      9
+     ],
+     [
+      "fn-cth-header-open",
+      7
+     ],
+     [
+      "fn-mm-tot-p",
+      7
+     ],
+     [
+      "fn-interfaces",
+      5
+     ],
+     [
+      "/native/build.lisp",
+      5
+     ],
+     [
+      "fn-arena",
+      5
+     ],
+     [
+      "fn-cost",
+      4
+     ],
+     [
+      "fn-cth-status-field",
+      4
+     ],
+     [
+      "fn-nls-text",
+      4
+     ],
+     [
+      "fn-cost-get",
+      3
+     ],
+     [
+      "fn-lgo-fold",
+      3
+     ],
+     [
+      "fn-hld-sent",
+      3
+     ],
+     [
+      "fn-rtc-outcomep",
+      3
+     ],
+     [
+      "fn-cth-table-initial-state",
+      3
+     ],
+     [
+      "fn-cost-unaccounted",
+      2
+     ],
+     [
+      "fn-mm-tot-records",
+      2
+     ],
+     [
+      "fn-mm-tot-paged-p",
+      2
+     ],
+     [
+      "fn-cost-unaccounted-terms",
+      2
+     ],
+     [
+      "fn-id-hex-octets",
+      2
+     ],
+     [
+      "/native/owner.lisp",
+      2
+     ],
+     [
+      "fn-orcr-fold-contexts-okp",
+      2
+     ],
+     [
+      "/extract/world.py",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "distill",
+    "path": "packs/batch/A18-A19/distill.md",
+    "bytes": 290701,
+    "recall": 0.677,
+    "recall_weighted": 0.783,
+    "missing_top": [
+     [
+      "fn-mm-tot-p",
+      7
+     ],
+     [
+      "/native/build.lisp",
+      5
+     ],
+     [
+      "fn-cost",
+      4
+     ],
+     [
+      "fn-cth-status-field",
+      4
+     ],
+     [
+      "fn-cost-get",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/STATE.md",
+      2
+     ],
+     [
+      "fn-mm-tot-records",
+      2
+     ],
+     [
+      "fn-mm-tot-paged-p",
+      2
+     ],
+     [
+      "fn-id-hex-octets",
+      2
+     ],
+     [
+      "fn-host-developer",
+      2
+     ],
+     [
+      "fn-orcr-fold-contexts-okp",
+      2
+     ],
+     [
+      "FN-CTH-HEADER-OPEN",
+      1
+     ],
+     [
+      "FN-CTH-STATUS-TEXT",
+      1
+     ],
+     [
+      "fn-rtc-capl",
+      1
+     ],
+     [
+      "DEF-COST",
+      1
+     ],
+     [
+      "fn-cost-problem-dimension",
+      1
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes",
+      1
+     ],
+     [
+      "/tank/fn/scratch/integrate-",
+      1
+     ],
+     [
+      "/acl2/def-cost-tests.lisp",
+      1
+     ],
+     [
+      "/lanes/vertical-header-cost",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v1",
+    "path": "packs/batch/A18-A19/a8c79a3f8f414058d.v1.sharpened.jsonl",
+    "bytes": 695286,
+    "recall": 0.887,
+    "recall_weighted": 0.956,
+    "missing_top": [
+     [
+      "fn-id-hex-octets",
+      2
+     ],
+     [
+      "fn-orcr-fold-contexts-okp",
+      2
+     ],
+     [
+      "FN-CTH-HEADER-OPEN",
+      1
+     ],
+     [
+      "FN-CTH-STATUS-TEXT",
+      1
+     ],
+     [
+      "fn-rtc-capl",
+      1
+     ],
+     [
+      "DEF-COST",
+      1
+     ],
+     [
+      "/acl2/def-cost-tests.lisp",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v2",
+    "path": "packs/batch/A18-A19/a8c79a3f8f414058d.v2.sharpened.jsonl",
+    "bytes": 832594,
+    "recall": 0.968,
+    "recall_weighted": 0.98,
+    "missing_top": [
+     [
+      "fn-id-hex-octets",
+      2
+     ],
+     [
+      "fn-orcr-fold-contexts-okp",
+      2
+     ]
+    ]
+   },
+   {
+    "pack": "full",
+    "path": "packs/batch/A18-A19/full.txt",
+    "bytes": 861340,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   }
+  ],
+  "pair": "A18->A19",
+  "pred_peak": 440956,
+  "sharpened_v1_est_ctx": 263301,
+  "sharpened_v2_est_ctx": 309058,
+  "continuation_bytes": 21292,
+  "distill_est_tokens": 120773
+ },
+ {
+  "successor_distinct_tokens": 269,
+  "needed": 81,
+  "needed_share_of_successor_tokens": 0.301,
+  "packs": [
+   {
+    "pack": "brief",
+    "path": "packs/batch/A19-A20/brief.txt",
+    "bytes": 3295,
+    "recall": 0.086,
+    "recall_weighted": 0.089,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/vertical-post-heap",
+      55
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/vertical-post-heap/build/vertical-runs/post-heap",
+      31
+     ],
+     [
+      "/build/vertical-runs/post-heap",
+      15
+     ],
+     [
+      "f0c2f4d5f",
+      14
+     ],
+     [
+      "fn-arena",
+      13
+     ],
+     [
+      "fn-row-wire-of",
+      12
+     ],
+     [
+      "fn-apc-completion-names-submission-p-is-reference",
+      8
+     ],
+     [
+      "fn-apc-completion-names-submission-p",
+      8
+     ],
+     [
+      "/native/owner.lisp",
+      8
+     ],
+     [
+      "/proc/loadavg",
+      8
+     ],
+     [
+      "fn-arx-arena-prefixp",
+      7
+     ],
+     [
+      "fn-lgb-next-record",
+      7
+     ],
+     [
+      "fn-apc-sub-stored-octets",
+      7
+     ],
+     [
+      "fn-row-bytes",
+      6
+     ],
+     [
+      "fn-apc-own-finish-is-own-finish",
+      6
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/vertical-cost-route",
+      5
+     ],
+     [
+      "fn-arena-payload",
+      4
+     ],
+     [
+      "fn-arena-get",
+      4
+     ],
+     [
+      "fn-arena-payload-len",
+      4
+     ],
+     [
+      "/native/extent.lisp",
+      4
+     ],
+     [
+      "fn-lgb-slice",
+      4
+     ],
+     [
+      "65634",
+      4
+     ],
+     [
+      "fn-hld-init",
+      4
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/STATE.md",
+      3
+     ],
+     [
+      "fn-record-payload",
+      3
+     ]
+    ]
+   },
+   {
+    "pack": "continuation",
+    "path": "packs/batch/A19-A20/continuation.txt",
+    "bytes": 23559,
+    "recall": 0.444,
+    "recall_weighted": 0.34,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/vertical-post-heap",
+      55
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/vertical-post-heap/build/vertical-runs/post-heap",
+      31
+     ],
+     [
+      "/build/vertical-runs/post-heap",
+      15
+     ],
+     [
+      "fn-apc-completion-names-submission-p-is-reference",
+      8
+     ],
+     [
+      "fn-apc-completion-names-submission-p",
+      8
+     ],
+     [
+      "/native/owner.lisp",
+      8
+     ],
+     [
+      "/proc/loadavg",
+      8
+     ],
+     [
+      "fn-apc-sub-stored-octets",
+      7
+     ],
+     [
+      "fn-row-bytes",
+      6
+     ],
+     [
+      "fn-apc-own-finish-is-own-finish",
+      6
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/vertical-cost-route",
+      5
+     ],
+     [
+      "fn-arena-payload",
+      4
+     ],
+     [
+      "fn-arena-get",
+      4
+     ],
+     [
+      "fn-arena-payload-len",
+      4
+     ],
+     [
+      "/native/extent.lisp",
+      4
+     ],
+     [
+      "fn-lgb-slice",
+      4
+     ],
+     [
+      "65634",
+      4
+     ],
+     [
+      "fn-hld-init",
+      4
+     ],
+     [
+      "fn-record-payload",
+      3
+     ],
+     [
+      "fn-record-msgid",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes",
+      3
+     ],
+     [
+      "/tools/hbox_native.sh",
+      3
+     ],
+     [
+      "fn-arx-attach-trailers-buffer",
+      3
+     ],
+     [
+      "/native/io.lisp",
+      3
+     ],
+     [
+      "/build/vertical-runs/owner-retain",
+      3
+     ]
+    ]
+   },
+   {
+    "pack": "brief+continuation",
+    "path": "packs/batch/A19-A20/given.txt",
+    "bytes": 26855,
+    "recall": 0.444,
+    "recall_weighted": 0.34,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/vertical-post-heap",
+      55
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/vertical-post-heap/build/vertical-runs/post-heap",
+      31
+     ],
+     [
+      "/build/vertical-runs/post-heap",
+      15
+     ],
+     [
+      "fn-apc-completion-names-submission-p-is-reference",
+      8
+     ],
+     [
+      "fn-apc-completion-names-submission-p",
+      8
+     ],
+     [
+      "/native/owner.lisp",
+      8
+     ],
+     [
+      "/proc/loadavg",
+      8
+     ],
+     [
+      "fn-apc-sub-stored-octets",
+      7
+     ],
+     [
+      "fn-row-bytes",
+      6
+     ],
+     [
+      "fn-apc-own-finish-is-own-finish",
+      6
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/vertical-cost-route",
+      5
+     ],
+     [
+      "fn-arena-payload",
+      4
+     ],
+     [
+      "fn-arena-get",
+      4
+     ],
+     [
+      "fn-arena-payload-len",
+      4
+     ],
+     [
+      "/native/extent.lisp",
+      4
+     ],
+     [
+      "fn-lgb-slice",
+      4
+     ],
+     [
+      "65634",
+      4
+     ],
+     [
+      "fn-hld-init",
+      4
+     ],
+     [
+      "fn-record-payload",
+      3
+     ],
+     [
+      "fn-record-msgid",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes",
+      3
+     ],
+     [
+      "/tools/hbox_native.sh",
+      3
+     ],
+     [
+      "fn-arx-attach-trailers-buffer",
+      3
+     ],
+     [
+      "/native/io.lisp",
+      3
+     ],
+     [
+      "/build/vertical-runs/owner-retain",
+      3
+     ]
+    ]
+   },
+   {
+    "pack": "distill",
+    "path": "packs/batch/A19-A20/distill.md",
+    "bytes": 170440,
+    "recall": 0.84,
+    "recall_weighted": 0.93,
+    "missing_top": [
+     [
+      "65634",
+      4
+     ],
+     [
+      "fn-hld-init",
+      4
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes",
+      3
+     ],
+     [
+      "/tools/hbox_native.sh",
+      3
+     ],
+     [
+      "fn-arx-attach-trailers-buffer",
+      3
+     ],
+     [
+      "/vertical-runs/post-heap/L4-TRACE-REPORT.md",
+      1
+     ],
+     [
+      "fn-pth-qs*",
+      1
+     ],
+     [
+      "fn-pth-cs*",
+      1
+     ],
+     [
+      "fn-pth-nstatic*",
+      1
+     ],
+     [
+      "fn-pbatch-max*",
+      1
+     ],
+     [
+      "PERF-AND-COLLAPSE-PLAN-20261012",
+      1
+     ],
+     [
+      "/lanes/vertical-owner-retain",
+      1
+     ],
+     [
+      "/vertical-runs/owner-retain/FACTS.md",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v1",
+    "path": "packs/batch/A19-A20/af6e89e6f706f475b.v1.sharpened.jsonl",
+    "bytes": 531551,
+    "recall": 0.951,
+    "recall_weighted": 0.981,
+    "missing_top": [
+     [
+      "fn-hld-init",
+      4
+     ],
+     [
+      "fn-pth-qs*",
+      1
+     ],
+     [
+      "fn-pth-nstatic*",
+      1
+     ],
+     [
+      "PERF-AND-COLLAPSE-PLAN-20261012",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v2",
+    "path": "packs/batch/A19-A20/af6e89e6f706f475b.v2.sharpened.jsonl",
+    "bytes": 631333,
+    "recall": 0.975,
+    "recall_weighted": 0.994,
+    "missing_top": [
+     [
+      "fn-pth-qs*",
+      1
+     ],
+     [
+      "fn-pth-nstatic*",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "full",
+    "path": "packs/batch/A19-A20/full.txt",
+    "bytes": 628041,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   }
+  ],
+  "pair": "A19->A20",
+  "pred_peak": 344316,
+  "sharpened_v1_est_ctx": 197035,
+  "sharpened_v2_est_ctx": 227119,
+  "continuation_bytes": 23559,
+  "distill_est_tokens": 70791
+ },
+ {
+  "successor_distinct_tokens": 411,
+  "needed": 138,
+  "needed_share_of_successor_tokens": 0.336,
+  "packs": [
+   {
+    "pack": "brief",
+    "path": "packs/batch/C19-C20/brief.txt",
+    "bytes": 2675,
+    "recall": 0.029,
+    "recall_weighted": 0.069,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/spans-window",
+      41
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/spans-view-walks",
+      30
+     ],
+     [
+      "/proc/loadavg",
+      15
+     ],
+     [
+      "402b65786",
+      15
+     ],
+     [
+      "/window/codex-report.md",
+      13
+     ],
+     [
+      "/acl2/def-span-scan-window-tests.lisp",
+      12
+     ],
+     [
+      "fn-dss-string-octets",
+      10
+     ],
+     [
+      "fn-rtc-splice-okp",
+      9
+     ],
+     [
+      "fn-rtc-st$ap",
+      8
+     ],
+     [
+      "fn-octets",
+      7
+     ],
+     [
+      "fn-nntp-string-octets",
+      7
+     ],
+     [
+      "14400",
+      7
+     ],
+     [
+      "fn-cp-held",
+      7
+     ],
+     [
+      "fn-dsw-append",
+      6
+     ],
+     [
+      "fn-dsw-decimal",
+      6
+     ],
+     [
+      "fn-dsw-copy",
+      6
+     ],
+     [
+      "9fe40c34a",
+      6
+     ],
+     [
+      "/tank/fn/certcache",
+      6
+     ],
+     [
+      "fn-dsw-copy-is-renderer",
+      5
+     ],
+     [
+      "fn-dss-copy",
+      5
+     ],
+     [
+      "fn-rtc-st$a-splice",
+      5
+     ],
+     [
+      "/tank/fn/scratch/spans-view-walks/native-c19-vw-x",
+      5
+     ],
+     [
+      "760169aae",
+      5
+     ],
+     [
+      "fn-scol-facts",
+      5
+     ],
+     [
+      "fn-dss-copy-f",
+      4
+     ]
+    ]
+   },
+   {
+    "pack": "continuation",
+    "path": "packs/batch/C19-C20/continuation.txt",
+    "bytes": 17092,
+    "recall": 0.435,
+    "recall_weighted": 0.421,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/spans-window",
+      41
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/spans-view-walks",
+      30
+     ],
+     [
+      "/proc/loadavg",
+      15
+     ],
+     [
+      "402b65786",
+      15
+     ],
+     [
+      "/acl2/def-span-scan-window-tests.lisp",
+      12
+     ],
+     [
+      "fn-rtc-st$ap",
+      8
+     ],
+     [
+      "fn-octets",
+      7
+     ],
+     [
+      "14400",
+      7
+     ],
+     [
+      "fn-dsw-append",
+      6
+     ],
+     [
+      "/tank/fn/certcache",
+      6
+     ],
+     [
+      "/tank/fn/scratch/spans-view-walks/native-c19-vw-x",
+      5
+     ],
+     [
+      "fn-dss-copy-f",
+      4
+     ],
+     [
+      "fn-dsw-copy-string",
+      4
+     ],
+     [
+      "fn-rtc-st",
+      4
+     ],
+     [
+      "91003",
+      3
+     ],
+     [
+      "fn-rtc-st-put",
+      3
+     ],
+     [
+      "fn-oct-slice-list",
+      3
+     ],
+     [
+      "PRF-367",
+      3
+     ],
+     [
+      "PRF-1020",
+      3
+     ],
+     [
+      "/extract/remote_check.sh",
+      3
+     ],
+     [
+      "fn-rtc-st-splice",
+      3
+     ],
+     [
+      "fn-dss-copy-list",
+      2
+     ],
+     [
+      "fn-dss-out",
+      2
+     ],
+     [
+      "fn-ovr-lease",
+      2
+     ],
+     [
+      "fn-record-string-octets",
+      2
+     ]
+    ]
+   },
+   {
+    "pack": "brief+continuation",
+    "path": "packs/batch/C19-C20/given.txt",
+    "bytes": 19768,
+    "recall": 0.435,
+    "recall_weighted": 0.421,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/spans-window",
+      41
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/spans-view-walks",
+      30
+     ],
+     [
+      "/proc/loadavg",
+      15
+     ],
+     [
+      "402b65786",
+      15
+     ],
+     [
+      "/acl2/def-span-scan-window-tests.lisp",
+      12
+     ],
+     [
+      "fn-rtc-st$ap",
+      8
+     ],
+     [
+      "fn-octets",
+      7
+     ],
+     [
+      "14400",
+      7
+     ],
+     [
+      "fn-dsw-append",
+      6
+     ],
+     [
+      "/tank/fn/certcache",
+      6
+     ],
+     [
+      "/tank/fn/scratch/spans-view-walks/native-c19-vw-x",
+      5
+     ],
+     [
+      "fn-dss-copy-f",
+      4
+     ],
+     [
+      "fn-dsw-copy-string",
+      4
+     ],
+     [
+      "fn-rtc-st",
+      4
+     ],
+     [
+      "91003",
+      3
+     ],
+     [
+      "fn-rtc-st-put",
+      3
+     ],
+     [
+      "fn-oct-slice-list",
+      3
+     ],
+     [
+      "PRF-367",
+      3
+     ],
+     [
+      "PRF-1020",
+      3
+     ],
+     [
+      "/extract/remote_check.sh",
+      3
+     ],
+     [
+      "fn-rtc-st-splice",
+      3
+     ],
+     [
+      "fn-dss-copy-list",
+      2
+     ],
+     [
+      "fn-dss-out",
+      2
+     ],
+     [
+      "fn-ovr-lease",
+      2
+     ],
+     [
+      "fn-record-string-octets",
+      2
+     ]
+    ]
+   },
+   {
+    "pack": "distill",
+    "path": "packs/batch/C19-C20/distill.md",
+    "bytes": 157130,
+    "recall": 0.833,
+    "recall_weighted": 0.917,
+    "missing_top": [
+     [
+      "/tank/fn/certcache",
+      6
+     ],
+     [
+      "PRF-367",
+      3
+     ],
+     [
+      "PRF-1020",
+      3
+     ],
+     [
+      "fn-record-string-octets",
+      2
+     ],
+     [
+      "/acl2/over-render-tests",
+      2
+     ],
+     [
+      "/vw/submit.pid",
+      2
+     ],
+     [
+      "fn-scol-tombstonep",
+      2
+     ],
+     [
+      "fn-scv-keptp",
+      2
+     ],
+     [
+      "fn-cbor-octet-listp",
+      1
+     ],
+     [
+      "FN_NATIVE",
+      1
+     ],
+     [
+      "/build/fn-host-developer",
+      1
+     ],
+     [
+      "fn-ovr-copy-string",
+      1
+     ],
+     [
+      "/tank/fn/scratch",
+      1
+     ],
+     [
+      "/vw/submit-760169aae.log",
+      1
+     ],
+     [
+      "/acl2/over-render-bound-tests",
+      1
+     ],
+     [
+      "ad757beffeabedff6",
+      1
+     ],
+     [
+      "~/.cache/fn-certs",
+      1
+     ],
+     [
+      "/books/catalog-paged.lisp",
+      1
+     ],
+     [
+      "fn-cat$c-*",
+      1
+     ],
+     [
+      "fn-scat-available-summary",
+      1
+     ],
+     [
+      "fn-scat-available-low",
+      1
+     ],
+     [
+      "fn-arena",
+      1
+     ],
+     [
+      "fn-cat-at",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v1",
+    "path": "packs/batch/C19-C20/acb76aaeb378a33c2.v1.sharpened.jsonl",
+    "bytes": 562240,
+    "recall": 0.971,
+    "recall_weighted": 0.98,
+    "missing_top": [
+     [
+      "PRF-367",
+      3
+     ],
+     [
+      "PRF-1020",
+      3
+     ],
+     [
+      "/acl2/over-render-tests",
+      2
+     ],
+     [
+      "/acl2/over-render-bound-tests",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v2",
+    "path": "packs/batch/C19-C20/acb76aaeb378a33c2.v2.sharpened.jsonl",
+    "bytes": 688706,
+    "recall": 0.986,
+    "recall_weighted": 0.987,
+    "missing_top": [
+     [
+      "PRF-367",
+      3
+     ],
+     [
+      "PRF-1020",
+      3
+     ]
+    ]
+   },
+   {
+    "pack": "full",
+    "path": "packs/batch/C19-C20/full.txt",
+    "bytes": 672403,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   }
+  ],
+  "pair": "C19->C20",
+  "pred_peak": 355268,
+  "sharpened_v1_est_ctx": 214676,
+  "sharpened_v2_est_ctx": 255905,
+  "continuation_bytes": 17092,
+  "distill_est_tokens": 64976
+ },
+ {
+  "successor_distinct_tokens": 378,
+  "needed": 81,
+  "needed_share_of_successor_tokens": 0.214,
+  "packs": [
+   {
+    "pack": "brief",
+    "path": "packs/batch/C20-C21/brief.txt",
+    "bytes": 3171,
+    "recall": 0.086,
+    "recall_weighted": 0.17,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/spans-decode-once",
+      15
+     ],
+     [
+      "fn-scv-summary",
+      11
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator",
+      8
+     ],
+     [
+      "/Users/ember/dev/fn/build/spans/w2",
+      8
+     ],
+     [
+      "fn-scat-available-summary",
+      6
+     ],
+     [
+      "fn-scv-diff",
+      6
+     ],
+     [
+      "fn-arena",
+      6
+     ],
+     [
+      "FN-CP-HELD",
+      5
+     ],
+     [
+      "/repair/ACKS.md",
+      5
+     ],
+     [
+      "fn-scol-find-row",
+      4
+     ],
+     [
+      "fn-scol-facts",
+      4
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/spans-decode-once/build/w2",
+      4
+     ],
+     [
+      "fn-cat-p",
+      4
+     ],
+     [
+      "/proc/loadavg",
+      4
+     ],
+     [
+      "fn-held-facts",
+      3
+     ],
+     [
+      "fn-scol-line-over",
+      3
+     ],
+     [
+      "cc7e8a9de64e",
+      3
+     ],
+     [
+      "/Users/ember/.cache",
+      3
+     ],
+     [
+      "fn-scol-line-over-is-the-two-lookups",
+      3
+     ],
+     [
+      "PRF-367",
+      3
+     ],
+     [
+      "PRF-1020",
+      3
+     ],
+     [
+      "fn-cp-decoded",
+      3
+     ],
+     [
+      "fn-cp-held",
+      3
+     ],
+     [
+      "fn-cat-at",
+      3
+     ],
+     [
+      "fn-record-payload",
+      3
+     ]
+    ]
+   },
+   {
+    "pack": "continuation",
+    "path": "packs/batch/C20-C21/continuation.txt",
+    "bytes": 40656,
+    "recall": 0.395,
+    "recall_weighted": 0.379,
+    "missing_top": [
+     [
+      "fn-scv-summary",
+      11
+     ],
+     [
+      "/xmin/xmax",
+      10
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator",
+      8
+     ],
+     [
+      "/Users/ember/dev/fn/build/spans/w2",
+      8
+     ],
+     [
+      "fn-scol-facts-of-held-row",
+      8
+     ],
+     [
+      "fn-scat-available-summary",
+      6
+     ],
+     [
+      "fn-scv-diff",
+      6
+     ],
+     [
+      "fn-arena",
+      6
+     ],
+     [
+      "/repair/ACKS.md",
+      5
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/spans-decode-once/build/w2",
+      4
+     ],
+     [
+      "fn-cat-p",
+      4
+     ],
+     [
+      "/proc/loadavg",
+      4
+     ],
+     [
+      "fn-held-facts",
+      3
+     ],
+     [
+      "fn-scol-line-over",
+      3
+     ],
+     [
+      "/Users/ember/.cache",
+      3
+     ],
+     [
+      "fn-cp-decoded",
+      3
+     ],
+     [
+      "SEAT-COMMON",
+      3
+     ],
+     [
+      "fn-cat-at",
+      3
+     ],
+     [
+      "fn-record-payload",
+      3
+     ],
+     [
+      "fn-scol-okp",
+      3
+     ],
+     [
+      "fn-scat-available-low",
+      2
+     ],
+     [
+      "/w2/statements.lisp",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/spans/window/c20-hbox",
+      2
+     ],
+     [
+      "/tank/fn/scratch",
+      2
+     ],
+     [
+      "fn-crow",
+      2
+     ]
+    ]
+   },
+   {
+    "pack": "brief+continuation",
+    "path": "packs/batch/C20-C21/given.txt",
+    "bytes": 43828,
+    "recall": 0.432,
+    "recall_weighted": 0.473,
+    "missing_top": [
+     [
+      "fn-scv-summary",
+      11
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator",
+      8
+     ],
+     [
+      "/Users/ember/dev/fn/build/spans/w2",
+      8
+     ],
+     [
+      "fn-scat-available-summary",
+      6
+     ],
+     [
+      "fn-scv-diff",
+      6
+     ],
+     [
+      "fn-arena",
+      6
+     ],
+     [
+      "/repair/ACKS.md",
+      5
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/spans-decode-once/build/w2",
+      4
+     ],
+     [
+      "fn-cat-p",
+      4
+     ],
+     [
+      "/proc/loadavg",
+      4
+     ],
+     [
+      "fn-held-facts",
+      3
+     ],
+     [
+      "fn-scol-line-over",
+      3
+     ],
+     [
+      "/Users/ember/.cache",
+      3
+     ],
+     [
+      "fn-cp-decoded",
+      3
+     ],
+     [
+      "fn-cat-at",
+      3
+     ],
+     [
+      "fn-record-payload",
+      3
+     ],
+     [
+      "fn-scol-okp",
+      3
+     ],
+     [
+      "fn-scat-available-low",
+      2
+     ],
+     [
+      "/w2/statements.lisp",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/spans/window/c20-hbox",
+      2
+     ],
+     [
+      "/tank/fn/scratch",
+      2
+     ],
+     [
+      "fn-crow",
+      2
+     ],
+     [
+      "fn-cat$p",
+      2
+     ],
+     [
+      "/lanes/spans-decode-once/build/w2/scout-report.md",
+      1
+     ],
+     [
+      "PERF-AND-COLLAPSE-PLAN-20261012",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "distill",
+    "path": "packs/batch/C20-C21/distill.md",
+    "bytes": 131479,
+    "recall": 0.728,
+    "recall_weighted": 0.808,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/coordinator",
+      8
+     ],
+     [
+      "/repair/ACKS.md",
+      5
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/spans-decode-once/build/w2",
+      4
+     ],
+     [
+      "fn-held-facts",
+      3
+     ],
+     [
+      "fn-scol-okp",
+      3
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/STATE.md",
+      2
+     ],
+     [
+      "/Users/ember/dev/fn/build/spans/window/c20-hbox",
+      2
+     ],
+     [
+      "fn-crow",
+      2
+     ],
+     [
+      "PERF-AND-COLLAPSE-PLAN-20261012",
+      1
+     ],
+     [
+      "/books/served-columns.lisp",
+      1
+     ],
+     [
+      "fn-av-nntp-group-result-cat",
+      1
+     ],
+     [
+      "fn-av-scat-group-initial",
+      1
+     ],
+     [
+      "fn-scat-group-low",
+      1
+     ],
+     [
+      "SEAT-COMMON-20261012",
+      1
+     ],
+     [
+      "NQ-LINEAR",
+      1
+     ],
+     [
+      "fn-nntp-stuff-lines",
+      1
+     ],
+     [
+      "fn-nnw-stream-run-is-linear-in-candidates",
+      1
+     ],
+     [
+      "fn-nntp-newnews-response-stream-run-is-linear",
+      1
+     ],
+     [
+      "fn-nntp-newnews-response-stream-expands-to-cat",
+      1
+     ],
+     [
+      "fn-nntp-article-bytes",
+      1
+     ],
+     [
+      "14400",
+      1
+     ],
+     [
+      "/Users/ember/dev/fn/build/ready",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v1",
+    "path": "packs/batch/C20-C21/afebee9369e2cc2e5.v1.sharpened.jsonl",
+    "bytes": 489142,
+    "recall": 0.963,
+    "recall_weighted": 0.987,
+    "missing_top": [
+     [
+      "SEAT-COMMON-20261012",
+      1
+     ],
+     [
+      "fn-nnw-stream-run-is-linear-in-candidates",
+      1
+     ],
+     [
+      "fn-nntp-newnews-response-stream-run-is-linear",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v2",
+    "path": "packs/batch/C20-C21/afebee9369e2cc2e5.v2.sharpened.jsonl",
+    "bytes": 581437,
+    "recall": 0.988,
+    "recall_weighted": 0.996,
+    "missing_top": [
+     [
+      "SEAT-COMMON-20261012",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "full",
+    "path": "packs/batch/C20-C21/full.txt",
+    "bytes": 591643,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   }
+  ],
+  "pair": "C20->C21",
+  "pred_peak": 309973,
+  "sharpened_v1_est_ctx": 189181,
+  "sharpened_v2_est_ctx": 218174,
+  "continuation_bytes": 40656,
+  "distill_est_tokens": 54378
+ },
+ {
+  "successor_distinct_tokens": 313,
+  "needed": 104,
+  "needed_share_of_successor_tokens": 0.332,
+  "packs": [
+   {
+    "pack": "brief",
+    "path": "packs/batch/O5-O6/brief.txt",
+    "bytes": 935,
+    "recall": 0.019,
+    "recall_weighted": 0.031,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/over",
+      128
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/over/build/over/l2/codex/p-c1",
+      23
+     ],
+     [
+      "fn-dsw-roomp",
+      19
+     ],
+     [
+      "OVER-WINDOW-FIT",
+      16
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/over/build/over/l2/codex/p-c1/codex.pid",
+      15
+     ],
+     [
+      "/native/owner.lisp",
+      14
+     ],
+     [
+      "/over/l2/gates",
+      13
+     ],
+     [
+      "fn-nrf-facts",
+      11
+     ],
+     [
+      "PRF-1066",
+      10
+     ],
+     [
+      "ec7e1cfc7e54",
+      9
+     ],
+     [
+      "fn-ovr-lease-quantum",
+      9
+     ],
+     [
+      "/native/build-dtn.lisp",
+      8
+     ],
+     [
+      "/proc/loadavg",
+      8
+     ],
+     [
+      "/ready/over.md",
+      7
+     ],
+     [
+      "/native/mux.lisp",
+      7
+     ],
+     [
+      "fn-dsw-pool-theory",
+      6
+     ],
+     [
+      "/acl2/over-render-lease-tests.lisp",
+      6
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/lanedumps/builder-o-continuation.md",
+      5
+     ],
+     [
+      "/over/l2/codex/p-c1/REPORT.md",
+      5
+     ],
+     [
+      "/acl2/over-render-tests.lisp",
+      5
+     ],
+     [
+      "/over/o3/over40_count.py",
+      5
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/briefs/SEAT-COMMON-20261012.md",
+      4
+     ],
+     [
+      "e1ca20f29",
+      4
+     ],
+     [
+      "/over/l2/codex/p-c1/.",
+      4
+     ],
+     [
+      "fn-qplan-cursor-step",
+      4
+     ]
+    ]
+   },
+   {
+    "pack": "continuation",
+    "path": "packs/batch/O5-O6/continuation.txt",
+    "bytes": 45057,
+    "recall": 0.279,
+    "recall_weighted": 0.502,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/over/build/over/l2/codex/p-c1",
+      23
+     ],
+     [
+      "fn-dsw-roomp",
+      19
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/over/build/over/l2/codex/p-c1/codex.pid",
+      15
+     ],
+     [
+      "/native/owner.lisp",
+      14
+     ],
+     [
+      "/over/l2/gates",
+      13
+     ],
+     [
+      "fn-nrf-facts",
+      11
+     ],
+     [
+      "/native/build-dtn.lisp",
+      8
+     ],
+     [
+      "/proc/loadavg",
+      8
+     ],
+     [
+      "/native/mux.lisp",
+      7
+     ],
+     [
+      "/acl2/over-render-lease-tests.lisp",
+      6
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/lanedumps/builder-o-continuation.md",
+      5
+     ],
+     [
+      "/over/l2/codex/p-c1/REPORT.md",
+      5
+     ],
+     [
+      "/acl2/over-render-tests.lisp",
+      5
+     ],
+     [
+      "/over/l2/codex/p-c1/.",
+      4
+     ],
+     [
+      "fn-qplan-cursor-step",
+      4
+     ],
+     [
+      "fn-ovw-step",
+      4
+     ],
+     [
+      "/tank/fn/certcache",
+      4
+     ],
+     [
+      "/over/l2/codex/p-c1",
+      3
+     ],
+     [
+      "fn-ovw-run",
+      3
+     ],
+     [
+      "fn-ovr-quantum",
+      3
+     ],
+     [
+      "fn-nbw-column-pieces",
+      3
+     ],
+     [
+      "fn-npw-column-pieces",
+      3
+     ],
+     [
+      "/extract/world.py",
+      3
+     ],
+     [
+      "/over/l2/codex/p-c1/statements.lisp",
+      3
+     ],
+     [
+      "fn-ovw-cursorp",
+      3
+     ]
+    ]
+   },
+   {
+    "pack": "brief+continuation",
+    "path": "packs/batch/O5-O6/given.txt",
+    "bytes": 45993,
+    "recall": 0.279,
+    "recall_weighted": 0.502,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/over/build/over/l2/codex/p-c1",
+      23
+     ],
+     [
+      "fn-dsw-roomp",
+      19
+     ],
+     [
+      "/Users/ember/dev/fn/build/lanes/over/build/over/l2/codex/p-c1/codex.pid",
+      15
+     ],
+     [
+      "/native/owner.lisp",
+      14
+     ],
+     [
+      "/over/l2/gates",
+      13
+     ],
+     [
+      "fn-nrf-facts",
+      11
+     ],
+     [
+      "/native/build-dtn.lisp",
+      8
+     ],
+     [
+      "/proc/loadavg",
+      8
+     ],
+     [
+      "/native/mux.lisp",
+      7
+     ],
+     [
+      "/acl2/over-render-lease-tests.lisp",
+      6
+     ],
+     [
+      "/Users/ember/dev/fn/build/coordinator/lanedumps/builder-o-continuation.md",
+      5
+     ],
+     [
+      "/over/l2/codex/p-c1/REPORT.md",
+      5
+     ],
+     [
+      "/acl2/over-render-tests.lisp",
+      5
+     ],
+     [
+      "/over/l2/codex/p-c1/.",
+      4
+     ],
+     [
+      "fn-qplan-cursor-step",
+      4
+     ],
+     [
+      "fn-ovw-step",
+      4
+     ],
+     [
+      "/tank/fn/certcache",
+      4
+     ],
+     [
+      "/over/l2/codex/p-c1",
+      3
+     ],
+     [
+      "fn-ovw-run",
+      3
+     ],
+     [
+      "fn-ovr-quantum",
+      3
+     ],
+     [
+      "fn-nbw-column-pieces",
+      3
+     ],
+     [
+      "fn-npw-column-pieces",
+      3
+     ],
+     [
+      "/extract/world.py",
+      3
+     ],
+     [
+      "/over/l2/codex/p-c1/statements.lisp",
+      3
+     ],
+     [
+      "fn-ovw-cursorp",
+      3
+     ]
+    ]
+   },
+   {
+    "pack": "distill",
+    "path": "packs/batch/O5-O6/distill.md",
+    "bytes": 136397,
+    "recall": 0.577,
+    "recall_weighted": 0.748,
+    "missing_top": [
+     [
+      "fn-dsw-roomp",
+      19
+     ],
+     [
+      "/over/l2/gates",
+      13
+     ],
+     [
+      "fn-nrf-facts",
+      11
+     ],
+     [
+      "/native/build-dtn.lisp",
+      8
+     ],
+     [
+      "/proc/loadavg",
+      8
+     ],
+     [
+      "/over/l2/codex/p-c1/REPORT.md",
+      5
+     ],
+     [
+      "fn-ovw-step",
+      4
+     ],
+     [
+      "/tank/fn/certcache",
+      4
+     ],
+     [
+      "fn-ovw-run",
+      3
+     ],
+     [
+      "fn-nbw-column-pieces",
+      3
+     ],
+     [
+      "fn-npw-column-pieces",
+      3
+     ],
+     [
+      "/over/l2/codex/p-c1/statements.lisp",
+      3
+     ],
+     [
+      "SEAT-COMMON",
+      2
+     ],
+     [
+      "fn-ovw-cursor",
+      2
+     ],
+     [
+      "/acl2/over-render-tests",
+      2
+     ],
+     [
+      "/extract/world-dtn.lisp",
+      2
+     ],
+     [
+      "PRF-1020",
+      2
+     ],
+     [
+      "/lane/over",
+      1
+     ],
+     [
+      "/lane/spans-window",
+      1
+     ],
+     [
+      "/lane/memory-run-launch",
+      1
+     ],
+     [
+      "~/.cache/fn-acl2-slots",
+      1
+     ],
+     [
+      "~/.cache/fn-acl2-slots/slot-000",
+      1
+     ],
+     [
+      "/acl2/nov-row-facts-tests.lisp",
+      1
+     ],
+     [
+      "/acl2/nov-column-pieces-tests.lisp",
+      1
+     ],
+     [
+      "/extract/world.lisp",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v1",
+    "path": "packs/batch/O5-O6/a969f13b75d01bfc1.v1.sharpened.jsonl",
+    "bytes": 544681,
+    "recall": 0.962,
+    "recall_weighted": 0.971,
+    "missing_top": [
+     [
+      "/native/build-dtn.lisp",
+      8
+     ],
+     [
+      "/tank/fn/certcache",
+      4
+     ],
+     [
+      "fn-host",
+      1
+     ],
+     [
+      "fn-dsw-roomp-is-length-check",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v2",
+    "path": "packs/batch/O5-O6/a969f13b75d01bfc1.v2.sharpened.jsonl",
+    "bytes": 648857,
+    "recall": 0.971,
+    "recall_weighted": 0.973,
+    "missing_top": [
+     [
+      "/native/build-dtn.lisp",
+      8
+     ],
+     [
+      "/tank/fn/certcache",
+      4
+     ],
+     [
+      "fn-host",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "full",
+    "path": "packs/batch/O5-O6/full.txt",
+    "bytes": 621106,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   }
+  ],
+  "pair": "O5->O6",
+  "pred_peak": 323865,
+  "sharpened_v1_est_ctx": 212686,
+  "sharpened_v2_est_ctx": 246653,
+  "continuation_bytes": 45057,
+  "distill_est_tokens": 56455
+ },
+ {
+  "successor_distinct_tokens": 311,
+  "needed": 74,
+  "needed_share_of_successor_tokens": 0.238,
+  "packs": [
+   {
+    "pack": "brief",
+    "path": "packs/batch/D13-D14/brief.txt",
+    "bytes": 2971,
+    "recall": 0.108,
+    "recall_weighted": 0.203,
+    "missing_top": [
+     [
+      "/Users/ember/dev/fn/build/lanes/d-bprl-pin",
+      96
+     ],
+     [
+      "fn-prc-carryp",
+      30
+     ],
+     [
+      "fn-prc-refresh",
+      18
+     ],
+     [
+      "fn-bprl-work-pin",
+      11
+     ],
+     [
+      "fn-prc-carryp-of-refresh",
+      11
+     ],
+     [
+      "fn-retain-statep",
+      8
+     ],
+     [
+      "fn-retain-pins",
+      6
+     ],
+     [
+      "fn-bp-state-node",
+      6
+     ],
+     [
+      "/proc/loadavg",
+      6
+     ],
+     [
+      "HOT-PATH-BPRL",
+      6
+     ],
+     [
+      "fn-owner",
+      6
+     ],
+     [
+      "fn-node-retention",
+      5
+     ],
+     [
+      "fn-rit-hasp-of-branch",
+      5
+     ],
+     [
+      "fn-bprl-pins",
+      4
+     ],
+     [
+      "fn-bp-make-state",
+      4
+     ],
+     [
+      "fn-bp-statep",
+      4
+     ],
+     [
+      "fn-prc-carryp-when-atom",
+      4
+     ],
+     [
+      "fn-bprl-work-pinnedp",
+      3
+     ],
+     [
+      "fn-retain-release",
+      3
+     ],
+     [
+      "fn-rit-strings",
+      3
+     ],
+     [
+      "fn-bp-work-obligation-id",
+      3
+     ],
+     [
+      "fn-prc-carryp-is-knownp",
+      3
+     ],
+     [
+      "fn-prc-find",
+      3
+     ],
+     [
+      "fn-rit-hasp-of-leaf",
+      3
+     ],
+     [
+      "/repair/items/CHECK-C5-HOT-PATH-BPRL.json",
+      3
+     ]
+    ]
+   },
+   {
+    "pack": "continuation",
+    "path": "packs/batch/D13-D14/continuation.txt",
+    "bytes": 22173,
+    "recall": 0.446,
+    "recall_weighted": 0.709,
+    "missing_top": [
+     [
+      "fn-prc-carryp-of-refresh",
+      11
+     ],
+     [
+      "/proc/loadavg",
+      6
+     ],
+     [
+      "HOT-PATH-BPRL",
+      6
+     ],
+     [
+      "fn-owner",
+      6
+     ],
+     [
+      "fn-node-retention",
+      5
+     ],
+     [
+      "fn-rit-hasp-of-branch",
+      5
+     ],
+     [
+      "fn-bprl-pins",
+      4
+     ],
+     [
+      "fn-bp-make-state",
+      4
+     ],
+     [
+      "fn-bp-statep",
+      4
+     ],
+     [
+      "fn-prc-carryp-when-atom",
+      4
+     ],
+     [
+      "fn-retain-release",
+      3
+     ],
+     [
+      "fn-rit-strings",
+      3
+     ],
+     [
+      "fn-bp-work-obligation-id",
+      3
+     ],
+     [
+      "fn-prc-carryp-is-knownp",
+      3
+     ],
+     [
+      "fn-rit-hasp-of-leaf",
+      3
+     ],
+     [
+      "/repair/items/CHECK-C5-HOT-PATH-BPRL.json",
+      3
+     ],
+     [
+      "fn-prc-add-pins",
+      3
+     ],
+     [
+      "fn-prc-add-new-releases",
+      3
+     ],
+     [
+      "fn-prc-add-releases",
+      3
+     ],
+     [
+      "fn-prc-build",
+      3
+     ],
+     [
+      "fn-workflow-state",
+      2
+     ],
+     [
+      "fn-prc-delta",
+      2
+     ],
+     [
+      "fn-prc-set-okp",
+      2
+     ],
+     [
+      "fn-bprl-find-pin-is-find-id",
+      2
+     ],
+     [
+      "fn-rit-hasp",
+      2
+     ]
+    ]
+   },
+   {
+    "pack": "brief+continuation",
+    "path": "packs/batch/D13-D14/given.txt",
+    "bytes": 25145,
+    "recall": 0.446,
+    "recall_weighted": 0.709,
+    "missing_top": [
+     [
+      "fn-prc-carryp-of-refresh",
+      11
+     ],
+     [
+      "/proc/loadavg",
+      6
+     ],
+     [
+      "HOT-PATH-BPRL",
+      6
+     ],
+     [
+      "fn-owner",
+      6
+     ],
+     [
+      "fn-node-retention",
+      5
+     ],
+     [
+      "fn-rit-hasp-of-branch",
+      5
+     ],
+     [
+      "fn-bprl-pins",
+      4
+     ],
+     [
+      "fn-bp-make-state",
+      4
+     ],
+     [
+      "fn-bp-statep",
+      4
+     ],
+     [
+      "fn-prc-carryp-when-atom",
+      4
+     ],
+     [
+      "fn-retain-release",
+      3
+     ],
+     [
+      "fn-rit-strings",
+      3
+     ],
+     [
+      "fn-bp-work-obligation-id",
+      3
+     ],
+     [
+      "fn-prc-carryp-is-knownp",
+      3
+     ],
+     [
+      "fn-rit-hasp-of-leaf",
+      3
+     ],
+     [
+      "/repair/items/CHECK-C5-HOT-PATH-BPRL.json",
+      3
+     ],
+     [
+      "fn-prc-add-pins",
+      3
+     ],
+     [
+      "fn-prc-add-new-releases",
+      3
+     ],
+     [
+      "fn-prc-add-releases",
+      3
+     ],
+     [
+      "fn-prc-build",
+      3
+     ],
+     [
+      "fn-workflow-state",
+      2
+     ],
+     [
+      "fn-prc-delta",
+      2
+     ],
+     [
+      "fn-prc-set-okp",
+      2
+     ],
+     [
+      "fn-bprl-find-pin-is-find-id",
+      2
+     ],
+     [
+      "fn-rit-hasp",
+      2
+     ]
+    ]
+   },
+   {
+    "pack": "distill",
+    "path": "packs/batch/D13-D14/distill.md",
+    "bytes": 116753,
+    "recall": 0.811,
+    "recall_weighted": 0.892,
+    "missing_top": [
+     [
+      "/proc/loadavg",
+      6
+     ],
+     [
+      "fn-owner",
+      6
+     ],
+     [
+      "fn-node-retention",
+      5
+     ],
+     [
+      "fn-bprl-pins",
+      4
+     ],
+     [
+      "fn-bp-make-state",
+      4
+     ],
+     [
+      "fn-bp-statep",
+      4
+     ],
+     [
+      "fn-bp-work-obligation-id",
+      3
+     ],
+     [
+      "fn-bprl-find-pin-is-find-id",
+      2
+     ],
+     [
+      "/acl2/bp-release-tests.lisp",
+      2
+     ],
+     [
+      "fn-bprl-with-node",
+      2
+     ],
+     [
+      "/repair/items",
+      2
+     ],
+     [
+      "fn-retain-releases",
+      1
+     ],
+     [
+      "a5da43aee51ac8cd3",
+      1
+     ],
+     [
+      "fn-owner-payload-view-release",
+      1
+     ]
+    ]
+   },
+   {
+    "pack": "sharpened_v1",
+    "path": "packs/batch/D13-D14/a28dcd67a76252796.v1.sharpened.jsonl",
+    "bytes": 497285,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   },
+   {
+    "pack": "sharpened_v2",
+    "path": "packs/batch/D13-D14/a28dcd67a76252796.v2.sharpened.jsonl",
+    "bytes": 596527,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   },
+   {
+    "pack": "full",
+    "path": "packs/batch/D13-D14/full.txt",
+    "bytes": 623016,
+    "recall": 1.0,
+    "recall_weighted": 1.0,
+    "missing_top": []
+   }
+  ],
+  "pair": "D13->D14",
+  "pred_peak": 328943,
+  "sharpened_v1_est_ctx": 194936,
+  "sharpened_v2_est_ctx": 226641,
+  "continuation_bytes": 22173,
+  "distill_est_tokens": 48318
+ }
+]

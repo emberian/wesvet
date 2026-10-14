@@ -1,0 +1,1988 @@
+[
+{
+"id": "01a13394-adbc-76c2-b70a-7b7f12c81aa4",
+"cwd": "log-lc",
+"created": "2026-10-13T04:45:44.405+00:00",
+"updated": "2026-10-14T00:34:00.479+00:00",
+"prompts": 2,
+"seats": [],
+"compactions": 1,
+"mb": 6.3
+},
+{
+"id": "01a137b8-72c8-7711-a378-029b2683b423",
+"cwd": "vertical-pacc",
+"created": "2026-10-14T00:03:17.518+00:00",
+"updated": "2026-10-14T00:33:54.944+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 2.4
+},
+{
+"id": "01a13773-8d94-7b12-adb8-a464931d6173",
+"cwd": "spans-lb",
+"created": "2026-10-13T22:48:02.396+00:00",
+"updated": "2026-10-14T00:33:54.584+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 4.8
+},
+{
+"id": "01a13771-f3a4-7bd2-bddb-898130d38f7e",
+"cwd": "vertical-one-world",
+"created": "2026-10-13T22:46:17.405+00:00",
+"updated": "2026-10-14T00:33:38.758+00:00",
+"prompts": 6,
+"seats": [
+"A28"
+],
+"compactions": 1,
+"mb": 3.9
+},
+{
+"id": "01a135b0-517b-7150-976a-32aaee5b5513",
+"cwd": "memory-run-launch",
+"created": "2026-10-13T14:35:10.305+00:00",
+"updated": "2026-10-14T00:33:34.191+00:00",
+"prompts": 3,
+"seats": [],
+"compactions": 1,
+"mb": 7.7
+},
+{
+"id": "01a13777-0188-77a3-a2b4-da79121f5661",
+"cwd": "post",
+"created": "2026-10-13T22:51:48.707+00:00",
+"updated": "2026-10-14T00:28:50.672+00:00",
+"prompts": 3,
+"seats": [
+"P13"
+],
+"compactions": 0,
+"mb": 3.1
+},
+{
+"id": "01a13797-69a3-7db1-b82e-cbe3b78fa839",
+"cwd": "a-devctl-raw-lease",
+"created": "2026-10-13T23:27:13.142+00:00",
+"updated": "2026-10-14T00:19:36.125+00:00",
+"prompts": 2,
+"seats": [
+"A28"
+],
+"compactions": 0,
+"mb": 1.3
+},
+{
+"id": "01a1377e-b371-7440-8dc6-fb66f3988272",
+"cwd": "post",
+"created": "2026-10-13T23:00:13.166+00:00",
+"updated": "2026-10-14T00:13:14.917+00:00",
+"prompts": 4,
+"seats": [
+"P13"
+],
+"compactions": 0,
+"mb": 3.1
+},
+{
+"id": "01a13776-48b0-7113-9d27-80daa804e03f",
+"cwd": "a-devctl-raw-lease",
+"created": "2026-10-13T22:51:01.415+00:00",
+"updated": "2026-10-14T00:12:52.503+00:00",
+"prompts": 3,
+"seats": [
+"A28"
+],
+"compactions": 0,
+"mb": 3.7
+},
+{
+"id": "01a1379e-1766-7e73-b1a2-81a4437d6c61",
+"cwd": "b-certify-test-includers",
+"created": "2026-10-13T23:34:31.263+00:00",
+"updated": "2026-10-13T23:57:42.076+00:00",
+"prompts": 2,
+"seats": [],
+"compactions": 0,
+"mb": 1.2
+},
+{
+"id": "01a13799-0ca1-7ea1-a3a7-d943e8675f8b",
+"cwd": "vertical-pacc",
+"created": "2026-10-13T23:29:03.708+00:00",
+"updated": "2026-10-13T23:53:20.771+00:00",
+"prompts": 2,
+"seats": [
+"A28"
+],
+"compactions": 0,
+"mb": 1.7
+},
+{
+"id": "01a1377c-2f62-7842-932d-f1151569fa63",
+"cwd": "b-native-launch-review4",
+"created": "2026-10-13T22:57:28.134+00:00",
+"updated": "2026-10-13T23:02:58.663+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.6
+},
+{
+"id": "01a135ce-0b0e-7d62-bcac-3479a3c7fdc1",
+"cwd": "vertical-pacc",
+"created": "2026-10-13T15:07:38.352+00:00",
+"updated": "2026-10-13T15:25:25.946+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.1
+},
+{
+"id": "01a12fca-409d-7580-adb7-3b10cf148704",
+"cwd": "post",
+"created": "2026-10-12T11:05:46.712+00:00",
+"updated": "2026-10-13T15:25:21.119+00:00",
+"prompts": 28,
+"seats": [
+"P7",
+"P8",
+"P9",
+"P10",
+"P11",
+"P12"
+],
+"compactions": 9,
+"mb": 35.1
+},
+{
+"id": "01a132b1-740b-70a0-b6de-5ba4aef15406",
+"cwd": "spans-lb",
+"created": "2026-10-13T00:37:33.015+00:00",
+"updated": "2026-10-13T15:25:10.196+00:00",
+"prompts": 10,
+"seats": [],
+"compactions": 5,
+"mb": 27.5
+},
+{
+"id": "01a13424-e8be-7dd2-b860-01481b5e8a9d",
+"cwd": "b-native-launch-2",
+"created": "2026-10-13T07:23:16.721+00:00",
+"updated": "2026-10-13T15:22:23.903+00:00",
+"prompts": 3,
+"seats": [
+"B23"
+],
+"compactions": 0,
+"mb": 3.3
+},
+{
+"id": "01a135c4-7087-7492-ae7a-da8339119d28",
+"cwd": "vertical-one-world",
+"created": "2026-10-13T14:57:08.995+00:00",
+"updated": "2026-10-13T15:06:45.186+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.7
+},
+{
+"id": "01a13536-c65c-7d30-b1b1-d2aabce4deb4",
+"cwd": "vertical-one-world",
+"created": "2026-10-13T12:22:24.916+00:00",
+"updated": "2026-10-13T14:49:34.240+00:00",
+"prompts": 2,
+"seats": [],
+"compactions": 0,
+"mb": 4.2
+},
+{
+"id": "01a13031-b435-7650-80f7-724854ebfeb2",
+"cwd": "post",
+"created": "2026-10-12T12:58:46.991+00:00",
+"updated": "2026-10-13T14:41:17.066+00:00",
+"prompts": 21,
+"seats": [
+"P7",
+"P8",
+"P9",
+"P10",
+"P12"
+],
+"compactions": 7,
+"mb": 29.8
+},
+{
+"id": "01a13517-c074-72e3-a916-6eadc469a7d9",
+"cwd": "vertical-pacc",
+"created": "2026-10-13T11:48:31.650+00:00",
+"updated": "2026-10-13T14:40:27.219+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 5.4
+},
+{
+"id": "01a134ce-ab79-7942-9022-b59a5439393f",
+"cwd": "memory-run-launch",
+"created": "2026-10-13T10:28:42.210+00:00",
+"updated": "2026-10-13T14:33:31.017+00:00",
+"prompts": 4,
+"seats": [
+"M26"
+],
+"compactions": 1,
+"mb": 8.9
+},
+{
+"id": "01a13598-4993-7a13-9502-3ffa151a992f",
+"cwd": "b-known-reds-refile",
+"created": "2026-10-13T14:08:55.425+00:00",
+"updated": "2026-10-13T14:24:16.055+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.8
+},
+{
+"id": "01a13569-5d03-7270-bf84-7a109e075642",
+"cwd": "b-devctl-untraced",
+"created": "2026-10-13T13:17:40.193+00:00",
+"updated": "2026-10-13T13:30:21.533+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.5
+},
+{
+"id": "01a13543-7c72-79c3-985a-01e2ef8c2faf",
+"cwd": "b-harness-gate",
+"created": "2026-10-13T12:36:17.817+00:00",
+"updated": "2026-10-13T12:44:30.992+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.4
+},
+{
+"id": "01a1349a-0bd3-78a3-979f-d6b4be22a851",
+"cwd": "vertical-one-world",
+"created": "2026-10-13T09:31:13.582+00:00",
+"updated": "2026-10-13T11:54:33.951+00:00",
+"prompts": 4,
+"seats": [],
+"compactions": 0,
+"mb": 1.7
+},
+{
+"id": "01a134d0-28bc-7da3-bc21-4c2384c21dc8",
+"cwd": "m-launcher-symlink",
+"created": "2026-10-13T10:30:19.933+00:00",
+"updated": "2026-10-13T11:33:36.613+00:00",
+"prompts": 4,
+"seats": [
+"M26"
+],
+"compactions": 0,
+"mb": 1.7
+},
+{
+"id": "01a134f8-20de-75c3-9c86-f63a69e7f49d",
+"cwd": "vertical-one-world",
+"created": "2026-10-13T11:13:59.181+00:00",
+"updated": "2026-10-13T11:30:42.462+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.1
+},
+{
+"id": "01a134f3-549d-7ca3-b397-3419038f6fb6",
+"cwd": "vertical-rtc-u64",
+"created": "2026-10-13T11:08:44.793+00:00",
+"updated": "2026-10-13T11:21:15.996+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.0
+},
+{
+"id": "01a134a3-0360-7f73-a368-a67760ab666d",
+"cwd": "vertical-one-world",
+"created": "2026-10-13T09:41:01.235+00:00",
+"updated": "2026-10-13T11:11:36.523+00:00",
+"prompts": 4,
+"seats": [
+"A1"
+],
+"compactions": 0,
+"mb": 2.6
+},
+{
+"id": "01a1347e-c7c7-7182-a645-2ea745b53da8",
+"cwd": "vertical-rtc-u64",
+"created": "2026-10-13T09:01:26.635+00:00",
+"updated": "2026-10-13T10:49:27+00:00",
+"prompts": 2,
+"seats": [],
+"compactions": 0,
+"mb": 1.4
+},
+{
+"id": "01a1344a-f26b-7c92-a48b-b634f8945182",
+"cwd": "vertical-one-world",
+"created": "2026-10-13T08:04:49.671+00:00",
+"updated": "2026-10-13T10:43:09.130+00:00",
+"prompts": 5,
+"seats": [],
+"compactions": 0,
+"mb": 3.6
+},
+{
+"id": "01a13489-1243-7983-9d1e-9c1146384b7b",
+"cwd": "vertical-rtc-u64",
+"created": "2026-10-13T09:12:41.067+00:00",
+"updated": "2026-10-13T10:20:18.693+00:00",
+"prompts": 2,
+"seats": [],
+"compactions": 0,
+"mb": 2.6
+},
+{
+"id": "01a13393-937c-7911-98a9-381b81e2f9b5",
+"cwd": "spans-lb-guards",
+"created": "2026-10-13T04:44:32.228+00:00",
+"updated": "2026-10-13T10:18:26.968+00:00",
+"prompts": 5,
+"seats": [],
+"compactions": 2,
+"mb": 11.3
+},
+{
+"id": "01a130de-66b9-75f2-bf16-475ce9f343c3",
+"cwd": "memory-run-launch",
+"created": "2026-10-12T16:07:24.948+00:00",
+"updated": "2026-10-13T10:18:15.538+00:00",
+"prompts": 24,
+"seats": [
+"M22",
+"M23",
+"M24",
+"M25"
+],
+"compactions": 9,
+"mb": 38.0
+},
+{
+"id": "01a13481-16a6-7ba3-8945-aaea210511f3",
+"cwd": "b-known-reds-retire",
+"created": "2026-10-13T09:03:57.806+00:00",
+"updated": "2026-10-13T09:08:54.748+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.5
+},
+{
+"id": "01a13474-87ba-7fa3-a327-3e784edb9667",
+"cwd": "vertical-tls-wrapper",
+"created": "2026-10-13T08:50:14.891+00:00",
+"updated": "2026-10-13T08:54:44.331+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.7
+},
+{
+"id": "01a1331b-f74c-7370-b457-26d6f06c771a",
+"cwd": "vertical-rtc-u64",
+"created": "2026-10-13T02:33:53.737+00:00",
+"updated": "2026-10-13T08:49:08.359+00:00",
+"prompts": 8,
+"seats": [
+"A24"
+],
+"compactions": 3,
+"mb": 14.4
+},
+{
+"id": "01a13003-3f06-7ff3-a773-ec7e1cfc7e54",
+"cwd": "over",
+"created": "2026-10-12T12:08:02.004+00:00",
+"updated": "2026-10-13T08:29:41.963+00:00",
+"prompts": 17,
+"seats": [
+"C7"
+],
+"compactions": 7,
+"mb": 31.5
+},
+{
+"id": "01a1344b-64ce-7901-a7b7-c7085fc3c9d5",
+"cwd": "b-dev-control",
+"created": "2026-10-13T08:05:18.872+00:00",
+"updated": "2026-10-13T08:23:21.384+00:00",
+"prompts": 2,
+"seats": [
+"B23"
+],
+"compactions": 0,
+"mb": 1.3
+},
+{
+"id": "01a13435-1fe2-7f31-bad0-0c25074dbb48",
+"cwd": "memory-run-launch",
+"created": "2026-10-13T07:40:59.450+00:00",
+"updated": "2026-10-13T07:53:42.552+00:00",
+"prompts": 1,
+"seats": [
+"M25"
+],
+"compactions": 0,
+"mb": 1.1
+},
+{
+"id": "01a1342e-1629-7ce0-9a3e-ed9d5f5ecd4f",
+"cwd": "vertical-tls-wrapper",
+"created": "2026-10-13T07:33:18.177+00:00",
+"updated": "2026-10-13T07:52:54.147+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.2
+},
+{
+"id": "01a1340b-1f4d-7af2-800e-9f6e8ab01154",
+"cwd": "vertical-one-world",
+"created": "2026-10-13T06:55:06.841+00:00",
+"updated": "2026-10-13T07:29:46.492+00:00",
+"prompts": 2,
+"seats": [],
+"compactions": 0,
+"mb": 1.6
+},
+{
+"id": "01a131f1-a0fc-78c1-b98e-f2b4c3ceb98b",
+"cwd": "b-native-launch",
+"created": "2026-10-12T21:08:01.595+00:00",
+"updated": "2026-10-13T07:08:27.911+00:00",
+"prompts": 16,
+"seats": [
+"B20",
+"B21",
+"B22"
+],
+"compactions": 4,
+"mb": 16.1
+},
+{
+"id": "01a13402-fd79-7370-a0c0-47d4eb8b546e",
+"cwd": "vertical-owner-retain",
+"created": "2026-10-13T06:46:13.915+00:00",
+"updated": "2026-10-13T06:54:27.564+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.8
+},
+{
+"id": "01a133b3-6b17-7332-a2c0-97434e3cb2c7",
+"cwd": "vertical-one-world",
+"created": "2026-10-13T05:19:19.051+00:00",
+"updated": "2026-10-13T06:44:56.996+00:00",
+"prompts": 5,
+"seats": [],
+"compactions": 0,
+"mb": 3.0
+},
+{
+"id": "01a133b5-e8d7-7963-adb6-05f51dce2c33",
+"cwd": "b-premise-hosted",
+"created": "2026-10-13T05:22:02.259+00:00",
+"updated": "2026-10-13T06:34:27.602+00:00",
+"prompts": 3,
+"seats": [
+"B23"
+],
+"compactions": 0,
+"mb": 2.2
+},
+{
+"id": "01a133c8-bbdd-7122-8695-241b8aff8ec1",
+"cwd": "memory-run-launch",
+"created": "2026-10-13T05:42:35.964+00:00",
+"updated": "2026-10-13T05:52:42.792+00:00",
+"prompts": 1,
+"seats": [
+"M25"
+],
+"compactions": 0,
+"mb": 1.5
+},
+{
+"id": "01a13322-667d-75b2-af8e-4eac6ca2611b",
+"cwd": "b-train-image",
+"created": "2026-10-13T02:40:55.122+00:00",
+"updated": "2026-10-13T05:31:57.620+00:00",
+"prompts": 3,
+"seats": [],
+"compactions": 0,
+"mb": 1.8
+},
+{
+"id": "01a131c6-1d01-7f11-8e39-2ebbdefc0dc0",
+"cwd": "vertical-owner-retain",
+"created": "2026-10-12T20:20:30.520+00:00",
+"updated": "2026-10-13T05:06:36.527+00:00",
+"prompts": 4,
+"seats": [],
+"compactions": 1,
+"mb": 7.0
+},
+{
+"id": "01a13318-c8b2-7481-90c7-a01f4cda1511",
+"cwd": "vertical-owner-retain",
+"created": "2026-10-13T02:30:25+00:00",
+"updated": "2026-10-13T04:52:59.741+00:00",
+"prompts": 3,
+"seats": [],
+"compactions": 1,
+"mb": 6.3
+},
+{
+"id": "01a1336a-3ae5-74e0-91e5-86ebd49db388",
+"cwd": "log-seq",
+"created": "2026-10-13T03:59:22.605+00:00",
+"updated": "2026-10-13T04:02:50.091+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.9
+},
+{
+"id": "01a1333c-b568-7b00-97f5-0adda1fe34d5",
+"cwd": "fungus-c14",
+"created": "2026-10-13T03:09:39.331+00:00",
+"updated": "2026-10-13T03:23:10.254+00:00",
+"prompts": 1,
+"seats": [
+"B22"
+],
+"compactions": 0,
+"mb": 1.1
+},
+{
+"id": "01a1333c-b566-7580-b5f2-7d22855cd1ae",
+"cwd": "b-train-image",
+"created": "2026-10-13T03:09:39.315+00:00",
+"updated": "2026-10-13T03:15:11.431+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.9
+},
+{
+"id": "01a13330-084c-7a13-8fef-4684a4195433",
+"cwd": "b-native-launch",
+"created": "2026-10-13T02:55:48.538+00:00",
+"updated": "2026-10-13T03:07:46.991+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.0
+},
+{
+"id": "01a1311e-ef07-7fd0-aee7-889349162e0c",
+"cwd": "log-seq",
+"created": "2026-10-12T17:17:53.602+00:00",
+"updated": "2026-10-13T02:45:08.355+00:00",
+"prompts": 10,
+"seats": [
+"L16",
+"L17",
+"L20"
+],
+"compactions": 5,
+"mb": 18.5
+},
+{
+"id": "01a13315-705a-7263-b556-2e8af54f1499",
+"cwd": "vertical-owner-retain",
+"created": "2026-10-13T02:26:45.905+00:00",
+"updated": "2026-10-13T02:34:31.422+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.0
+},
+{
+"id": "01a13296-4202-7231-ac42-46a42b7f757f",
+"cwd": "b-harness-image-probe",
+"created": "2026-10-13T00:07:50.832+00:00",
+"updated": "2026-10-13T02:34:25.635+00:00",
+"prompts": 6,
+"seats": [
+"B21"
+],
+"compactions": 1,
+"mb": 5.3
+},
+{
+"id": "01a132f7-4906-7ab3-9b0f-bd1c72399826",
+"cwd": "log-lc",
+"created": "2026-10-13T01:53:49.599+00:00",
+"updated": "2026-10-13T02:33:21.619+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 2.5
+},
+{
+"id": "01a13302-c832-75f1-8d18-67e014550982",
+"cwd": "over",
+"created": "2026-10-13T02:06:23.057+00:00",
+"updated": "2026-10-13T02:19:53.378+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.9
+},
+{
+"id": "01a132fa-00d1-7e32-b753-92d6b7e70146",
+"cwd": "b-harness-image-probe",
+"created": "2026-10-13T01:56:47.667+00:00",
+"updated": "2026-10-13T02:02:44.091+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.6
+},
+{
+"id": "01a132ea-6c91-7c62-941f-23158b7fa121",
+"cwd": "b-harness-image-probe",
+"created": "2026-10-13T01:39:46.635+00:00",
+"updated": "2026-10-13T01:45:50.758+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.6
+},
+{
+"id": "01a131f9-85e2-7140-9f52-a7dbe8d99e82",
+"cwd": "log-lc",
+"created": "2026-10-12T21:16:39.070+00:00",
+"updated": "2026-10-13T01:27:57.666+00:00",
+"prompts": 7,
+"seats": [],
+"compactions": 2,
+"mb": 7.8
+},
+{
+"id": "01a132c3-38f9-74a0-ba46-665dc2eb6b28",
+"cwd": "b-harness-image-probe",
+"created": "2026-10-13T00:56:57.625+00:00",
+"updated": "2026-10-13T01:07:22.523+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.3
+},
+{
+"id": "01a132c5-d300-7c11-b749-8adf82c69622",
+"cwd": "b-native-launch",
+"created": "2026-10-13T00:59:48.165+00:00",
+"updated": "2026-10-13T01:04:56.235+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.0
+},
+{
+"id": "01a132a3-578a-7dd1-b87b-43d7de3a34d2",
+"cwd": "b-harness-image-probe",
+"created": "2026-10-13T00:22:08.286+00:00",
+"updated": "2026-10-13T00:35:06.710+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.3
+},
+{
+"id": "01a131a5-e1f1-7132-b672-ede464b62fba",
+"cwd": "vertical-owner-retain",
+"created": "2026-10-12T19:45:17.583+00:00",
+"updated": "2026-10-13T00:14:17.004+00:00",
+"prompts": 6,
+"seats": [],
+"compactions": 2,
+"mb": 10.9
+},
+{
+"id": "01a13288-94e8-72a2-a1db-cd69a334da62",
+"cwd": "fungus-c13",
+"created": "2026-10-12T23:52:54.463+00:00",
+"updated": "2026-10-13T00:03:19.462+00:00",
+"prompts": 1,
+"seats": [
+"B21"
+],
+"compactions": 0,
+"mb": 1.6
+},
+{
+"id": "01a13289-8664-72e0-bf87-6f7969a9e332",
+"cwd": "b-native-launch",
+"created": "2026-10-12T23:53:56.401+00:00",
+"updated": "2026-10-13T00:01:22.697+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.1
+},
+{
+"id": "01a131eb-fc61-7891-ad82-029485d7ace2",
+"cwd": "spans-lb",
+"created": "2026-10-12T21:01:52.005+00:00",
+"updated": "2026-10-12T23:42:03.281+00:00",
+"prompts": 3,
+"seats": [],
+"compactions": 1,
+"mb": 5.6
+},
+{
+"id": "01a13210-00e6-7673-966a-692100c37906",
+"cwd": "b-native-launch",
+"created": "2026-10-12T21:41:12.389+00:00",
+"updated": "2026-10-12T21:46:11.139+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.2
+},
+{
+"id": "01a1318b-16c9-7760-887e-e5f7280bb7cc",
+"cwd": "d-bprl-pin",
+"created": "2026-10-12T19:16:01.804+00:00",
+"updated": "2026-10-12T21:42:15.078+00:00",
+"prompts": 3,
+"seats": [],
+"compactions": 1,
+"mb": 3.7
+},
+{
+"id": "01a12f86-705b-7890-9ee9-410b2d888d9b",
+"cwd": "post",
+"created": "2026-10-12T09:51:42.436+00:00",
+"updated": "2026-10-12T21:32:07.866+00:00",
+"prompts": 12,
+"seats": [
+"P7",
+"P8",
+"P9"
+],
+"compactions": 4,
+"mb": 14.9
+},
+{
+"id": "01a13140-f778-72b2-a9e6-33e75ede068a",
+"cwd": "d-bprl-pin",
+"created": "2026-10-12T17:55:03.924+00:00",
+"updated": "2026-10-12T21:21:41.536+00:00",
+"prompts": 5,
+"seats": [],
+"compactions": 2,
+"mb": 6.8
+},
+{
+"id": "01a131f1-6c38-7671-a557-c832438cbc9d",
+"cwd": "memory-run-launch",
+"created": "2026-10-12T21:07:48.245+00:00",
+"updated": "2026-10-12T21:16:47.333+00:00",
+"prompts": 1,
+"seats": [
+"M22"
+],
+"compactions": 0,
+"mb": 1.8
+},
+{
+"id": "01a13104-da89-7562-a507-a15f38e567c3",
+"cwd": "d-bprl-pin",
+"created": "2026-10-12T16:49:24.418+00:00",
+"updated": "2026-10-12T21:13:37.340+00:00",
+"prompts": 11,
+"seats": [],
+"compactions": 2,
+"mb": 5.2
+},
+{
+"id": "01a131ec-e3cd-7bf0-944b-d0be59abb865",
+"cwd": "spans-teeth",
+"created": "2026-10-12T21:02:51.156+00:00",
+"updated": "2026-10-12T21:08:20.491+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.0
+},
+{
+"id": "01a131a8-df88-7010-ac60-73979f3444cf",
+"cwd": "log-ckpt-verdict",
+"created": "2026-10-12T19:48:33.642+00:00",
+"updated": "2026-10-12T20:58:45.185+00:00",
+"prompts": 2,
+"seats": [
+"L17"
+],
+"compactions": 0,
+"mb": 3.5
+},
+{
+"id": "01a13104-84f3-7b82-a94b-2ac2eee22089",
+"cwd": "log-l4",
+"created": "2026-10-12T16:49:02.592+00:00",
+"updated": "2026-10-12T20:55:29.241+00:00",
+"prompts": 6,
+"seats": [
+"L16",
+"L17"
+],
+"compactions": 0,
+"mb": 2.2
+},
+{
+"id": "01a131a4-af73-78b1-b249-fd4ac6355bed",
+"cwd": "spans-teeth",
+"created": "2026-10-12T19:43:59.379+00:00",
+"updated": "2026-10-12T20:52:14.134+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 3.3
+},
+{
+"id": "01a131de-30d3-7143-8b78-d94f642d333c",
+"cwd": "codex-r-l-seq",
+"created": "2026-10-12T20:46:48.145+00:00",
+"updated": "2026-10-12T20:52:09.213+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.2
+},
+{
+"id": "01a131a4-affa-7082-bd20-c82a0bd4fe21",
+"cwd": "design-model",
+"created": "2026-10-12T19:43:59.514+00:00",
+"updated": "2026-10-12T20:24:09.523+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 1,
+"mb": 3.4
+},
+{
+"id": "01a131a4-afef-74d1-ad5e-df0295491fa2",
+"cwd": "design-model",
+"created": "2026-10-12T19:43:59.384+00:00",
+"updated": "2026-10-12T20:01:51.870+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 1,
+"mb": 2.7
+},
+{
+"id": "01a13143-1a0a-71c1-a765-cc7e8a9de64e",
+"cwd": "spans-decode-once",
+"created": "2026-10-12T17:57:23.779+00:00",
+"updated": "2026-10-12T19:58:27.290+00:00",
+"prompts": 3,
+"seats": [],
+"compactions": 1,
+"mb": 4.9
+},
+{
+"id": "01a131a3-65e7-7d81-97ef-4b56fc3afbfc",
+"cwd": "vertical-owner-retain",
+"created": "2026-10-12T19:42:34.763+00:00",
+"updated": "2026-10-12T19:55:55.059+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.6
+},
+{
+"id": "01a131a7-cb8f-7af2-9720-17d58030e08d",
+"cwd": "log-ckpt-verdict",
+"created": "2026-10-12T19:47:22.960+00:00",
+"updated": "2026-10-12T19:48:00.477+00:00",
+"prompts": 1,
+"seats": [
+"L17"
+],
+"compactions": 0,
+"mb": 0.4
+},
+{
+"id": "01a130f8-17d7-7fc3-b107-6028d7341b23",
+"cwd": "vertical-owner-retain",
+"created": "2026-10-12T16:35:28.204+00:00",
+"updated": "2026-10-12T19:43:56.382+00:00",
+"prompts": 5,
+"seats": [
+"A20",
+"A21"
+],
+"compactions": 1,
+"mb": 4.6
+},
+{
+"id": "01a1318c-3295-7a70-a255-6c4f28110830",
+"cwd": "vertical-owner-retain",
+"created": "2026-10-12T19:17:14.379+00:00",
+"updated": "2026-10-12T19:24:52.510+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.9
+},
+{
+"id": "01a13159-0b17-7010-aebb-f2c980ade10a",
+"cwd": "codex-r-l-probe",
+"created": "2026-10-12T18:21:22.175+00:00",
+"updated": "2026-10-12T18:24:26.859+00:00",
+"prompts": 1,
+"seats": [
+"L16"
+],
+"compactions": 0,
+"mb": 0.8
+},
+{
+"id": "01a1312a-ae39-7230-b251-98161c56ae98",
+"cwd": "vertical-post-heap",
+"created": "2026-10-12T17:30:43.392+00:00",
+"updated": "2026-10-12T18:21:41.669+00:00",
+"prompts": 2,
+"seats": [],
+"compactions": 0,
+"mb": 1.9
+},
+{
+"id": "01a1314f-cc53-7e13-8732-ac72b912ce40",
+"cwd": "vertical-post-heap",
+"created": "2026-10-12T18:11:16.037+00:00",
+"updated": "2026-10-12T18:15:57.697+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.9
+},
+{
+"id": "01a13102-344e-7a40-870a-06f47d392935",
+"cwd": "fungus-c10",
+"created": "2026-10-12T16:46:30.720+00:00",
+"updated": "2026-10-12T17:56:58.894+00:00",
+"prompts": 3,
+"seats": [
+"B19"
+],
+"compactions": 0,
+"mb": 3.7
+},
+{
+"id": "01a12fb5-bf0b-75e3-9041-61725abde87a",
+"cwd": "spans-window",
+"created": "2026-10-12T10:43:23.409+00:00",
+"updated": "2026-10-12T17:44:06.720+00:00",
+"prompts": 6,
+"seats": [],
+"compactions": 1,
+"mb": 4.5
+},
+{
+"id": "01a13110-aece-7391-8d4e-0c65e8947bd8",
+"cwd": "vertical-post-heap",
+"created": "2026-10-12T17:02:20.030+00:00",
+"updated": "2026-10-12T17:27:54.564+00:00",
+"prompts": 2,
+"seats": [],
+"compactions": 1,
+"mb": 2.9
+},
+{
+"id": "01a12fd8-f4ce-7952-8957-693e02c62662",
+"cwd": "post",
+"created": "2026-10-12T11:21:50.517+00:00",
+"updated": "2026-10-12T17:21:33.343+00:00",
+"prompts": 3,
+"seats": [
+"P7",
+"P8"
+],
+"compactions": 1,
+"mb": 5.5
+},
+{
+"id": "01a13102-cec3-7f70-911b-1373d0fbf7b5",
+"cwd": "d-bprl-pin",
+"created": "2026-10-12T16:47:10.281+00:00",
+"updated": "2026-10-12T17:07:23.070+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.9
+},
+{
+"id": "01a130c6-2cc4-7390-8ac7-2381912bf4b2",
+"cwd": "vertical-cost-route",
+"created": "2026-10-12T15:40:56.594+00:00",
+"updated": "2026-10-12T16:54:32.549+00:00",
+"prompts": 2,
+"seats": [],
+"compactions": 0,
+"mb": 1.5
+},
+{
+"id": "01a130f8-23dd-7872-8216-2f58c8522be6",
+"cwd": "log-l4",
+"created": "2026-10-12T16:35:31.292+00:00",
+"updated": "2026-10-12T16:45:33.840+00:00",
+"prompts": 1,
+"seats": [
+"L16"
+],
+"compactions": 0,
+"mb": 1.9
+},
+{
+"id": "01a13031-35cf-71d3-8f90-e0fcf39479ff",
+"cwd": "vertical-cost-route",
+"created": "2026-10-12T12:58:14.794+00:00",
+"updated": "2026-10-12T16:22:25.841+00:00",
+"prompts": 5,
+"seats": [],
+"compactions": 1,
+"mb": 3.5
+},
+{
+"id": "01a130d6-2366-7970-bda8-432b6f496517",
+"cwd": "memory-run-launch",
+"created": "2026-10-12T15:58:23.619+00:00",
+"updated": "2026-10-12T16:05:18.894+00:00",
+"prompts": 1,
+"seats": [
+"M22"
+],
+"compactions": 0,
+"mb": 0.9
+},
+{
+"id": "01a12fa1-246d-7e32-b157-19379a69b0ba",
+"cwd": "b-lane-check",
+"created": "2026-10-12T10:20:52.932+00:00",
+"updated": "2026-10-12T16:00:57.631+00:00",
+"prompts": 7,
+"seats": [
+"B17",
+"B18"
+],
+"compactions": 1,
+"mb": 5.5
+},
+{
+"id": "01a130c5-3f0d-7a21-9c5f-9069952cf860",
+"cwd": "perf-harness",
+"created": "2026-10-12T15:39:55.777+00:00",
+"updated": "2026-10-12T15:41:03.243+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.4
+},
+{
+"id": "01a12f5c-4182-7bf2-91ef-fb36cf9ede53",
+"cwd": "memory-run-launch",
+"created": "2026-10-12T09:05:38.379+00:00",
+"updated": "2026-10-12T15:28:50.890+00:00",
+"prompts": 5,
+"seats": [
+"M21"
+],
+"compactions": 0,
+"mb": 3.7
+},
+{
+"id": "01a130a6-66de-7c13-8548-2577370601ac",
+"cwd": "codex-r-l-lc",
+"created": "2026-10-12T15:06:14.476+00:00",
+"updated": "2026-10-12T15:25:47.714+00:00",
+"prompts": 2,
+"seats": [
+"A19"
+],
+"compactions": 0,
+"mb": 1.9
+},
+{
+"id": "01a13015-0f56-7561-87e2-ff82e4844be3",
+"cwd": "b-cost-gate",
+"created": "2026-10-12T12:27:30.136+00:00",
+"updated": "2026-10-12T15:21:31.061+00:00",
+"prompts": 3,
+"seats": [
+"B18"
+],
+"compactions": 0,
+"mb": 2.0
+},
+{
+"id": "01a12f5a-99a8-7681-8489-4850b0e1b0e8",
+"cwd": "perf-harness",
+"created": "2026-10-12T09:03:51.803+00:00",
+"updated": "2026-10-12T15:17:53.153+00:00",
+"prompts": 6,
+"seats": [],
+"compactions": 1,
+"mb": 4.4
+},
+{
+"id": "01a13033-848f-7080-b1f8-bf97f878dd7a",
+"cwd": "log-loop-call",
+"created": "2026-10-12T13:00:45.559+00:00",
+"updated": "2026-10-12T15:15:08.909+00:00",
+"prompts": 2,
+"seats": [
+"A19"
+],
+"compactions": 0,
+"mb": 2.2
+},
+{
+"id": "01a13006-7d2a-7552-848d-65e3e0cdbfa6",
+"cwd": "over-cfg",
+"created": "2026-10-12T12:11:34.345+00:00",
+"updated": "2026-10-12T13:28:29.409+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 3.3
+},
+{
+"id": "01a1303a-9491-7340-81d6-ee08dd003a40",
+"cwd": "b-cost-gate",
+"created": "2026-10-12T13:08:28.655+00:00",
+"updated": "2026-10-12T13:18:56.584+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.8
+},
+{
+"id": "01a1302b-7fa8-7dc1-ae95-b7911743fa49",
+"cwd": "fungus-c9",
+"created": "2026-10-12T12:52:00.192+00:00",
+"updated": "2026-10-12T13:16:25.277+00:00",
+"prompts": 1,
+"seats": [
+"B18"
+],
+"compactions": 0,
+"mb": 1.9
+},
+{
+"id": "01a13033-5382-7621-a6d3-6b99d8774d62",
+"cwd": "memory-run-launch",
+"created": "2026-10-12T13:00:33.547+00:00",
+"updated": "2026-10-12T13:16:08.007+00:00",
+"prompts": 1,
+"seats": [
+"M21"
+],
+"compactions": 0,
+"mb": 1.8
+},
+{
+"id": "01a13036-1270-7c33-840c-3fd667c224c9",
+"cwd": "perf-harness",
+"created": "2026-10-12T13:03:32.795+00:00",
+"updated": "2026-10-12T13:07:37.063+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.9
+},
+{
+"id": "01a12f78-6484-7982-a0f8-897cced48597",
+"cwd": "post",
+"created": "2026-10-12T09:36:21.950+00:00",
+"updated": "2026-10-12T12:55:59.911+00:00",
+"prompts": 2,
+"seats": [
+"P7"
+],
+"compactions": 0,
+"mb": 2.4
+},
+{
+"id": "01a1301b-da4e-7751-8178-7c4b8585afba",
+"cwd": "b-lane-check",
+"created": "2026-10-12T12:34:54.441+00:00",
+"updated": "2026-10-12T12:44:13.256+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.0
+},
+{
+"id": "01a12fe1-2e8b-7c23-8811-43fd077e8ecc",
+"cwd": "codex-r-l-rfcl",
+"created": "2026-10-12T11:30:49.462+00:00",
+"updated": "2026-10-12T12:38:29.836+00:00",
+"prompts": 2,
+"seats": [],
+"compactions": 0,
+"mb": 3.0
+},
+{
+"id": "01a13004-97f9-75e1-bff7-b64cb81c65ef",
+"cwd": "fungus-c8",
+"created": "2026-10-12T12:09:30.126+00:00",
+"updated": "2026-10-12T12:32:49.303+00:00",
+"prompts": 1,
+"seats": [
+"B18"
+],
+"compactions": 0,
+"mb": 2.1
+},
+{
+"id": "01a12fc1-6391-77d2-9025-a890083137f3",
+"cwd": "vertical-header-cost",
+"created": "2026-10-12T10:56:05.922+00:00",
+"updated": "2026-10-12T12:31:59.876+00:00",
+"prompts": 7,
+"seats": [],
+"compactions": 1,
+"mb": 2.4
+},
+{
+"id": "01a12fa3-dbb1-71b1-ba03-5715d255afc6",
+"cwd": "log-rfc-live",
+"created": "2026-10-12T10:23:50.453+00:00",
+"updated": "2026-10-12T12:24:58.267+00:00",
+"prompts": 5,
+"seats": [
+"L15"
+],
+"compactions": 1,
+"mb": 4.7
+},
+{
+"id": "01a1300c-9d6b-7dd0-b052-e466bcb19d75",
+"cwd": "perf-harness",
+"created": "2026-10-12T12:18:16.738+00:00",
+"updated": "2026-10-12T12:23:23.839+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.9
+},
+{
+"id": "01a13004-5daa-77b1-a226-1ab84fa4ccde",
+"cwd": "vertical-dispatch-resolve",
+"created": "2026-10-12T12:09:15.149+00:00",
+"updated": "2026-10-12T12:14:37.190+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.8
+},
+{
+"id": "01a13005-26ae-7b92-a34a-1fb24dbeecd9",
+"cwd": "d-dtn-handler",
+"created": "2026-10-12T12:10:06.595+00:00",
+"updated": "2026-10-12T12:14:20.736+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.7
+},
+{
+"id": "01a12ff6-9ac9-7de0-8bf7-9aa536520b50",
+"cwd": "vertical-header-cost",
+"created": "2026-10-12T11:54:13.318+00:00",
+"updated": "2026-10-12T12:01:04.306+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.0
+},
+{
+"id": "01a12ff3-7a46-7fc1-89ab-93f1f6b0fdc3",
+"cwd": "spans-window",
+"created": "2026-10-12T11:50:49.816+00:00",
+"updated": "2026-10-12T11:58:28.526+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.9
+},
+{
+"id": "01a12ff1-2f74-76c1-9829-5a07e745c470",
+"cwd": "b-lane-check",
+"created": "2026-10-12T11:48:18.963+00:00",
+"updated": "2026-10-12T11:52:43.614+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.8
+},
+{
+"id": "01a12fd7-a3f8-7ad3-8d55-b95e6fd32c10",
+"cwd": "codex-r-l-rfc",
+"created": "2026-10-12T11:20:24.064+00:00",
+"updated": "2026-10-12T11:31:52.782+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.2
+},
+{
+"id": "01a12fca-b6c2-7863-b1cc-281f162985e5",
+"cwd": "post",
+"created": "2026-10-12T11:06:16.911+00:00",
+"updated": "2026-10-12T11:19:12.560+00:00",
+"prompts": 1,
+"seats": [
+"P7"
+],
+"compactions": 0,
+"mb": 1.5
+},
+{
+"id": "01a12fb6-dcce-7ae2-8526-3d1157c0bb87",
+"cwd": "over",
+"created": "2026-10-12T10:44:35.875+00:00",
+"updated": "2026-10-12T11:13:01.904+00:00",
+"prompts": 2,
+"seats": [],
+"compactions": 0,
+"mb": 1.7
+},
+{
+"id": "01a12fbe-57fe-7560-bf70-6192ac1cdf7e",
+"cwd": "spans-view-walks",
+"created": "2026-10-12T10:52:46.448+00:00",
+"updated": "2026-10-12T11:07:17.014+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.4
+},
+{
+"id": "01a12fc2-2e66-7403-9598-c353899b6a6c",
+"cwd": "vertical-dispatch-resolve",
+"created": "2026-10-12T10:56:57.662+00:00",
+"updated": "2026-10-12T11:04:12.635+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.7
+},
+{
+"id": "01a12f96-45c6-78e0-9f3a-9ce175c1053e",
+"cwd": "post",
+"created": "2026-10-12T10:09:00.095+00:00",
+"updated": "2026-10-12T11:03:30.666+00:00",
+"prompts": 2,
+"seats": [
+"P7"
+],
+"compactions": 0,
+"mb": 1.8
+},
+{
+"id": "01a12fb9-7b81-71d0-b133-6cc4f7be68db",
+"cwd": "b-farm-lock",
+"created": "2026-10-12T10:47:28.076+00:00",
+"updated": "2026-10-12T10:49:33.545+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.4
+},
+{
+"id": "01a12f5c-456e-7502-9a17-fd2282cb58c7",
+"cwd": "b-farm-lock",
+"created": "2026-10-12T09:05:39.183+00:00",
+"updated": "2026-10-12T10:43:52.791+00:00",
+"prompts": 4,
+"seats": [
+"B17"
+],
+"compactions": 0,
+"mb": 2.4
+},
+{
+"id": "01a12fa6-f79b-70d3-b4c0-53c7fe5818b5",
+"cwd": "b-farm-lock",
+"created": "2026-10-12T10:27:14.244+00:00",
+"updated": "2026-10-12T10:36:20.268+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.3
+},
+{
+"id": "01a12f7c-4e2f-75d0-92a6-eeaca44c0eee",
+"cwd": "log-rfc-carried",
+"created": "2026-10-12T09:40:38.535+00:00",
+"updated": "2026-10-12T10:21:17.790+00:00",
+"prompts": 3,
+"seats": [],
+"compactions": 1,
+"mb": 2.4
+},
+{
+"id": "01a12f97-93dd-7152-8649-64b8848890aa",
+"cwd": "d-check-c5",
+"created": "2026-10-12T10:10:25.578+00:00",
+"updated": "2026-10-12T10:18:21.783+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.1
+},
+{
+"id": "01a12f91-0dc3-7a40-abba-67800e18077a",
+"cwd": "b-farm-lock",
+"created": "2026-10-12T10:03:18.075+00:00",
+"updated": "2026-10-12T10:09:16.921+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.8
+},
+{
+"id": "01a12f73-7dc3-7c22-9429-09b183d4af49",
+"cwd": "d-check-c5",
+"created": "2026-10-12T09:31:00.687+00:00",
+"updated": "2026-10-12T10:06:10.618+00:00",
+"prompts": 2,
+"seats": [],
+"compactions": 0,
+"mb": 2.1
+},
+{
+"id": "01a12f75-ce98-77e0-bb7e-81ccebaa49b1",
+"cwd": "vertical-lease",
+"created": "2026-10-12T09:33:32.454+00:00",
+"updated": "2026-10-12T10:05:32.098+00:00",
+"prompts": 2,
+"seats": [],
+"compactions": 0,
+"mb": 0.9
+},
+{
+"id": "01a12f5f-2cb3-7c30-b310-e32c550a1e47",
+"cwd": "post",
+"created": "2026-10-12T09:08:49.369+00:00",
+"updated": "2026-10-12T09:59:01.970+00:00",
+"prompts": 3,
+"seats": [
+"P7"
+],
+"compactions": 0,
+"mb": 2.2
+},
+{
+"id": "01a12f72-efb9-7cf3-b22a-32c9edb2b38a",
+"cwd": "d-check-c5",
+"created": "2026-10-12T09:30:24.302+00:00",
+"updated": "2026-10-12T09:44:13.547+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.4
+},
+{
+"id": "01a12f76-153f-7bf3-9237-c78f9af0dd62",
+"cwd": "vertical-lease",
+"created": "2026-10-12T09:33:50.514+00:00",
+"updated": "2026-10-12T09:43:17.047+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.7
+},
+{
+"id": "01a12f6d-0eb9-7180-b79a-0ff692f07475",
+"cwd": "spans-view-walks",
+"created": "2026-10-12T09:23:59.071+00:00",
+"updated": "2026-10-12T09:37:08.427+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.9
+},
+{
+"id": "01a12f66-be92-7cf2-8353-74cf933673bc",
+"cwd": "log-rfc-carried",
+"created": "2026-10-12T09:17:05.787+00:00",
+"updated": "2026-10-12T09:36:53.260+00:00",
+"prompts": 1,
+"seats": [
+"L14"
+],
+"compactions": 0,
+"mb": 1.7
+},
+{
+"id": "01a12f5f-ef3e-79c0-9ecf-60d9811f3389",
+"cwd": "post",
+"created": "2026-10-12T09:09:38.922+00:00",
+"updated": "2026-10-12T09:31:47.373+00:00",
+"prompts": 1,
+"seats": [
+"P7"
+],
+"compactions": 0,
+"mb": 1.9
+},
+{
+"id": "01a12f63-a35a-7f61-a82f-988dc37191cc",
+"cwd": "spans-view-walks",
+"created": "2026-10-12T09:13:41.837+00:00",
+"updated": "2026-10-12T09:22:19.433+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.0
+},
+{
+"id": "01a12d23-418f-7c60-9c6a-cacd8812c105",
+"cwd": "memory-run-launch",
+"created": "2026-10-11T22:44:07.991+00:00",
+"updated": "2026-10-11T22:51:26.376+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.8
+},
+{
+"id": "01a12d02-4681-7211-96b0-ce5da82cf024",
+"cwd": "codex-r-l-2ah2",
+"created": "2026-10-11T22:08:07.317+00:00",
+"updated": "2026-10-11T22:12:53.011+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.7
+},
+{
+"id": "01a12ccc-75c0-7913-b587-6634fae6e3e8",
+"cwd": "spans-list-hold",
+"created": "2026-10-11T21:09:20.273+00:00",
+"updated": "2026-10-11T21:13:59.569+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.9
+},
+{
+"id": "01a12c96-6f90-76e3-a91d-4a75722988a8",
+"cwd": "spans-newnews",
+"created": "2026-10-11T20:10:20.220+00:00",
+"updated": "2026-10-11T20:14:33.210+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.8
+},
+{
+"id": "01a12c46-3459-79e1-bbc2-5055a1413c3c",
+"cwd": "spans-o1-p5",
+"created": "2026-10-11T18:42:41.851+00:00",
+"updated": "2026-10-11T18:49:03.766+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 2.3
+},
+{
+"id": "01a12c40-75f1-7ff0-a201-a6fd834f090d",
+"cwd": "post",
+"created": "2026-10-11T18:36:25.397+00:00",
+"updated": "2026-10-11T18:41:07.682+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.7
+},
+{
+"id": "01a12be5-2e30-7190-9cb8-191aacc47e86",
+"cwd": "over-resume",
+"created": "2026-10-11T16:56:43.139+00:00",
+"updated": "2026-10-11T17:00:26.759+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 3.5
+},
+{
+"id": "01a12239-915f-77a0-96f1-5ff1c77cb1ac",
+"cwd": "vertical",
+"created": "2026-10-09T19:52:41.394+00:00",
+"updated": "2026-10-11T15:12:10.063+00:00",
+"prompts": 24,
+"seats": [],
+"compactions": 15,
+"mb": 52.5
+},
+{
+"id": "01a12b1f-3735-7361-9e1e-4e81e4fb3c93",
+"cwd": "codex-r-l-2ah",
+"created": "2026-10-11T13:20:28.709+00:00",
+"updated": "2026-10-11T13:26:41.094+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.1
+},
+{
+"id": "01a12b10-1832-7f51-adec-bf787ac9a3de",
+"cwd": "over",
+"created": "2026-10-11T13:03:58.327+00:00",
+"updated": "2026-10-11T13:11:33.046+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 2.3
+},
+{
+"id": "01a12877-8295-7d60-b272-5119e3674f81",
+"cwd": "codex-r-l-rcw",
+"created": "2026-10-11T00:58:04.436+00:00",
+"updated": "2026-10-11T01:04:22.762+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.3
+},
+{
+"id": "01a1284f-181d-7d50-a093-883300615222",
+"cwd": "spans",
+"created": "2026-10-11T00:13:57.065+00:00",
+"updated": "2026-10-11T00:21:10.247+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 2.7
+},
+{
+"id": "01a127f5-3893-7c83-9bd2-06835056c6f7",
+"cwd": "codex-r-l-cf",
+"created": "2026-10-10T22:35:44.997+00:00",
+"updated": "2026-10-10T22:38:38.394+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.9
+},
+{
+"id": "01a127a1-8a89-7410-8272-078b2f3870a5",
+"cwd": "memory",
+"created": "2026-10-10T21:04:20.969+00:00",
+"updated": "2026-10-10T21:06:56.909+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.0
+},
+{
+"id": "01a12761-5197-7e13-933f-7e919743b8ff",
+"cwd": "codex-r-l-2bs",
+"created": "2026-10-10T19:54:12.728+00:00",
+"updated": "2026-10-10T19:58:55.230+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.9
+},
+{
+"id": "01a12741-1689-70c3-a9b3-2ced2e6d0657",
+"cwd": "memory",
+"created": "2026-10-10T19:18:59.698+00:00",
+"updated": "2026-10-10T19:22:42.430+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.4
+},
+{
+"id": "01a12740-2880-7963-a8d7-b07cb94efb83",
+"cwd": "codex-r-l-2bs",
+"created": "2026-10-10T19:17:59.438+00:00",
+"updated": "2026-10-10T19:22:00.935+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.9
+},
+{
+"id": "01a12737-c72b-7293-8db2-c1cc8949184c",
+"cwd": "memory/build/memory/l4b/m13",
+"created": "2026-10-10T19:08:50.214+00:00",
+"updated": "2026-10-10T19:12:35.935+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.9
+},
+{
+"id": "01a12736-4160-7081-81a6-932a609b8bac",
+"cwd": "spans",
+"created": "2026-10-10T19:07:10.647+00:00",
+"updated": "2026-10-10T19:11:50.789+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 2.1
+},
+{
+"id": "01a12725-71e5-71e2-b741-f9297f061341",
+"cwd": "memory/build/memory/l4b/m13",
+"created": "2026-10-10T18:48:48.751+00:00",
+"updated": "2026-10-10T18:54:21.255+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.4
+},
+{
+"id": "01a12720-780f-7b12-a9e0-98bf52b8a483",
+"cwd": "codex-r-l-l2b",
+"created": "2026-10-10T18:43:22.078+00:00",
+"updated": "2026-10-10T18:46:29.262+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.8
+},
+{
+"id": "01a1271a-06f6-7280-afe3-8da5eb513a27",
+"cwd": "memory/build/memory/l4b/m13",
+"created": "2026-10-10T18:36:20.430+00:00",
+"updated": "2026-10-10T18:43:56.815+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.8
+},
+{
+"id": "01a126f5-7b82-7191-8fb8-ec98cfe33137",
+"cwd": "codex-r-l-l2a",
+"created": "2026-10-10T17:56:25.723+00:00",
+"updated": "2026-10-10T18:01:51.289+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.1
+},
+{
+"id": "01a126ab-ac39-7440-b1b7-096fa166eb70",
+"cwd": "memory",
+"created": "2026-10-10T16:35:48.450+00:00",
+"updated": "2026-10-10T16:40:37.352+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.0
+},
+{
+"id": "01a12680-4f4a-7b43-8fe7-4f11ef20d8ac",
+"cwd": "codex-r-l-p4",
+"created": "2026-10-10T15:48:26.373+00:00",
+"updated": "2026-10-10T16:06:28.850+00:00",
+"prompts": 2,
+"seats": [],
+"compactions": 0,
+"mb": 1.0
+},
+{
+"id": "01a12683-ada1-77b2-b4b9-4910b3fe8a67",
+"cwd": "memory",
+"created": "2026-10-10T15:52:06.619+00:00",
+"updated": "2026-10-10T15:55:34.104+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.9
+},
+{
+"id": "01a12670-84c3-7e62-a928-44db8e9d0ef4",
+"cwd": "d-replayp-invariant",
+"created": "2026-10-10T15:31:11.980+00:00",
+"updated": "2026-10-10T15:33:14.921+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 2.4
+},
+{
+"id": "01a12430-9e3e-75e2-ab64-01664b2ebf89",
+"cwd": "memory",
+"created": "2026-10-10T05:02:09.302+00:00",
+"updated": "2026-10-10T14:57:28.257+00:00",
+"prompts": 7,
+"seats": [
+"P1"
+],
+"compactions": 1,
+"mb": 5.4
+},
+{
+"id": "01a124cf-79f3-77a2-9932-fbe13f56b428",
+"cwd": "spans",
+"created": "2026-10-10T07:55:40.190+00:00",
+"updated": "2026-10-10T14:49:38.628+00:00",
+"prompts": 2,
+"seats": [],
+"compactions": 0,
+"mb": 2.3
+},
+{
+"id": "01a123ef-ef88-77d3-a0a7-fe95c2e9179a",
+"cwd": "d-premise-establish",
+"created": "2026-10-10T03:51:30.286+00:00",
+"updated": "2026-10-10T03:53:48.456+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.5
+},
+{
+"id": "01a12214-4a1d-7b00-83aa-2271d31d0313",
+"cwd": "memory",
+"created": "2026-10-09T19:11:59.023+00:00",
+"updated": "2026-10-10T02:34:21.459+00:00",
+"prompts": 6,
+"seats": [],
+"compactions": 2,
+"mb": 9.3
+},
+{
+"id": "01a11fb3-386d-7fa0-8f8d-6a0c0d02277b",
+"cwd": "codex-r-spans-stmts2",
+"created": "2026-10-09T08:06:42.291+00:00",
+"updated": "2026-10-09T20:37:37.310+00:00",
+"prompts": 5,
+"seats": [],
+"compactions": 2,
+"mb": 6.5
+},
+{
+"id": "01a12182-5100-7b22-96e3-c55f93e9fe09",
+"cwd": "b-heap-growth",
+"created": "2026-10-09T16:32:32.295+00:00",
+"updated": "2026-10-09T16:35:08.811+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.5
+},
+{
+"id": "01a12165-6f50-7f13-af05-51388c32c0c2",
+"cwd": "codex-b-heap-growth",
+"created": "2026-10-09T16:00:58.434+00:00",
+"updated": "2026-10-09T16:31:08.599+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 2.4
+},
+{
+"id": "01a12165-2e69-7032-bd56-60f341c000c9",
+"cwd": "codex-b-heap-growth",
+"created": "2026-10-09T16:00:42.687+00:00",
+"updated": "2026-10-09T16:00:55.410+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.4
+},
+{
+"id": "01a12133-3d7b-7b53-a246-7eac85cd2c5d",
+"cwd": "b-init-heap",
+"created": "2026-10-09T15:06:09.487+00:00",
+"updated": "2026-10-09T15:08:00.302+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.0
+},
+{
+"id": "01a12067-7880-7361-8fe6-e4a31eb08dc1",
+"cwd": "b-reclaim",
+"created": "2026-10-09T11:23:35.457+00:00",
+"updated": "2026-10-09T11:26:03.849+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.1
+},
+{
+"id": "01a11fa7-9e39-7d80-bcb3-bdd74d9ec895",
+"cwd": "codex-rtc-t2",
+"created": "2026-10-09T07:54:01.937+00:00",
+"updated": "2026-10-09T09:03:12.638+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 3.2
+},
+{
+"id": "01a11f8f-2f83-7b82-8136-18ea784ce9d3",
+"cwd": "b-reclaim",
+"created": "2026-10-09T07:27:20.880+00:00",
+"updated": "2026-10-09T08:13:50.657+00:00",
+"prompts": 2,
+"seats": [],
+"compactions": 1,
+"mb": 4.4
+},
+{
+"id": "01a11f9d-7864-75b0-988b-17663d42848e",
+"cwd": "codex-r-spans-stmts",
+"created": "2026-10-09T07:42:56.809+00:00",
+"updated": "2026-10-09T07:54:21.709+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.4
+},
+{
+"id": "01a11f96-f6e7-7833-ae84-830146763482",
+"cwd": "b-coldcur",
+"created": "2026-10-09T07:35:50.557+00:00",
+"updated": "2026-10-09T07:43:00.524+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 1.4
+},
+{
+"id": "01a11f7a-bfe3-79a0-a89c-0baae4fa0e43",
+"cwd": "codex-r-rtc-stmts-1",
+"created": "2026-10-09T07:05:01.618+00:00",
+"updated": "2026-10-09T07:12:47.097+00:00",
+"prompts": 1,
+"seats": [],
+"compactions": 0,
+"mb": 0.9
+}
+]
