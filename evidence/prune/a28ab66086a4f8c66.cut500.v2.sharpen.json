@@ -1,0 +1,97 @@
+{
+ "records_in": 769,
+ "records_out": 389,
+ "bytes_in": 2009904,
+ "bytes_out": 1526326,
+ "by_reason": {
+  "thinking": {
+   "n": 68,
+   "bytes_before": 144256,
+   "bytes_after": 136
+  },
+  "thinking_only_record": {
+   "n": 68,
+   "bytes_before": 228380,
+   "bytes_after": 0
+  },
+  "attachment:hook_success": {
+   "n": 208,
+   "bytes_before": 157626,
+   "bytes_after": 0
+  },
+  "error": {
+   "n": 2,
+   "bytes_before": 14813,
+   "bytes_after": 6096
+  },
+  "attachment:total_tokens_reminder": {
+   "n": 100,
+   "bytes_before": 68900,
+   "bytes_after": 0
+  },
+  "kept:doc_read_referenced": {
+   "n": 29,
+   "bytes_before": 187291,
+   "bytes_after": 187291
+  },
+  "kept:doc_read": {
+   "n": 23,
+   "bytes_before": 39550,
+   "bytes_after": 39550
+  },
+  "kept:referenced": {
+   "n": 4,
+   "bytes_before": 7315,
+   "bytes_after": 7315
+  },
+  "kept:small": {
+   "n": 7,
+   "bytes_before": 792,
+   "bytes_after": 792
+  },
+  "doc_read": {
+   "n": 2,
+   "bytes_before": 20126,
+   "bytes_after": 16096
+  },
+  "unreferenced": {
+   "n": 9,
+   "bytes_before": 10572,
+   "bytes_after": 958
+  },
+  "kept:work": {
+   "n": 21,
+   "bytes_before": 5977,
+   "bytes_after": 5977
+  },
+  "kept:poll": {
+   "n": 5,
+   "bytes_before": 1410,
+   "bytes_after": 1410
+  },
+  "poll": {
+   "n": 1,
+   "bytes_before": 378,
+   "bytes_after": 310
+  },
+  "notification": {
+   "n": 4,
+   "bytes_before": 5916,
+   "bytes_after": 0
+  },
+  "kept:tail": {
+   "n": 25,
+   "bytes_before": 17611,
+   "bytes_after": 17611
+  }
+ },
+ "loaded_in": 747292,
+ "loaded_out": 571431,
+ "source": "/Users/ember/.claude/projects/-Users-ember-dev-minidregg/905fe751-f58b-4f4a-a795-3857fa007f1d/subagents/agent-a28ab66086a4f8c66.jsonl",
+ "cut": 500,
+ "keep_last": 25,
+ "profile": 2,
+ "recorded_context_at_end": 269495,
+ "est_context_after": 213369,
+ "note": "est_context_after = fixed overhead (31k) + the recorded conversational context scaled by the ratio of loaded bytes (message content, thinking signatures, rendered attachments) after/before; an estimate, not a measured resume"
+}

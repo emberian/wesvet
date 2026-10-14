@@ -1,0 +1,266 @@
+{
+ "successor_distinct_tokens": 264,
+ "needed": 142,
+ "needed_share_of_successor_tokens": 0.538,
+ "packs": [
+  {
+   "pack": "distill",
+   "path": "/Users/ember/dev/wesvet/evidence/prune/a28ab66086a4f8c66.cut500.distill.md",
+   "bytes": 104270,
+   "recall": 0.62,
+   "recall_weighted": 0.674,
+   "missing_top": [
+    [
+     "/proc/loadavg",
+     7
+    ],
+    [
+     "fn-rtc-requests",
+     7
+    ],
+    [
+     "fn-rtc-configp",
+     6
+    ],
+    [
+     "fn-pth-reachablep",
+     6
+    ],
+    [
+     "fn-ptx-kd-of",
+     6
+    ],
+    [
+     "fn-pth-owner-trace",
+     5
+    ],
+    [
+     "fn-ptx-rely",
+     5
+    ],
+    [
+     "fn-ovr-over-capl-of",
+     5
+    ],
+    [
+     "fn-rtc-nstatic",
+     4
+    ],
+    [
+     "TS-DONE",
+     4
+    ],
+    [
+     "/tank/fn/acl2-8.7/books",
+     3
+    ],
+    [
+     "fn-ptx-trace-run",
+     3
+    ],
+    [
+     "fn-rtc-nhome",
+     3
+    ],
+    [
+     "/tank/fn/toolchains/w28/acl2-literal-4g-tls64k",
+     3
+    ],
+    [
+     "fn-pctx-decode-shape",
+     3
+    ],
+    [
+     "fn-pctx-round-trip",
+     3
+    ],
+    [
+     "fn-pctx-encode-bounded",
+     3
+    ],
+    [
+     "fn-ptx-trace-relies-p",
+     2
+    ],
+    [
+     "fn-pth-runs-keep-the-rely",
+     2
+    ],
+    [
+     "fn-pth-owner-requests-are-never-refused",
+     2
+    ],
+    [
+     "fn-lgk-recover",
+     2
+    ],
+    [
+     "ad757beffeabedff6",
+     2
+    ],
+    [
+     "/cgen/top",
+     2
+    ],
+    [
+     "fn-hl-rtc-config-is-a-config",
+     2
+    ],
+    [
+     "fn-hl-configp-of-a-list",
+     2
+    ]
+   ]
+  },
+  {
+   "pack": "sharpened_v1",
+   "path": "/Users/ember/dev/wesvet/evidence/prune/a28ab66086a4f8c66.cut500.v1.sharpened.jsonl",
+   "bytes": 414909,
+   "recall": 0.887,
+   "recall_weighted": 0.907,
+   "missing_top": [
+    [
+     "fn-rtc-requests",
+     7
+    ],
+    [
+     "fn-ptx-kd-of",
+     6
+    ],
+    [
+     "fn-ptx-rely",
+     5
+    ],
+    [
+     "TS-DONE",
+     4
+    ],
+    [
+     "ad757beffeabedff6",
+     2
+    ],
+    [
+     "/Users/ember/dev/fn/build/lanes/post/acl2-projects",
+     2
+    ],
+    [
+     "fn-lg-log",
+     1
+    ],
+    [
+     "fn-rtc-deliver",
+     1
+    ],
+    [
+     "fn-owner-cat-prepare-sealed",
+     1
+    ],
+    [
+     "fn-owner-served-post-word",
+     1
+    ],
+    [
+     "fn-lgk-committed",
+     1
+    ],
+    [
+     "a3e685d7ca195c2bf",
+     1
+    ],
+    [
+     "a28dcd67a76252796",
+     1
+    ],
+    [
+     "acb76aaeb378a33c2",
+     1
+    ],
+    [
+     "a6265b54e2380b0a7",
+     1
+    ],
+    [
+     "a7936b160d2902e58",
+     1
+    ]
+   ]
+  },
+  {
+   "pack": "sharpened_v2",
+   "path": "/Users/ember/dev/wesvet/evidence/prune/a28ab66086a4f8c66.cut500.v2.sharpened.jsonl",
+   "bytes": 467020,
+   "recall": 0.894,
+   "recall_weighted": 0.91,
+   "missing_top": [
+    [
+     "fn-rtc-requests",
+     7
+    ],
+    [
+     "fn-ptx-kd-of",
+     6
+    ],
+    [
+     "fn-ptx-rely",
+     5
+    ],
+    [
+     "TS-DONE",
+     4
+    ],
+    [
+     "ad757beffeabedff6",
+     2
+    ],
+    [
+     "/Users/ember/dev/fn/build/lanes/post/acl2-projects",
+     2
+    ],
+    [
+     "fn-rtc-deliver",
+     1
+    ],
+    [
+     "fn-owner-cat-prepare-sealed",
+     1
+    ],
+    [
+     "fn-owner-served-post-word",
+     1
+    ],
+    [
+     "fn-lgk-committed",
+     1
+    ],
+    [
+     "a3e685d7ca195c2bf",
+     1
+    ],
+    [
+     "a28dcd67a76252796",
+     1
+    ],
+    [
+     "acb76aaeb378a33c2",
+     1
+    ],
+    [
+     "a6265b54e2380b0a7",
+     1
+    ],
+    [
+     "a7936b160d2902e58",
+     1
+    ]
+   ]
+  },
+  {
+   "pack": "full_prefix",
+   "path": "packs/p7_prefix500.txt",
+   "bytes": 503199,
+   "recall": 1.0,
+   "recall_weighted": 1.0,
+   "missing_top": []
+  }
+ ]
+}

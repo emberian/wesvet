@@ -29,7 +29,8 @@ one bucket, first match wins:
   thinking_signature  thinking blocks (stored as an opaque signature; it is reloaded on resume)
   tool_input       tool-call arguments not counted above
 
-Also counted: decisions (DECISION/READY/RED/BLOCKED messages to "main", and assistant turns that
+Also counted: self-rules (assistant turns that state a lesson for later: "from here on", "next time"),
+decisions (DECISION/READY/RED/BLOCKED messages to "main", and assistant turns that
 state a ruling), coordinator corrections (incoming messages with correction language), commits.
 Limits: "superseded" and "redundant" are by path/command identity, not by content; a read of a large
 file in parts counts each part as a separate read target only when the offsets differ.
@@ -45,6 +46,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 import irlib  # noqa: E402
 
 CORRECTION = re.compile(r"\b(correction|wrong|not what I|don't|do not|stop |never |no longer|instead|rule[ds]?\b|must not|right call|you missed|re-?do)", re.I)
+SELF_RULE = re.compile(r"\b(from (here|now) on|from now|next time|lesson|never again|I'll always|always (run|use|send)|rule for myself|so I don't|going forward)\b", re.I)
 DECIDE_TEXT = re.compile(r"\b(DECISION|I decide|I've decided|I rule|ruling:|I'll go with|chose|choosing)\b")
 
 
@@ -228,6 +230,8 @@ def analyze(ir):
     for m in msgs:
         if m.get("role") == "assistant" and DECIDE_TEXT.search(irlib.text_of(m)):
             turns["assistant_decision_turns"] += 1
+        if m.get("role") == "assistant" and SELF_RULE.search(irlib.text_of(m)):
+            turns["assistant_self_rule_turns"] += 1
     total = sum(b.values())
     reread_files = collections.Counter()
     for (p, _r), idxs in reads_at.items():

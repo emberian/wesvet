@@ -1,0 +1,88 @@
+{
+  "sessions": 1,
+  "messages": 2032,
+  "compactions": 0,
+  "auto_compactions": 0,
+  "pre_tokens": [],
+  "fixed_overhead_est": 26587,
+  "peak_context": 973559,
+  "conversational": {
+    "total": 689115,
+    "tool_results": 279906,
+    "thinking": 261245,
+    "assistant_text": 7479,
+    "user_text": 1342,
+    "tool_call_args": 138577,
+    "images": 0,
+    "system_msgs": 0,
+    "system_reminders": 566
+  },
+  "by_attachment": {
+    "injected_context": 566
+  },
+  "tool_results_mcp": 0,
+  "tool_results_builtin": 279906,
+  "by_tool": [
+    {
+      "tool": "Bash",
+      "mcp": false,
+      "calls": 657,
+      "result_tokens": 184433
+    },
+    {
+      "tool": "Edit",
+      "mcp": false,
+      "calls": 16,
+      "result_tokens": 874
+    },
+    {
+      "tool": "Read",
+      "mcp": false,
+      "calls": 10,
+      "result_tokens": 93636
+    },
+    {
+      "tool": "TaskStop",
+      "mcp": false,
+      "calls": 1,
+      "result_tokens": 388
+    },
+    {
+      "tool": "ToolSearch",
+      "mcp": false,
+      "calls": 1,
+      "result_tokens": 0
+    },
+    {
+      "tool": "Write",
+      "mcp": false,
+      "calls": 9,
+      "result_tokens": 575
+    }
+  ],
+  "hooks": {
+    "installed": [
+      {
+        "scope": "user",
+        "entries": 0,
+        "of": 6,
+        "settings_path": "/Users/ember/.claude/settings.json"
+      },
+      {
+        "scope": "project",
+        "entries": 0,
+        "of": 6,
+        "settings_path": "/private/tmp/claude-501/-Users-ember-dev-minidregg/d5d27b94-2f28-450b-a527-aa28fde419f2/scratchpad/.claude/settings.json"
+      }
+    ],
+    "policy": {
+      "auto_compact_enabled": false,
+      "idle_compaction": null,
+      "env": {
+        "CLAUDE_AUTOCOMPACT_PCT_OVERRIDE": null,
+        "CLAUDE_CODE_AUTO_COMPACT_WINDOW": null,
+        "DISABLE_AUTO_COMPACT": null
+      }
+    }
+  }
+}

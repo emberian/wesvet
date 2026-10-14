@@ -1,0 +1,71 @@
+{
+ "id": "agent-ae2f97821f3cd5fde",
+ "messages": 1977,
+ "bytes_total": 2067454,
+ "buckets": {
+  "brief": 5858,
+  "notification": 188440,
+  "thinking_signature": 830562,
+  "assistant_text": 28083,
+  "tool_input": 75364,
+  "run_referenced": 24385,
+  "read_referenced": 97536,
+  "error_output": 19633,
+  "run_unreferenced": 32567,
+  "work_call": 469796,
+  "read_unreferenced": 141637,
+  "repeated_cmd": 77184,
+  "incoming": 3985,
+  "poll": 71731,
+  "reread": 693
+ },
+ "share": {
+  "brief": 0.0028,
+  "notification": 0.0911,
+  "thinking_signature": 0.4017,
+  "assistant_text": 0.0136,
+  "tool_input": 0.0365,
+  "run_referenced": 0.0118,
+  "read_referenced": 0.0472,
+  "error_output": 0.0095,
+  "run_unreferenced": 0.0158,
+  "work_call": 0.2272,
+  "read_unreferenced": 0.0685,
+  "repeated_cmd": 0.0373,
+  "incoming": 0.0019,
+  "poll": 0.0347,
+  "reread": 0.0003
+ },
+ "counts": {
+  "notification": 573,
+  "incoming": 4,
+  "incoming_with_correction_language": 3,
+  "calls": 469,
+  "calls_run": 79,
+  "calls_read": 117,
+  "calls_setup": 1,
+  "calls_edit": 171,
+  "calls_commit": 9,
+  "commits": 9,
+  "calls_message": 5,
+  "to_main_READY": 3,
+  "calls_poll": 86,
+  "to_main_DECISION": 1,
+  "to_main_BLOCKED": 1,
+  "calls_dispatch": 1,
+  "assistant_decision_turns": 1
+ },
+ "top_reread_files": [
+  [
+   "/private/tmp/claude-501/-Users-ember-dev-minidregg/35f3668a-68bf-4b49-b3e2-60a1476dfce8/tasks/bi5fl5nze.output",
+   1
+  ],
+  [
+   "/private/tmp/claude-501/-Users-ember-dev-minidregg/35f3668a-68bf-4b49-b3e2-60a1476dfce8/tasks/b7lbj4r0z.output",
+   1
+  ]
+ ],
+ "peak_context": 787338,
+ "api_requests": 470,
+ "tokens_total": 227863123
+}

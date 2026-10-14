@@ -1,0 +1,95 @@
+{
+  "sessions": 1,
+  "messages": 2125,
+  "compactions": 0,
+  "auto_compactions": 0,
+  "pre_tokens": [],
+  "fixed_overhead_est": 32284,
+  "peak_context": 917565,
+  "conversational": {
+    "total": 716198,
+    "tool_results": 283470,
+    "thinking": 260369,
+    "assistant_text": 93,
+    "user_text": 1145,
+    "tool_call_args": 127688,
+    "images": 0,
+    "system_msgs": 0,
+    "system_reminders": 43433
+  },
+  "by_attachment": {
+    "agent_listing_delta": 784,
+    "auto_mode": 117,
+    "date": 19,
+    "deferred_tools_delta": 633,
+    "edited_text_file": 1562,
+    "environment": 334,
+    "instructions": 6053,
+    "mcp_instructions_delta": 1184,
+    "model": 46,
+    "queued_command": 15125,
+    "remote_session_change": 167,
+    "session_context": 954,
+    "skill_listing": 2580,
+    "total_tokens_reminder": 13875
+  },
+  "tool_results_mcp": 0,
+  "tool_results_builtin": 283470,
+  "by_tool": [
+    {
+      "tool": "Agent",
+      "mcp": false,
+      "calls": 3,
+      "result_tokens": 915
+    },
+    {
+      "tool": "Bash",
+      "mcp": false,
+      "calls": 551,
+      "result_tokens": 280154
+    },
+    {
+      "tool": "SendMessage",
+      "mcp": false,
+      "calls": 2,
+      "result_tokens": 75
+    },
+    {
+      "tool": "TaskStop",
+      "mcp": false,
+      "calls": 2,
+      "result_tokens": 2326
+    },
+    {
+      "tool": "ToolSearch",
+      "mcp": false,
+      "calls": 1,
+      "result_tokens": 0
+    }
+  ],
+  "hooks": {
+    "installed": [
+      {
+        "scope": "user",
+        "entries": 0,
+        "of": 6,
+        "settings_path": "/Users/ember/.claude/settings.json"
+      },
+      {
+        "scope": "project",
+        "entries": 0,
+        "of": 6,
+        "settings_path": "/private/tmp/claude-501/-Users-ember-dev-minidregg/d5d27b94-2f28-450b-a527-aa28fde419f2/scratchpad/.claude/settings.json"
+      }
+    ],
+    "policy": {
+      "auto_compact_enabled": false,
+      "idle_compaction": null,
+      "env": {
+        "CLAUDE_AUTOCOMPACT_PCT_OVERRIDE": null,
+        "CLAUDE_CODE_AUTO_COMPACT_WINDOW": null,
+        "DISABLE_AUTO_COMPACT": null
+      }
+    }
+  }
+}

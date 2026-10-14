@@ -1,0 +1,101 @@
+{
+ "id": "agent-a07c5a47e301253f1",
+ "messages": 2113,
+ "bytes_total": 2262652,
+ "buckets": {
+  "brief": 5868,
+  "notification": 134655,
+  "thinking_signature": 709668,
+  "tool_input": 109552,
+  "run_referenced": 60510,
+  "read_referenced": 367069,
+  "repeated_cmd": 67560,
+  "work_call": 373004,
+  "read_unreferenced": 263459,
+  "run_unreferenced": 75948,
+  "error_output": 2668,
+  "superseded_read": 1642,
+  "assistant_text": 20561,
+  "reread": 3581,
+  "poll": 56138,
+  "incoming": 10769
+ },
+ "share": {
+  "brief": 0.0026,
+  "notification": 0.0595,
+  "thinking_signature": 0.3136,
+  "tool_input": 0.0484,
+  "run_referenced": 0.0267,
+  "read_referenced": 0.1622,
+  "repeated_cmd": 0.0299,
+  "work_call": 0.1649,
+  "read_unreferenced": 0.1164,
+  "run_unreferenced": 0.0336,
+  "error_output": 0.0012,
+  "superseded_read": 0.0007,
+  "assistant_text": 0.0091,
+  "reread": 0.0016,
+  "poll": 0.0248,
+  "incoming": 0.0048
+ },
+ "counts": {
+  "notification": 605,
+  "incoming": 14,
+  "incoming_with_correction_language": 8,
+  "calls": 553,
+  "calls_run": 116,
+  "calls_read": 201,
+  "calls_dispatch": 49,
+  "calls_setup": 14,
+  "calls_edit": 53,
+  "calls_commit": 43,
+  "commits": 43,
+  "calls_poll": 65,
+  "calls_message": 9,
+  "to_main_DECISION": 1,
+  "calls_other": 3,
+  "to_main_BLOCKED": 2,
+  "to_main_other": 2,
+  "to_main_READY": 3,
+  "to_main_RED": 1,
+  "assistant_self_rule_turns": 1,
+  "assistant_decision_turns": 1
+ },
+ "top_reread_files": [
+  [
+   "/Users/ember/dev/fn/build/coordinator/lanedumps/b-static-dump.log",
+   1
+  ],
+  [
+   "/tank/fn/scratch/b-ports/squat.pid)",
+   1
+  ],
+  [
+   "/Users/ember/dev/fn/build/integrate-20261006n/build/train/logs/t64-regen.out",
+   1
+  ],
+  [
+   "/private/tmp/claude-501/-Users-ember-dev-minidregg/35f3668a-68bf-4b49-b3e2-60a1476dfce8/tasks/bhvqdp54p.output",
+   1
+  ],
+  [
+   "/private/tmp/claude-501/-Users-ember-dev-minidregg/35f3668a-68bf-4b49-b3e2-60a1476dfce8/scratchpad/reach.log",
+   1
+  ],
+  [
+   "/Users/ember/dev/fn/build/integrate-20261006n/build/train/logs/t64-gate2.out",
+   1
+  ],
+  [
+   "/private/tmp/claude-501/-Users-ember-dev-minidregg/35f3668a-68bf-4b49-b3e2-60a1476dfce8/tasks/bmwfd1qhy.output",
+   1
+  ],
+  [
+   "/private/tmp/claude-501/-Users-ember-dev-minidregg/35f3668a-68bf-4b49-b3e2-60a1476dfce8/tasks/bda3v9erq.output",
+   1
+  ]
+ ],
+ "peak_context": 838264,
+ "api_requests": 555,
+ "tokens_total": 287825604
+}

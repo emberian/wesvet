@@ -1,0 +1,96 @@
+{
+ "id": "agent-a6ac8c6c04f9b7d97",
+ "messages": 2174,
+ "bytes_total": 1863269,
+ "buckets": {
+  "brief": 1169,
+  "notification": 180059,
+  "thinking_signature": 482840,
+  "assistant_text": 5218,
+  "tool_input": 101165,
+  "error_output": 16918,
+  "read_referenced": 147085,
+  "repeated_cmd": 54732,
+  "read_unreferenced": 112602,
+  "poll": 81004,
+  "run_referenced": 26122,
+  "run_unreferenced": 99402,
+  "superseded_read": 9897,
+  "work_call": 371714,
+  "reread": 4833,
+  "incoming": 168509
+ },
+ "share": {
+  "brief": 0.0006,
+  "notification": 0.0966,
+  "thinking_signature": 0.2591,
+  "assistant_text": 0.0028,
+  "tool_input": 0.0543,
+  "error_output": 0.0091,
+  "read_referenced": 0.0789,
+  "repeated_cmd": 0.0294,
+  "read_unreferenced": 0.0604,
+  "poll": 0.0435,
+  "run_referenced": 0.014,
+  "run_unreferenced": 0.0533,
+  "superseded_read": 0.0053,
+  "work_call": 0.1995,
+  "reread": 0.0026,
+  "incoming": 0.0904
+ },
+ "counts": {
+  "notification": 562,
+  "incoming": 127,
+  "incoming_with_correction_language": 112,
+  "calls": 560,
+  "calls_run": 139,
+  "calls_read": 119,
+  "calls_poll": 70,
+  "calls_dispatch": 24,
+  "calls_edit": 36,
+  "calls_commit": 108,
+  "commits": 108,
+  "calls_message": 52,
+  "to_main_other": 9,
+  "calls_spawn": 2,
+  "calls_setup": 9,
+  "calls_other": 1
+ },
+ "top_reread_files": [
+  [
+   "/srv/warm-base/FROZEN",
+   7
+  ],
+  [
+   "/srv/artifacts/watch.log'",
+   7
+  ],
+  [
+   "/srv/lanes/mk-fxb7/logs/fx-host.log'",
+   6
+  ],
+  [
+   "/srv/warm-base/FROZEN'",
+   3
+  ],
+  [
+   "/srv/artifacts/watch.log",
+   3
+  ],
+  [
+   "/srv/lanes/mk-tools/fx-b7.log",
+   3
+  ],
+  [
+   "/srv/lanes/mk-gate-b6/logs/gate-b6.summary",
+   2
+  ],
+  [
+   "/srv/lanes/mk-tools/fx-b9.log",
+   2
+  ]
+ ],
+ "peak_context": 768686,
+ "api_requests": 531,
+ "tokens_total": 235329309
+}

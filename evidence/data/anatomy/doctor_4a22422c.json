@@ -1,0 +1,136 @@
+{
+  "sessions": 1,
+  "messages": 4684,
+  "compactions": 0,
+  "auto_compactions": 0,
+  "pre_tokens": [],
+  "fixed_overhead_est": 472822,
+  "peak_context": 976209,
+  "conversational": {
+    "total": 841743,
+    "tool_results": 51957,
+    "thinking": 230133,
+    "assistant_text": 51662,
+    "user_text": 79665,
+    "tool_call_args": 207996,
+    "images": 0,
+    "system_msgs": 0,
+    "system_reminders": 220330
+  },
+  "by_attachment": {
+    "agent_listing_delta": 784,
+    "auto_mode": 117,
+    "bash_output_audience_note": 5184,
+    "date": 65,
+    "deferred_tools_delta": 878,
+    "edited_text_file": 1875,
+    "environment": 334,
+    "hook_additional_context": 402,
+    "hook_success": 20046,
+    "injected_context": 73843,
+    "instructions": 5801,
+    "mcp_instructions_delta": 1184,
+    "model": 47,
+    "queued_command": 94960,
+    "remote_session_change": 167,
+    "session_context": 954,
+    "silent_turn_reminder": 234,
+    "skill_listing": 2580,
+    "total_tokens_reminder": 10875
+  },
+  "tool_results_mcp": 0,
+  "tool_results_builtin": 51957,
+  "by_tool": [
+    {
+      "tool": "(unknown tool)",
+      "mcp": false,
+      "calls": 0,
+      "result_tokens": 15
+    },
+    {
+      "tool": "Agent",
+      "mcp": false,
+      "calls": 55,
+      "result_tokens": 16775
+    },
+    {
+      "tool": "Bash",
+      "mcp": false,
+      "calls": 330,
+      "result_tokens": 20454
+    },
+    {
+      "tool": "CronCreate",
+      "mcp": false,
+      "calls": 3,
+      "result_tokens": 147
+    },
+    {
+      "tool": "CronDelete",
+      "mcp": false,
+      "calls": 2,
+      "result_tokens": 14
+    },
+    {
+      "tool": "ListAgents",
+      "mcp": false,
+      "calls": 1,
+      "result_tokens": 537
+    },
+    {
+      "tool": "PushNotification",
+      "mcp": false,
+      "calls": 3,
+      "result_tokens": 66
+    },
+    {
+      "tool": "SendMessage",
+      "mcp": false,
+      "calls": 246,
+      "result_tokens": 11937
+    },
+    {
+      "tool": "TaskStop",
+      "mcp": false,
+      "calls": 28,
+      "result_tokens": 1976
+    },
+    {
+      "tool": "ToolSearch",
+      "mcp": false,
+      "calls": 2,
+      "result_tokens": 0
+    },
+    {
+      "tool": "Write",
+      "mcp": false,
+      "calls": 1,
+      "result_tokens": 36
+    }
+  ],
+  "hooks": {
+    "installed": [
+      {
+        "scope": "user",
+        "entries": 0,
+        "of": 6,
+        "settings_path": "/Users/ember/.claude/settings.json"
+      },
+      {
+        "scope": "project",
+        "entries": 0,
+        "of": 6,
+        "settings_path": "/private/tmp/claude-501/-Users-ember-dev-minidregg/d5d27b94-2f28-450b-a527-aa28fde419f2/scratchpad/.claude/settings.json"
+      }
+    ],
+    "policy": {
+      "auto_compact_enabled": false,
+      "idle_compaction": null,
+      "env": {
+        "CLAUDE_AUTOCOMPACT_PCT_OVERRIDE": null,
+        "CLAUDE_CODE_AUTO_COMPACT_WINDOW": null,
+        "DISABLE_AUTO_COMPACT": null
+      }
+    }
+  }
+}

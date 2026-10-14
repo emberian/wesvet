@@ -1,0 +1,96 @@
+{
+ "id": "agent-a44f7f78a7ee106e0",
+ "messages": 2125,
+ "bytes_total": 2505419,
+ "buckets": {
+  "brief": 4007,
+  "notification": 145110,
+  "thinking_signature": 910712,
+  "tool_input": 139056,
+  "read_referenced": 287462,
+  "read_unreferenced": 280194,
+  "error_output": 18074,
+  "repeated_cmd": 145785,
+  "run_unreferenced": 86027,
+  "run_referenced": 46776,
+  "superseded_read": 11220,
+  "work_call": 382232,
+  "poll": 39265,
+  "reread": 3117,
+  "incoming": 6065,
+  "assistant_text": 317
+ },
+ "share": {
+  "brief": 0.0016,
+  "notification": 0.0579,
+  "thinking_signature": 0.3635,
+  "tool_input": 0.0555,
+  "read_referenced": 0.1147,
+  "read_unreferenced": 0.1118,
+  "error_output": 0.0072,
+  "repeated_cmd": 0.0582,
+  "run_unreferenced": 0.0343,
+  "run_referenced": 0.0187,
+  "superseded_read": 0.0045,
+  "work_call": 0.1526,
+  "poll": 0.0157,
+  "reread": 0.0012,
+  "incoming": 0.0024,
+  "assistant_text": 0.0001
+ },
+ "counts": {
+  "notification": 610,
+  "incoming": 5,
+  "incoming_with_correction_language": 3,
+  "calls": 559,
+  "calls_read": 221,
+  "calls_run": 149,
+  "calls_dispatch": 7,
+  "calls_edit": 120,
+  "calls_poll": 39,
+  "calls_other": 2,
+  "calls_message": 2,
+  "to_main_DECISION": 1,
+  "calls_spawn": 3,
+  "calls_commit": 15,
+  "commits": 15,
+  "calls_setup": 1
+ },
+ "top_reread_files": [
+  [
+   "/tmp/kl4c.lisp)\"",
+   5
+  ],
+  [
+   "/proc/1860800/wchan",
+   2
+  ],
+  [
+   "/private/tmp/claude-501/-Users-ember-dev-minidregg/905fe751-f58b-4f4a-a795-3857fa007f1d/tasks/bi22tv8vj.output",
+   2
+  ],
+  [
+   "/tmp/m20-native1.log",
+   2
+  ],
+  [
+   "/private/tmp/claude-501/-Users-ember-dev-minidregg/905fe751-f58b-4f4a-a795-3857fa007f1d/tasks/b8knlmf2t.output",
+   1
+  ],
+  [
+   "/private/tmp/claude-501/-Users-ember-dev-minidregg/905fe751-f58b-4f4a-a795-3857fa007f1d/tasks/b4lmdxqf3.output",
+   1
+  ],
+  [
+   "/private/tmp/claude-501/-Users-ember-dev-minidregg/905fe751-f58b-4f4a-a795-3857fa007f1d/tasks/b4bhdeg8l.output",
+   1
+  ],
+  [
+   "/tmp/m20-base.log",
+   1
+  ]
+ ],
+ "peak_context": 917565,
+ "api_requests": 555,
+ "tokens_total": 297401618
+}

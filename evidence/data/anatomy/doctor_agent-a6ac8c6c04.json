@@ -1,0 +1,102 @@
+{
+  "sessions": 1,
+  "messages": 2174,
+  "compactions": 0,
+  "auto_compactions": 0,
+  "pre_tokens": [],
+  "fixed_overhead_est": 46146,
+  "peak_context": 768686,
+  "conversational": {
+    "total": 532483,
+    "tool_results": 172818,
+    "thinking": 138094,
+    "assistant_text": 1496,
+    "user_text": 334,
+    "tool_call_args": 119887,
+    "images": 0,
+    "system_msgs": 0,
+    "system_reminders": 99854
+  },
+  "by_attachment": {
+    "agent_listing_delta": 784,
+    "auto_mode": 152,
+    "date": 65,
+    "deferred_tools_delta": 1271,
+    "edited_text_file": 115,
+    "environment": 335,
+    "injected_context": 544,
+    "instructions": 19244,
+    "mcp_instructions_delta": 1184,
+    "model": 46,
+    "queued_command": 59089,
+    "remote_session_change": 167,
+    "session_context": 1058,
+    "skill_listing": 2575,
+    "total_tokens_reminder": 13225
+  },
+  "tool_results_mcp": 0,
+  "tool_results_builtin": 172818,
+  "by_tool": [
+    {
+      "tool": "Agent",
+      "mcp": false,
+      "calls": 2,
+      "result_tokens": 612
+    },
+    {
+      "tool": "Bash",
+      "mcp": false,
+      "calls": 503,
+      "result_tokens": 158385
+    },
+    {
+      "tool": "Read",
+      "mcp": false,
+      "calls": 1,
+      "result_tokens": 11547
+    },
+    {
+      "tool": "SendMessage",
+      "mcp": false,
+      "calls": 52,
+      "result_tokens": 2247
+    },
+    {
+      "tool": "TaskStop",
+      "mcp": false,
+      "calls": 1,
+      "result_tokens": 27
+    },
+    {
+      "tool": "ToolSearch",
+      "mcp": false,
+      "calls": 1,
+      "result_tokens": 0
+    }
+  ],
+  "hooks": {
+    "installed": [
+      {
+        "scope": "user",
+        "entries": 0,
+        "of": 6,
+        "settings_path": "/Users/ember/.claude/settings.json"
+      },
+      {
+        "scope": "project",
+        "entries": 0,
+        "of": 6,
+        "settings_path": "/private/tmp/claude-501/-Users-ember-dev-minidregg/d5d27b94-2f28-450b-a527-aa28fde419f2/scratchpad/.claude/settings.json"
+      }
+    ],
+    "policy": {
+      "auto_compact_enabled": false,
+      "idle_compaction": null,
+      "env": {
+        "CLAUDE_AUTOCOMPACT_PCT_OVERRIDE": null,
+        "CLAUDE_CODE_AUTO_COMPACT_WINDOW": null,
+        "DISABLE_AUTO_COMPACT": null
+      }
+    }
+  }
+}

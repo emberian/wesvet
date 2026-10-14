@@ -1,0 +1,58 @@
+{
+ "id": "agent-a1387d8278c032692",
+ "messages": 1901,
+ "bytes_total": 2680280,
+ "buckets": {
+  "brief": 4843,
+  "notification": 83258,
+  "thinking_signature": 879900,
+  "work_call": 721124,
+  "tool_input": 93706,
+  "read_referenced": 103937,
+  "read_unreferenced": 434122,
+  "run_unreferenced": 170375,
+  "run_referenced": 9463,
+  "repeated_cmd": 141873,
+  "assistant_text": 19561,
+  "incoming": 16404,
+  "superseded_read": 1690,
+  "error_output": 24
+ },
+ "share": {
+  "brief": 0.0018,
+  "notification": 0.0311,
+  "thinking_signature": 0.3283,
+  "work_call": 0.269,
+  "tool_input": 0.035,
+  "read_referenced": 0.0388,
+  "read_unreferenced": 0.162,
+  "run_unreferenced": 0.0636,
+  "run_referenced": 0.0035,
+  "repeated_cmd": 0.0529,
+  "assistant_text": 0.0073,
+  "incoming": 0.0061,
+  "superseded_read": 0.0006,
+  "error_output": 0.0
+ },
+ "counts": {
+  "notification": 513,
+  "incoming": 14,
+  "incoming_with_correction_language": 5,
+  "calls": 507,
+  "calls_setup": 10,
+  "calls_read": 139,
+  "calls_run": 138,
+  "calls_edit": 176,
+  "calls_commit": 44,
+  "commits": 44
+ },
+ "top_reread_files": [
+  [
+   "/tmp/dt-objects5.log",
+   3
+  ]
+ ],
+ "peak_context": 976043,
+ "api_requests": 504,
+ "tokens_total": 289288553
+}

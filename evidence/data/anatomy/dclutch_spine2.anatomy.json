@@ -1,0 +1,93 @@
+{
+ "id": "agent-a103dbc3d51fad693",
+ "messages": 2032,
+ "bytes_total": 2411765,
+ "buckets": {
+  "brief": 4695,
+  "thinking_signature": 913680,
+  "assistant_text": 25901,
+  "tool_input": 260647,
+  "repeated_cmd": 199746,
+  "error_output": 1825,
+  "read_referenced": 394519,
+  "run_unreferenced": 86979,
+  "run_referenced": 12643,
+  "read_unreferenced": 201210,
+  "work_call": 205080,
+  "superseded_read": 14078,
+  "poll": 85214,
+  "notification": 192,
+  "incoming": 1977,
+  "reread": 3379
+ },
+ "share": {
+  "brief": 0.0019,
+  "thinking_signature": 0.3788,
+  "assistant_text": 0.0107,
+  "tool_input": 0.1081,
+  "repeated_cmd": 0.0828,
+  "error_output": 0.0008,
+  "read_referenced": 0.1636,
+  "run_unreferenced": 0.0361,
+  "run_referenced": 0.0052,
+  "read_unreferenced": 0.0834,
+  "work_call": 0.085,
+  "superseded_read": 0.0058,
+  "poll": 0.0353,
+  "notification": 0.0001,
+  "incoming": 0.0008,
+  "reread": 0.0014
+ },
+ "counts": {
+  "notification": 3,
+  "incoming": 3,
+  "calls": 694,
+  "calls_read": 252,
+  "calls_run": 238,
+  "calls_edit": 78,
+  "calls_commit": 32,
+  "commits": 32,
+  "calls_setup": 1,
+  "calls_scratch_write": 10,
+  "calls_poll": 76,
+  "calls_dispatch": 6,
+  "calls_other": 1
+ },
+ "top_reread_files": [
+  [
+   "~/.helius-key",
+   50
+  ],
+  [
+   "/private/tmp/dclutch-sim-hold-10.log",
+   2
+  ],
+  [
+   "/private/tmp/dclutch-sim-hold-11.log",
+   2
+  ],
+  [
+   "/private/tmp/dclutch-sim-hold-12.log",
+   2
+  ],
+  [
+   "/private/tmp/dclutch-sim-hold-18.log",
+   2
+  ],
+  [
+   "/private/tmp/dclutch-sim-release7.log",
+   1
+  ],
+  [
+   "/private/tmp/dclutch-sim-hold-13.log",
+   1
+  ],
+  [
+   "/private/tmp/dclutch-sim-hold-19.log",
+   1
+  ]
+ ],
+ "peak_context": 973559,
+ "api_requests": 678,
+ "tokens_total": 413283767
+}
