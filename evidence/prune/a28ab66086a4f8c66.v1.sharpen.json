@@ -1,0 +1,104 @@
+{
+ "records_in": 1319,
+ "records_out": 605,
+ "bytes_in": 3060611,
+ "bytes_out": 2050829,
+ "by_reason": {
+  "thinking": {
+   "n": 119,
+   "bytes_before": 231509,
+   "bytes_after": 238
+  },
+  "thinking_only_record": {
+   "n": 119,
+   "bytes_before": 380372,
+   "bytes_after": 0
+  },
+  "attachment:hook_success": {
+   "n": 404,
+   "bytes_before": 306208,
+   "bytes_after": 0
+  },
+  "error": {
+   "n": 2,
+   "bytes_before": 14813,
+   "bytes_after": 6096
+  },
+  "attachment:total_tokens_reminder": {
+   "n": 173,
+   "bytes_before": 119197,
+   "bytes_after": 0
+  },
+  "referenced": {
+   "n": 12,
+   "bytes_before": 118377,
+   "bytes_after": 72574
+  },
+  "unreferenced": {
+   "n": 43,
+   "bytes_before": 85617,
+   "bytes_after": 4586
+  },
+  "kept:referenced": {
+   "n": 31,
+   "bytes_before": 76993,
+   "bytes_after": 76993
+  },
+  "kept:small": {
+   "n": 17,
+   "bytes_before": 2274,
+   "bytes_after": 2274
+  },
+  "kept:work": {
+   "n": 61,
+   "bytes_before": 14705,
+   "bytes_after": 14705
+  },
+  "repeated_status": {
+   "n": 5,
+   "bytes_before": 38998,
+   "bytes_after": 552
+  },
+  "kept:poll": {
+   "n": 16,
+   "bytes_before": 4512,
+   "bytes_after": 4512
+  },
+  "poll": {
+   "n": 2,
+   "bytes_before": 723,
+   "bytes_after": 499
+  },
+  "notification": {
+   "n": 18,
+   "bytes_before": 26632,
+   "bytes_after": 0
+  },
+  "kept:error": {
+   "n": 1,
+   "bytes_before": 190,
+   "bytes_after": 190
+  },
+  "kept:tail": {
+   "n": 25,
+   "bytes_before": 11310,
+   "bytes_after": 11310
+  }
+ },
+ "loaded_in": 1058047,
+ "loaded_out": 626768,
+ "revived_usage": 239684,
+ "check": {
+  "dangling_parent": 0,
+  "tool_use_without_result": 0,
+  "result_without_use": 0,
+  "empty_assistant": 0
+ },
+ "source": "/Users/ember/.claude/projects/-Users-ember-dev-minidregg/905fe751-f58b-4f4a-a795-3857fa007f1d/subagents/agent-a28ab66086a4f8c66.jsonl",
+ "cut": null,
+ "keep_last": 25,
+ "profile": 1,
+ "recorded_context_at_end": 383281,
+ "est_context_after": 239684,
+ "note": "est_context_after = fixed overhead (31k) + the recorded conversational context scaled by the ratio of loaded bytes (message content, thinking signatures, rendered attachments) after/before; an estimate, not a measured resume"
+}

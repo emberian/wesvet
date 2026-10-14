@@ -149,6 +149,27 @@ def plan(ir, keep_last, cut, profile=2):
     return msgs, calls, decide, tail_start_ts
 
 
+def check(lines):
+    """Structural checks a resume needs: parent links resolve, every tool_use has its result."""
+    recs = [json.loads(l) for l in lines]
+    uuids = {r.get("uuid") for r in recs if r.get("uuid")}
+    uses, results = set(), set()
+    for r in recs:
+        c = r.get("message", {}).get("content") if r.get("type") in ("user", "assistant") else None
+        if isinstance(c, list):
+            for b in c:
+                if b.get("type") == "tool_use":
+                    uses.add(b.get("id"))
+                elif b.get("type") == "tool_result":
+                    results.add(b.get("tool_use_id"))
+    return {
+        "dangling_parent": sum(1 for r in recs if r.get("parentUuid") and r["parentUuid"] not in uuids),
+        "tool_use_without_result": len(uses - results),
+        "result_without_use": len(results - uses),
+        "empty_assistant": sum(1 for r in recs if r.get("type") == "assistant" and not r["message"].get("content")),
+    }
+
+
 def sharpen(ir, out_dir, keep_last=25, cut=None, profile=2):
     msgs, calls, decide, tail_ts = plan(ir, keep_last, cut, profile)
     src = ir["source_path"]
@@ -240,20 +261,31 @@ def sharpen(ir, out_dir, keep_last=25, cut=None, profile=2):
         stats["loaded_out"] = stats.get("loaded_out", 0) + loaded_bytes(rec)
         stats["records_out"] += 1
         out.append(line)
+    # revive: Claude Code's resume gate reads the last turn's recorded usage as the current size, so
+    # rewrite it to the estimate (the same correction `cv prune` applies by default)
+    overhead = 31000
+    usage_all = list(irlib.usage_rows(msgs))
+    peak = irlib.ctx_size(usage_all[-1][2]) if usage_all else 0
+    est = int(overhead + max(peak - overhead, 0) * stats.get("loaded_out", 0) / max(stats.get("loaded_in", 1), 1))
+    for k in range(len(out) - 1, -1, -1):
+        r = json.loads(out[k])
+        u = r.get("message", {}).get("usage") if r.get("type") == "assistant" else None
+        if u:
+            u["cache_read_input_tokens"] = max(est - u.get("input_tokens", 0) - u.get("cache_creation_input_tokens", 0), 0)
+            out[k] = json.dumps(r)
+            stats["revived_usage"] = est
+            break
+    stats["check"] = check(out)
     os.makedirs(out_dir, exist_ok=True)
     base = os.path.join(out_dir, (ir.get("id") or "session").replace("agent-", "") + (f".cut{cut}" if cut else "") + f".v{profile}")
     with open(base + ".sharpened.jsonl", "w") as fh:
         fh.write("\n".join(out) + "\n")
-    usage = list(irlib.usage_rows(msgs))
-    peak = irlib.ctx_size(usage[-1][2]) if usage else 0
     stats["source"] = src
     stats["cut"] = cut
     stats["keep_last"] = keep_last
     stats["profile"] = profile
     stats["recorded_context_at_end"] = peak
-    overhead = 31000  # fixed system + tools context, as cv doctor sizes it for these seats
-    conv = max(peak - overhead, 0)
-    stats["est_context_after"] = int(overhead + conv * stats["loaded_out"] / max(stats["loaded_in"], 1))
+    stats["est_context_after"] = est  # fixed overhead (31k, cv doctor's figure for these seats) + scaled conversation
     stats["note"] = ("est_context_after = fixed overhead (31k) + the recorded conversational context scaled by "
                      "the ratio of loaded bytes (message content, thinking signatures, rendered attachments) "
                      "after/before; an estimate, not a measured resume")
@@ -280,6 +312,7 @@ def main():
           f"-> est {st['est_context_after']/1e3:.0f}k")
     for k, v in sorted(st["by_reason"].items(), key=lambda kv: -(kv[1]["bytes_before"] - kv[1]["bytes_after"])):
         print(f"  {k:32s} n={v['n']:4d}  {v['bytes_before']/1e3:8.0f} kB -> {v['bytes_after']/1e3:8.0f} kB")
+    print("  check:", json.dumps(st["check"]))
 
 
 if __name__ == "__main__":

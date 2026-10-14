@@ -56,7 +56,9 @@ pack, by a rule the coordinator does not have to re-derive each time.
 resumed veteran at context C after about 1.3M / (C - 91K) requests):
 - Resume the parked seat by `SendMessage` when the work item is a RED, a review question or a
   seam answer on its own lane, at any context below 600K.
-- Resume it for a new task when its context is under 200K and it has not compacted.
+- Resume it for a new task when its context is under 200K and it has not compacted. The price is
+  stated: at 200K a resumed context costs more tokens than a successor from about 12 requests on;
+  what it buys is the whole context instead of 43% of it.
 - Otherwise start the next context from practice 4's pack, or from practice 5's sharpened veteran
   where that is running.
 The coordinator records each routing decision as one line in STATE.md: item, seat, rule branch.

@@ -121,9 +121,11 @@ Outputs: `evidence/prune/a28ab66086a4f8c66.cut500.*`, `evidence/prune/p7-selfcut
 
 | pack (P7 at message 500, recorded context 269K) | est. context | recall | weighted | what it missed |
 |---|---|---|---|---|
-| `cv distill --upto 500` | 43K | 0.62 | 0.67 | the rely, the runtime-contract request names, the reachability predicate (all from book and survey reads), `/proc/loadavg` (the box-load check) |
+| `cv distill --upto 500` (defaults: last 12 calls verbatim) | 43K | 0.62 | 0.67 | the rely, the runtime-contract request names, the reachability predicate (all from book and survey reads), `/proc/loadavg` (the box-load check) |
+| `cv distill --upto 500 --keep-last 40 --tail-result-max 8000 --note-max 12000` | 60K | 0.78 | 0.83 | the same book and survey names |
+| the same with `--keep-last 100` | 132K | 0.92 | 0.94 | `fn-rtc-requests`, `fn-ovr-over-capl-of`, peer seat ids |
 | sharpen profile 1 (drop every never-used output) | 173K | 0.94 | 0.94 | `fn-rtc-requests`, `fn-ptx-kd-of` (book reads not yet quoted at the cut), `TS-DONE` |
-| sharpen profile 2 (keep document and source reads) | 213K | 0.986 | 0.984 | `TS-DONE` (a status line inside an unreferenced run), one worktree path |
+| sharpen profile 2 (keep document and source reads) | 213K | 0.986 | 0.984 | `TS-DONE` and `ACL2_PROJECTS=.../acl2-projects`, both inside one unreferenced run output (#402) |
 | the full prefix | 269K | 1.00 | 1.00 | |
 
 The first version of profile 1 scored 0.89: its "status command run again later" rule keyed on the

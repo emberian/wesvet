@@ -4,7 +4,7 @@
  "needed_share_of_successor_tokens": 0.538,
  "packs": [
   {
-   "pack": "distill",
+   "pack": "distill_kl12",
    "path": "/Users/ember/dev/wesvet/evidence/prune/a28ab66086a4f8c66.cut500.distill.md",
    "bytes": 104270,
    "recall": 0.62,
@@ -19,11 +19,11 @@
      7
     ],
     [
-     "fn-rtc-configp",
+     "fn-pth-reachablep",
      6
     ],
     [
-     "fn-pth-reachablep",
+     "fn-rtc-configp",
      6
     ],
     [
@@ -67,6 +67,10 @@
      3
     ],
     [
+     "fn-pctx-encode-bounded",
+     3
+    ],
+    [
      "fn-pctx-decode-shape",
      3
     ],
@@ -75,8 +79,8 @@
      3
     ],
     [
-     "fn-pctx-encode-bounded",
-     3
+     "fn-pth-owner-requests-are-never-refused",
+     2
     ],
     [
      "fn-ptx-trace-relies-p",
@@ -84,10 +88,6 @@
     ],
     [
      "fn-pth-runs-keep-the-rely",
-     2
-    ],
-    [
-     "fn-pth-owner-requests-are-never-refused",
      2
     ],
     [
@@ -103,21 +103,21 @@
      2
     ],
     [
-     "fn-hl-rtc-config-is-a-config",
+     "fn-hl-configp-of-a-list",
      2
     ],
     [
-     "fn-hl-configp-of-a-list",
+     "fn-hl-rtc-config-is-a-config",
      2
     ]
    ]
   },
   {
-   "pack": "sharpened_v1",
-   "path": "/Users/ember/dev/wesvet/evidence/prune/a28ab66086a4f8c66.cut500.v1.sharpened.jsonl",
-   "bytes": 414909,
-   "recall": 0.887,
-   "recall_weighted": 0.907,
+   "pack": "distill_kl40",
+   "path": "/Users/ember/dev/wesvet/evidence/prune/a28ab66086a4f8c66.cut500.distill-kl40.md",
+   "bytes": 146226,
+   "recall": 0.775,
+   "recall_weighted": 0.829,
    "missing_top": [
     [
      "fn-rtc-requests",
@@ -128,16 +128,170 @@
      6
     ],
     [
+     "fn-pth-owner-trace",
+     5
+    ],
+    [
      "fn-ptx-rely",
      5
     ],
     [
-     "TS-DONE",
-     4
+     "fn-ovr-over-capl-of",
+     5
+    ],
+    [
+     "fn-ptx-trace-run",
+     3
+    ],
+    [
+     "fn-pctx-decode-shape",
+     3
+    ],
+    [
+     "fn-pctx-round-trip",
+     3
+    ],
+    [
+     "fn-pth-owner-requests-are-never-refused",
+     2
+    ],
+    [
+     "fn-ptx-trace-relies-p",
+     2
+    ],
+    [
+     "fn-pth-runs-keep-the-rely",
+     2
+    ],
+    [
+     "fn-lgk-recover",
+     2
     ],
     [
      "ad757beffeabedff6",
      2
+    ],
+    [
+     "PERF-AND-COLLAPSE-PLAN-20261012",
+     1
+    ],
+    [
+     "HOST-LANDS",
+     1
+    ],
+    [
+     "fn-lg-log",
+     1
+    ],
+    [
+     "fn-pth-log-writes-are-the-split-ops",
+     1
+    ],
+    [
+     "fn-rtc-deliver",
+     1
+    ],
+    [
+     "/native/io.lisp",
+     1
+    ],
+    [
+     "fn-owner-served-post-word",
+     1
+    ],
+    [
+     "fn-owner-cat-prepare-sealed",
+     1
+    ],
+    [
+     "fn-lgt-recover",
+     1
+    ],
+    [
+     "fn-lgk-committed",
+     1
+    ],
+    [
+     "fn-rtc-buf-cap",
+     1
+    ],
+    [
+     "a3e685d7ca195c2bf",
+     1
+    ]
+   ]
+  },
+  {
+   "pack": "distill_kl100",
+   "path": "/Users/ember/dev/wesvet/evidence/prune/a28ab66086a4f8c66.cut500.distill-kl100.md",
+   "bytes": 322580,
+   "recall": 0.923,
+   "recall_weighted": 0.943,
+   "missing_top": [
+    [
+     "fn-rtc-requests",
+     7
+    ],
+    [
+     "fn-ovr-over-capl-of",
+     5
+    ],
+    [
+     "ad757beffeabedff6",
+     2
+    ],
+    [
+     "PERF-AND-COLLAPSE-PLAN-20261012",
+     1
+    ],
+    [
+     "fn-lgt-recover",
+     1
+    ],
+    [
+     "a3e685d7ca195c2bf",
+     1
+    ],
+    [
+     "a7936b160d2902e58",
+     1
+    ],
+    [
+     "a6265b54e2380b0a7",
+     1
+    ],
+    [
+     "acb76aaeb378a33c2",
+     1
+    ],
+    [
+     "/COUNTEREXAMPLE/SKIPPED",
+     1
+    ],
+    [
+     "a28dcd67a76252796",
+     1
+    ]
+   ]
+  },
+  {
+   "pack": "sharpened_v1",
+   "path": "/Users/ember/dev/wesvet/evidence/prune/a28ab66086a4f8c66.cut500.v1.sharpened.jsonl",
+   "bytes": 442017,
+   "recall": 0.944,
+   "recall_weighted": 0.941,
+   "missing_top": [
+    [
+     "fn-rtc-requests",
+     7
+    ],
+    [
+     "fn-ptx-kd-of",
+     6
+    ],
+    [
+     "TS-DONE",
+     4
     ],
     [
      "/Users/ember/dev/fn/build/lanes/post/acl2-projects",
@@ -148,7 +302,7 @@
      1
     ],
     [
-     "fn-rtc-deliver",
+     "fn-owner-served-post-word",
      1
     ],
     [
@@ -156,31 +310,7 @@
      1
     ],
     [
-     "fn-owner-served-post-word",
-     1
-    ],
-    [
      "fn-lgk-committed",
-     1
-    ],
-    [
-     "a3e685d7ca195c2bf",
-     1
-    ],
-    [
-     "a28dcd67a76252796",
-     1
-    ],
-    [
-     "acb76aaeb378a33c2",
-     1
-    ],
-    [
-     "a6265b54e2380b0a7",
-     1
-    ],
-    [
-     "a7936b160d2902e58",
      1
     ]
    ]
@@ -188,69 +318,17 @@
   {
    "pack": "sharpened_v2",
    "path": "/Users/ember/dev/wesvet/evidence/prune/a28ab66086a4f8c66.cut500.v2.sharpened.jsonl",
-   "bytes": 467020,
-   "recall": 0.894,
-   "recall_weighted": 0.91,
+   "bytes": 568370,
+   "recall": 0.986,
+   "recall_weighted": 0.984,
    "missing_top": [
-    [
-     "fn-rtc-requests",
-     7
-    ],
-    [
-     "fn-ptx-kd-of",
-     6
-    ],
-    [
-     "fn-ptx-rely",
-     5
-    ],
     [
      "TS-DONE",
      4
     ],
     [
-     "ad757beffeabedff6",
-     2
-    ],
-    [
      "/Users/ember/dev/fn/build/lanes/post/acl2-projects",
      2
-    ],
-    [
-     "fn-rtc-deliver",
-     1
-    ],
-    [
-     "fn-owner-cat-prepare-sealed",
-     1
-    ],
-    [
-     "fn-owner-served-post-word",
-     1
-    ],
-    [
-     "fn-lgk-committed",
-     1
-    ],
-    [
-     "a3e685d7ca195c2bf",
-     1
-    ],
-    [
-     "a28dcd67a76252796",
-     1
-    ],
-    [
-     "acb76aaeb378a33c2",
-     1
-    ],
-    [
-     "a6265b54e2380b0a7",
-     1
-    ],
-    [
-     "a7936b160d2902e58",
-     1
     ]
    ]
   },

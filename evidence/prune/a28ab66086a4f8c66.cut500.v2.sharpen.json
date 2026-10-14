@@ -35,9 +35,9 @@
    "bytes_after": 187291
   },
   "kept:doc_read": {
-   "n": 23,
-   "bytes_before": 39550,
-   "bytes_after": 39550
+   "n": 21,
+   "bytes_before": 38845,
+   "bytes_after": 38845
   },
   "kept:referenced": {
    "n": 4,
@@ -60,9 +60,9 @@
    "bytes_after": 958
   },
   "kept:work": {
-   "n": 21,
-   "bytes_before": 5977,
-   "bytes_after": 5977
+   "n": 23,
+   "bytes_before": 6682,
+   "bytes_after": 6682
   },
   "kept:poll": {
    "n": 5,
@@ -87,6 +87,13 @@
  },
  "loaded_in": 747292,
  "loaded_out": 571431,
+ "revived_usage": 213369,
+ "check": {
+  "dangling_parent": 0,
+  "tool_use_without_result": 0,
+  "result_without_use": 0,
+  "empty_assistant": 0
+ },
  "source": "/Users/ember/.claude/projects/-Users-ember-dev-minidregg/905fe751-f58b-4f4a-a795-3857fa007f1d/subagents/agent-a28ab66086a4f8c66.jsonl",
  "cut": 500,
  "keep_last": 25,
