@@ -108,8 +108,9 @@ keeper 127; the coordinator 312 seat messages and 11 human prompts in its own sp
 prevented five successions: "i hadta restart the harness for pruning & upgrades, mind sendmsg those
 running agents to resume em? :)" (4a22422c#2098), answered "The harness restart killed every
 in-process seat (A4, B6, C6, D3, M3) ... respawning each from its own file" (#2115). `cv adopt`
-shipped the next day (cv e34a52f8, 10-10 23:02 UTC) and no fn coordinator transcript after it uses
-it, through three more restarts.
+shipped the next day (cv e34a52f8, 10-10 23:02 UTC); no fn coordinator transcript after it
+(905fe751, 608deb34, d5d27b94) runs it, through the restarts of 10-13 05:08 and 22:43 that again
+respawned every seat.
 
 ## 5. The prune, tested against the veteran's own future
 
