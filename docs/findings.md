@@ -85,7 +85,7 @@ context starts from, and the hand-written continuation file is the worst of the 
 
 **What a long transcript is made of** (A §2, §3), for builder seats of 770K to 920K:
 - thinking signatures, 31% to 41% of tokens, stored opaque, so unevaluable;
-- waiting (harness notifications and poll calls), 7% to 13% of bytes; the coordinator 26%;
+- waiting (harness notifications and poll calls), 6% to 11% of bytes; the coordinator 26%;
 - stale status (repeated status commands, superseded reads), 3% to 9%;
 - outputs never used later, 9% to 23% (reads 7% to 16%, runs 1% to 6%);
 - the agent's own words, the brief and every message received, 0.4% to 1.8%;

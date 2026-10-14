@@ -47,7 +47,8 @@ name, run id, UPPER-CASE id, 5+ digit number) appears in anything the agent late
 
 | bucket group | fn_A1 | fn_B1 | fn_C1 | fn_M20 | fn_coord | delvetalk | dclutch | bread |
 |---|---|---|---|---|---|---|---|---|
-| waiting: harness notifications + poll calls | 9.5% | 8.4% | 12.6% | 7.4% | 26.2% | 3.1% | 3.5% | 14.0% |
+| waiting: harness notifications + poll calls | 7.8% | 6.8% | 10.8% | 5.9% | 26.0% | 1.9% | 3.5% | 10.7% |
+| setup context before the first reply (instructions, skills, environment) | 1.8% | 1.6% | 1.7% | 1.5% | 0.3% | 1.2% | 0.0% | 3.3% |
 | stale status: a status command run again later, superseded or identical re-reads | 5.9% | 3.2% | 3.8% | 6.4% | 0.3% | 5.4% | 9.0% | 3.7% |
 | run/test output never used later | 1.4% | 3.4% | 1.6% | 3.4% | 0.8% | 6.4% | 3.6% | 5.3% |
 | read output never used later | 7.6% | 11.6% | 6.9% | 11.2% | 0.3% | 16.2% | 8.3% | 6.0% |
@@ -56,7 +57,7 @@ name, run id, UPPER-CASE id, 5+ digit number) appears in anything the agent late
 | error output | 0.0% | 0.1% | 0.9% | 0.7% | 0.1% | 0.0% | 0.1% | 0.9% |
 | state-changing calls, input and output (edits, commits, dispatches, messages) | 24.7% | 16.5% | 22.7% | 15.3% | 26.9% | 26.9% | 8.5% | 20.0% |
 | other tool inputs | 4.3% | 4.8% | 3.6% | 5.5% | 1.5% | 3.5% | 10.8% | 5.4% |
-| own words + messages received + brief | 1.6% | 1.7% | 1.8% | 0.4% | 16.8% | 1.5% | 1.3% | 9.4% |
+| own words + messages received + brief | 1.6% | 1.7% | 1.8% | 0.4% | 16.7% | 1.5% | 1.3% | 9.4% |
 | total bytes | 2.06 MB | 2.26 MB | 2.07 MB | 2.51 MB | 3.01 MB | 2.68 MB | 2.41 MB | 1.86 MB |
 
 Counts:
@@ -137,8 +138,8 @@ them.
 
 ## 6. What a prune may remove, and what it may not
 
-May remove, on this evidence (low risk; 15% to 30% of a seat's bytes):
-- harness notifications and poll-call outputs before the tail (3% to 14% of a seat, 26% of the
+May remove, on this evidence (low risk; 13% to 20% of a seat's bytes):
+- harness notifications and poll-call outputs before the tail (2% to 11% of a seat, 26% of the
   coordinator);
 - all but the last output of a repeated status command (3% to 9%);
 - run and test outputs whose introduced tokens are never used again (1% to 6%);

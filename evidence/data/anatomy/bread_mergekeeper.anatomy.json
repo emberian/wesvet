@@ -4,11 +4,12 @@
  "bytes_total": 1863269,
  "buckets": {
   "brief": 1169,
-  "notification": 180059,
+  "setup": 61955,
   "thinking_signature": 482840,
   "assistant_text": 5218,
   "tool_input": 101165,
   "error_output": 16918,
+  "notification": 118104,
   "read_referenced": 147085,
   "repeated_cmd": 54732,
   "read_unreferenced": 112602,
@@ -22,11 +23,12 @@
  },
  "share": {
   "brief": 0.0006,
-  "notification": 0.0966,
+  "setup": 0.0333,
   "thinking_signature": 0.2591,
   "assistant_text": 0.0028,
   "tool_input": 0.0543,
   "error_output": 0.0091,
+  "notification": 0.0634,
   "read_referenced": 0.0789,
   "repeated_cmd": 0.0294,
   "read_unreferenced": 0.0604,
@@ -39,7 +41,7 @@
   "incoming": 0.0904
  },
  "counts": {
-  "notification": 562,
+  "notification": 554,
   "incoming": 127,
   "incoming_with_correction_language": 112,
   "calls": 560,

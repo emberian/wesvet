@@ -11,7 +11,8 @@ one bucket, first match wins:
 
   brief            message 0
   incoming         messages from the coordinator or peers ("... sent a message ...") and human prompts
-  notification     harness background-task notifications and other injected reminders
+  setup            injected context before the agent's first reply (instructions, skills, environment)
+  notification     later harness background-task notifications and other injected reminders
   poll             a poll call (sleep/until/while-do/tail -f/kill -0, Monitor, TaskOutput) and its output
   superseded_read  output of a read whose file is read again later or edited later (the later state wins)
   repeated_cmd     output of a status command (same normalized command) that is run again later
@@ -175,6 +176,7 @@ def analyze(ir):
 
     b = collections.Counter()
     turns = collections.Counter()
+    first_reply = next((i for i, m in enumerate(msgs) if m.get("role") == "assistant"), len(msgs))
     for i, m in enumerate(msgs):
         role, kind = m.get("role"), m.get("kind")
         if i == 0:
@@ -205,6 +207,9 @@ def analyze(ir):
                         b["tool_input"] += blen(c.get("input"))
             continue
         t = irlib.text_of(m)
+        if i < first_reply and kind != "prompt":
+            b["setup"] += blen(t)
+            continue
         if kind == "prompt" or "sent a message" in t[:200]:
             b["incoming"] += blen(t)
             turns["incoming"] += 1
