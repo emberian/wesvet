@@ -28,7 +28,7 @@ resumed; every prune result is offline.
    01a12fca) carried POST landing 2's proofs across six consecutive Opus seats, P7 to P12, through 28
    prompts and 9 compactions; nine more workers spanned two to five seats (S §3). The Opus seats,
    briefed as "a long-lived seat ... resumed by message for days, never replaced" (C1 ae2f9782#0),
-   lived three to five hours each. The one designed standing-lane experiment (breadstuffs, 08-05)
+   lived a median 2.6 hours each (p25 1.2, p75 5.0; 218 API requests). The one designed standing-lane experiment (breadstuffs, 08-05)
    revived 3 of 27 lanes before the parent session changed and the rest were respawned (S row 36).
 
 ## 1. Resume, don't respawn
@@ -124,8 +124,8 @@ and the expertise travelled in continuation files (43% carriage) and in Codex wo
 
 **Where durable contexts did form**:
 - Codex workers, resumed by session id with a delta prompt ("Seat P8 (succeeds P7). Your last turn
-  ended on ..."), across up to six seats; 10 of 186 fn worker sessions over 300 kB since 10-09 span
-  two or more seats (`evidence/data/codex-workers-fn-20261009-13.json`).
+  ended on ..."), across up to six seats; at least 10 of 186 fn worker sessions over 300 kB since 10-09 span
+  two or more seats (a lower bound: seats are recognized only when a prompt names one) (`evidence/data/codex-workers-fn-20261009-13.json`).
 - The delvetalk objects lane a1387d82, resumed by message for four rounds of work (#982, #1103,
   #1224, #1849) to 976K, then succeeded.
 - The fn coordinator, carried across six sessions by fork and prune; the context ember repeatedly
@@ -136,7 +136,7 @@ session. Every parent restart, prune-and-fork or abeyance ended every seat at on
 AUDIT-TWO-WEEKS §d), and the breadstuffs standing lanes died the same way. The fix exists (`cv adopt`)
 and has not entered practice.
 
-**Lifecycle, as practiced**: birth by spawn with a continuation file; a life of 3 to 5 hours to a
-350K park; retirement by the park rule, never by a measure of drift or expertise; no instrument for
+**Lifecycle, as practiced**: birth by spawn with a continuation file; a life of a median 2.6 hours
+and 218 API requests to a 350K park; retirement by the park rule, never by a measure of drift or expertise; no instrument for
 either. **Not measured anywhere**: whether a routed expert context makes fewer errors in its
 subsystem than a successor would. The practices in `docs/practices.md` start that measurement.
